@@ -36,7 +36,13 @@ jobs:
           fi
         fi
         echo "PUSH_TO=${PUSH_TO}" >> $GITHUB_ENV
+    - name: Set up Python 3.6
+      if: env.PUSH_TO != 'noop'
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.6
     - name: Set Synapse credentials
+      if: env.PUSH_TO != 'noop'
       run: |
         printf "%s\n" \
           "" \
@@ -44,7 +50,7 @@ jobs:
           'username=${SYNAPSE_USERNAME}' \
           'apikey=${SYNAPSE_API_KEY}' | tee -a ~/.synapseConfig >/dev/null
     - name: Deploy to staging Synapse project
-      if: ${{ env.PUSH_TO }} == 'staging'
+      if: env.PUSH_TO == 'staging'
       run: |
         git clone --branch wiki_sync https://github.com/Sage-Bionetworks/challengeutils.git
         cd challengeutils
@@ -52,7 +58,7 @@ jobs:
         cd ../wiki
         challengeutils sync-wiki ${{ env.staging_synapse_project_id }} wiki_config.json
     - name: Deploy to production Synapse project
-      if: ${{ env.PUSH_TO }} == 'production'
+      if: env.PUSH_TO == 'production'
       run: |
         challengeutils mirror-wiki \
           ${{ env.staging_synapse_project_id }} \
