@@ -13,6 +13,10 @@ env:
   production_synapse_project_id: syn22277123
 
 jobs:
+  # test:
+    # Consider validating the wiki config
+    # challengeutils validate-wiki-config wiki_config.json
+
   publish:
     runs-on: ubuntu-latest
     steps:
@@ -32,6 +36,13 @@ jobs:
           fi
         fi
         echo "PUSH_TO=${PUSH_TO}" >> $GITHUB_ENV
+    - name: Set Synapse credentials
+      run: |
+        printf "%s\n" \
+          "" \
+          "[authentication]" \
+          'username=${SYNAPSE_USERNAME}' \
+          'apikey=${SYNAPSE_API_KEY}' | tee -a ~/.synapseConfig >/dev/null
     - name: Deploy to staging Synapse project
       if: ${{ env.PUSH_TO }} == 'staging'
       run: |
