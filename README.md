@@ -7,7 +7,7 @@ Pages of the NLP Sandbox website on Synapse
 ### Fetch pages from Synapse
 
 The commands below were used to grab the pages of the [NLP Sandbox Staging website]
-in markdown format and save them to the directory [pages].
+in markdown format and save them to the directory [wiki].
 
 ```
 cd pages
@@ -16,7 +16,7 @@ challengeutils download-wiki syn22277124
 
 ### Push pages to Synapse
 
-The commands below pushed the pages in [pages] to [NLP Sandbox Staging website].
+The commands below pushed the pages in [wiki] to [NLP Sandbox Staging website].
 
 ```
 cd pages
@@ -34,4 +34,4 @@ challengeutils mirror-wiki syn22277124 syn22277123
 <!-- Links -->
 
 [NLP Sandbox Staging website]: https://www.synapse.org/#!Synapse:syn22277124
-[pages](pages)
+[wiki]: wiki
