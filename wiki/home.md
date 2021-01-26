@@ -22,7 +22,7 @@ ${image?fileName=nlp%2Dsandbox%2Dbanner%2D20200903%2Epng&align=None&scale=100&re
 
 <font size=4>**Value statement**</font>
 
-The widespread adoption of Electronic Health Records (EHRs) has enabled secondary use of EHR data for clinical research and healthcare delivery. As much of the detailed patient information is recorded in clinical narratives, unlocking information from unstructured notes and integrating such information with structured EHR data has become critical for EHR-based studies. Protected Health Information (PHI) and Personally Identifiable Information (PII) in clinical narratives presents a barrier in conducting EHR-based biomedical research and sharing the data across sites.
+The widespread adoption of Electronic Health Records (EHRs) have enabled secondary use of EHR data for clinical research and healthcare delivery. As much of the detailed patient information is recorded in clinical narratives, unlocking information from unstructured notes and integrating such information with structured EHR data has become critical for EHR-based studies. Protected Health Information (PHI) and Personally Identifiable Information (PII) in clinical narratives presents a barrier in conducting EHR-based biomedical research and sharing the data across sites.
 
 <font size=4>**Goal**</font>
 
