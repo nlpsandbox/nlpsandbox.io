@@ -46,9 +46,8 @@ jobs:
       run: |
         printf "%s\n" \
           "[authentication]" \
-          "username=${SYNAPSE_USERNAME}" \
-          'apikey="plop"' | tee -a ~/.synapseConfig >/dev/null
-        cat ~/.synapseConfig
+          'username="${secrets.SYNAPSE_USERNAME}"' \
+          'apikey="${secrets.SYNAPSE_API_KEY}"' | tee -a ~/.synapseConfig >/dev/null
     - name: Deploy to staging Synapse project
       if: env.PUSH_TO == 'staging'
       run: |
