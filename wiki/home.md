@@ -2,8 +2,6 @@
 ${image?fileName=nlp%2Dsandbox%2Dbanner%2D20200903%2Epng&align=None&scale=100&responsive=true&altText=}
 ---
 
-Plop
-
 {row}
  {column width=2}
  {column}
@@ -20,7 +18,7 @@ Plop
 {row}
 
 ---
-## Overview
+## Overview 2
 
 <font size=4>**Value statement**</font>
 
