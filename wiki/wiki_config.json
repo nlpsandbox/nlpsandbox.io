@@ -2,144 +2,144 @@
     {
         "id": "604825",
         "title": "",
-        "markdown_path": "/mnt/c/Users/thoma/Documents/dev/nlpsandbox/nlpsandbox-website-synapse/wiki/home.md"
+        "markdown_path": "home.md"
     },
     {
         "id": "604826",
         "title": "Data",
         "parentId": "604825",
-        "markdown_path": "/mnt/c/Users/thoma/Documents/dev/nlpsandbox/nlpsandbox-website-synapse/wiki/Data.md"
+        "markdown_path": "Data.md"
     },
     {
         "id": "604827",
         "title": "How to Participate",
         "parentId": "604825",
-        "markdown_path": "/mnt/c/Users/thoma/Documents/dev/nlpsandbox/nlpsandbox-website-synapse/wiki/HowtoParticipate.md"
+        "markdown_path": "HowtoParticipate.md"
     },
     {
         "id": "607367",
         "title": "Internal Leaderboard",
         "parentId": "604825",
-        "markdown_path": "/mnt/c/Users/thoma/Documents/dev/nlpsandbox/nlpsandbox-website-synapse/wiki/InternalLeaderboard.md"
+        "markdown_path": "InternalLeaderboard.md"
     },
     {
         "id": "604828",
         "title": "Leaderboards",
         "parentId": "604825",
-        "markdown_path": "/mnt/c/Users/thoma/Documents/dev/nlpsandbox/nlpsandbox-website-synapse/wiki/Leaderboards.md"
+        "markdown_path": "Leaderboards.md"
     },
     {
         "id": "604829",
         "title": "News & Updates",
         "parentId": "604825",
-        "markdown_path": "/mnt/c/Users/thoma/Documents/dev/nlpsandbox/nlpsandbox-website-synapse/wiki/NewsUpdates.md"
+        "markdown_path": "NewsUpdates.md"
     },
     {
         "id": "604830",
         "title": "Questions",
         "parentId": "604825",
-        "markdown_path": "/mnt/c/Users/thoma/Documents/dev/nlpsandbox/nlpsandbox-website-synapse/wiki/Questions.md"
+        "markdown_path": "Questions.md"
     },
     {
         "id": "604831",
         "title": "Rules & Resources",
         "parentId": "604825",
-        "markdown_path": "/mnt/c/Users/thoma/Documents/dev/nlpsandbox/nlpsandbox-website-synapse/wiki/RulesResources.md"
+        "markdown_path": "RulesResources.md"
     },
     {
         "id": "604838",
         "title": "Submission Dashboard",
         "parentId": "604825",
-        "markdown_path": "/mnt/c/Users/thoma/Documents/dev/nlpsandbox/nlpsandbox-website-synapse/wiki/SubmissionDashboard.md"
+        "markdown_path": "SubmissionDashboard.md"
     },
     {
         "id": "607935",
         "title": "Tasks",
         "parentId": "604825",
-        "markdown_path": "/mnt/c/Users/thoma/Documents/dev/nlpsandbox/nlpsandbox-website-synapse/wiki/Tasks.md"
+        "markdown_path": "Tasks.md"
     },
     {
         "id": "604836",
         "title": "Participants & Teams",
         "parentId": "604827",
-        "markdown_path": "/mnt/c/Users/thoma/Documents/dev/nlpsandbox/nlpsandbox-website-synapse/wiki/ParticipantsTeams.md"
+        "markdown_path": "ParticipantsTeams.md"
     },
     {
         "id": "604837",
         "title": "Participation Overview",
         "parentId": "604827",
-        "markdown_path": "/mnt/c/Users/thoma/Documents/dev/nlpsandbox/nlpsandbox-website-synapse/wiki/ParticipationOverview.md"
+        "markdown_path": "ParticipationOverview.md"
     },
     {
         "id": "604834",
         "title": "Submission Tutorial",
         "parentId": "604827",
-        "markdown_path": "/mnt/c/Users/thoma/Documents/dev/nlpsandbox/nlpsandbox-website-synapse/wiki/SubmissionTutorial.md"
+        "markdown_path": "SubmissionTutorial.md"
     },
     {
         "id": "608039",
         "title": "Date annotation",
         "parentId": "604828",
-        "markdown_path": "/mnt/c/Users/thoma/Documents/dev/nlpsandbox/nlpsandbox-website-synapse/wiki/Dateannotation.md"
+        "markdown_path": "Dateannotation.md"
     },
     {
         "id": "608040",
         "title": "Person name annotation",
         "parentId": "604828",
-        "markdown_path": "/mnt/c/Users/thoma/Documents/dev/nlpsandbox/nlpsandbox-website-synapse/wiki/Personnameannotation.md"
+        "markdown_path": "Personnameannotation.md"
     },
     {
         "id": "608041",
         "title": "Physical address annotation",
         "parentId": "604828",
-        "markdown_path": "/mnt/c/Users/thoma/Documents/dev/nlpsandbox/nlpsandbox-website-synapse/wiki/Physicaladdressannotation.md"
+        "markdown_path": "Physicaladdressannotation.md"
     },
     {
         "id": "604832",
         "title": "Docker Debugging Expectations",
         "parentId": "604831",
-        "markdown_path": "/mnt/c/Users/thoma/Documents/dev/nlpsandbox/nlpsandbox-website-synapse/wiki/DockerDebuggingExpectations.md"
+        "markdown_path": "DockerDebuggingExpectations.md"
     },
     {
         "id": "604833",
         "title": "Late Submissions",
         "parentId": "604831",
-        "markdown_path": "/mnt/c/Users/thoma/Documents/dev/nlpsandbox/nlpsandbox-website-synapse/wiki/LateSubmissions.md"
+        "markdown_path": "LateSubmissions.md"
     },
     {
         "id": "607787",
         "title": "Internal Address",
         "parentId": "607367",
-        "markdown_path": "/mnt/c/Users/thoma/Documents/dev/nlpsandbox/nlpsandbox-website-synapse/wiki/InternalAddress.md"
+        "markdown_path": "InternalAddress.md"
     },
     {
         "id": "607785",
         "title": "Internal Date",
         "parentId": "607367",
-        "markdown_path": "/mnt/c/Users/thoma/Documents/dev/nlpsandbox/nlpsandbox-website-synapse/wiki/InternalDate.md"
+        "markdown_path": "InternalDate.md"
     },
     {
         "id": "607786",
         "title": "Internal Person",
         "parentId": "607367",
-        "markdown_path": "/mnt/c/Users/thoma/Documents/dev/nlpsandbox/nlpsandbox-website-synapse/wiki/InternalPerson.md"
+        "markdown_path": "InternalPerson.md"
     },
     {
         "id": "608037",
         "title": "Date annotation",
         "parentId": "607935",
-        "markdown_path": "/mnt/c/Users/thoma/Documents/dev/nlpsandbox/nlpsandbox-website-synapse/wiki/Dateannotation.md"
+        "markdown_path": "Dateannotation.md"
     },
     {
         "id": "608036",
         "title": "Person name annotation",
         "parentId": "607935",
-        "markdown_path": "/mnt/c/Users/thoma/Documents/dev/nlpsandbox/nlpsandbox-website-synapse/wiki/Personnameannotation.md"
+        "markdown_path": "Personnameannotation.md"
     },
     {
         "id": "608038",
         "title": "Physical address annotation",
         "parentId": "607935",
-        "markdown_path": "/mnt/c/Users/thoma/Documents/dev/nlpsandbox/nlpsandbox-website-synapse/wiki/Physicaladdressannotation.md"
+        "markdown_path": "Physicaladdressannotation.md"
     }
 ]
