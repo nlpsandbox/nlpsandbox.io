@@ -2,8 +2,6 @@
 ${image?fileName=nlp%2Dsandbox%2Dbanner%2D20200903%2Epng&align=None&scale=100&responsive=true&altText=}
 ---
 
-Plop
-
 {row}
  {column width=2}
  {column}
