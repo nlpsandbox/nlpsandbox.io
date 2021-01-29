@@ -83,14 +83,3 @@ Tom Dillon | TBA | Washington University in St. Louis | Project Manager
 James Eddy | @jaeddy | Sage Bionetworks | Director
 Bradley Taylor | TBA | Medical College of Wisconsin | Director
 Justin Guinney | @Justin.Guinney | Sage Bionetworks | Director
-
----
-
-{row}
- {column width=10}
-
- {column}
- {column width=2}
-[> To: **Questions**](#!Synapse:syn22277124/wiki/604830)
- {column}
-{row}
