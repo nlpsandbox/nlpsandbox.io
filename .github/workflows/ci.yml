@@ -55,7 +55,7 @@ jobs:
         cd challengeutils
         pip install -e .
         cd ../wiki
-        challengeutils sync-wiki ${{ env.staging_synapse_project_id }} wiki_config.json
+        challengeutils push-wiki ${{ env.staging_synapse_project_id }}
     - name: Deploy to production Synapse project
       if: env.PUSH_TO == 'production'
       run: |
