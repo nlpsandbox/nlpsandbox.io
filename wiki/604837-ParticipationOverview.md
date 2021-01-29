@@ -16,7 +16,7 @@ In order to be fully registered for the Challenge, you must:
 ### Register for the Challenge
 
 ${jointeam?teamId=3413388&isChallenge=true&isMemberMessage=You have successfully registered for the Challenge%2E&text=Click Here to Register&isSimpleRequestButton=true&requestOpenText=Your registration is in progress%2E&successMessage=Your registration is in progress%2E}
-Click [**here**](https://www.synapse.org/#!Map:3413388) to see where the world solvers are coming from. 
+Click [**here**](https://www.synapse.org/#!Map:3413388) to see where the world solvers are coming from.
 
 ## **Step 2. Join or Create a Team**
 
@@ -38,12 +38,12 @@ ${buttonlink?text=Access the Data &url=%23%21Synapse%3Asyn18059716}
 
 ## **Step 4. Prepare a Submission**
 
-For a participant to be eligible as a consortium-level author, there are two parts to the challenge submission: 
+For a participant to be eligible as a consortium-level author, there are two parts to the challenge submission:
 1.  An executable Docker container that contains the participant's model or a prediction file.   View [**File Submission**](#!Synapse:syn22277124/wiki/604835) and [**Docker Submission**](#!Synapse:syn22277124/wiki/604834).
 1.  A **public** Synapse Project that contains a writeup of their methods and source code.  For most Challenges, this will be submitted after the final submissions. View [**Writeup Submission**](#!Synapse:syn22277124/wiki/604839).
 1.  All submissions are due at 5PM Pacific Time of the deadline date.
 
-> If your submission will include files you need to upload to Synapse, you must be a [**Certified User**](https://docs.synapse.org/articles/accounts_certified_users_and_profile_validation.html#certified-users). 
+> If your submission will include files you need to upload to Synapse, you must be a [**Certified User**](https://docs.synapse.org/articles/accounts_certified_users_and_profile_validation.html#certified-users).
 >
 > ${buttonlink?text=Become a Certified User&url=%23%21Quiz%3A&highlight=true}
 
@@ -58,11 +58,7 @@ After you submit, expect an email either indicating that your submission was sub
 
 ## **Step 6. Share Ideas and Ask Questions**
 The [**Discussion Forum**](#!Synapse:syn22277124/discussion/default) should be used for:
-* Any and all questions about the Challenge 
+* Any and all questions about the Challenge
 * Collaboration with other participants
 
 Learn more about [**discussion forums**](https://docs.synapse.org/articles/discussion.html).
-
----
-
-[< Back to: **How to Participate**](#!Synapse:syn22277124/wiki/604827)
