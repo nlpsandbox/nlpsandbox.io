@@ -27,6 +27,3 @@ We also highly encourage using the [**Discussion forum**](#!Synapse:syn22277124/
 
 ## **When to contact the Organizers**
 The Challenge Organizers are responsible for preventing/fixing issues related to data. The Organizers will also provide support in the case where participants wrote code that works with the provided training data but fails with the evaluation data.  If you come across any of these errors, please let us know as soon as possible in the [**Discussion forum**](#!Synapse:syn22277124/discussion/default).
-
----
-[< Back to: **Rules & Resources**](#!Synapse:syn22277124/wiki/604831)

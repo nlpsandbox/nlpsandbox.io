@@ -38,6 +38,3 @@ Some follow-up emails can also be expected, such as:
 
 > **Workflow Failed**
 > If you receive this email, it means your submission could not run to completion or it did not generate a prediction file with the expected filename(s).  The submission will not be included in the running leaderboard.
-
----
-[< Back to: **Rules & Resources**](#!Synapse:syn22277124/wiki/604831)
