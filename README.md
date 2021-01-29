@@ -10,8 +10,8 @@ The commands below were used to grab the pages of the [NLP Sandbox Staging websi
 in markdown format and save them to the directory [wiki].
 
 ```
-cd pages
-challengeutils download-wiki syn22277124
+cd wiki
+challengeutils pull-wiki syn22277124
 ```
 
 ### Push pages to Synapse
@@ -19,8 +19,8 @@ challengeutils download-wiki syn22277124
 The commands below pushed the pages in [wiki] to [NLP Sandbox Staging website].
 
 ```
-cd pages
-challengeutils sync-wiki syn22277124 wiki_config.json
+cd wiki
+challengeutils push-wiki syn22277124
 ```
 
 ## Mirroring staging site to production
