@@ -51,10 +51,8 @@ jobs:
     - name: Deploy to staging Synapse project
       if: env.PUSH_TO == 'staging'
       run: |
-        git clone --branch wiki_sync https://github.com/Sage-Bionetworks/challengeutils.git
-        cd challengeutils
-        pip install -e .
-        cd ../wiki
+        pip install challengeutils==3.2.0
+        cd wiki
         challengeutils push-wiki ${{ env.staging_synapse_project_id }}
     - name: Deploy to production Synapse project
       if: env.PUSH_TO == 'production'
