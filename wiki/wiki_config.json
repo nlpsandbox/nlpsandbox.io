@@ -17,12 +17,6 @@
         "markdown_path": "604827-HowtoParticipate.md"
     },
     {
-        "id": "607367",
-        "title": "Internal Leaderboard",
-        "parentId": "604825",
-        "markdown_path": "607367-InternalLeaderboard.md"
-    },
-    {
         "id": "604828",
         "title": "Leaderboards",
         "parentId": "604825",
@@ -33,12 +27,6 @@
         "title": "News & Updates",
         "parentId": "604825",
         "markdown_path": "604829-NewsUpdates.md"
-    },
-    {
-        "id": "604830",
-        "title": "Questions",
-        "parentId": "604825",
-        "markdown_path": "604830-Questions.md"
     },
     {
         "id": "604831",
@@ -101,24 +89,6 @@
         "markdown_path": "604832-DockerDebuggingExpectations.md"
     },
     {
-        "id": "607787",
-        "title": "Internal Address",
-        "parentId": "607367",
-        "markdown_path": "607787-InternalAddress.md"
-    },
-    {
-        "id": "607785",
-        "title": "Internal Date",
-        "parentId": "607367",
-        "markdown_path": "607785-InternalDate.md"
-    },
-    {
-        "id": "607786",
-        "title": "Internal Person",
-        "parentId": "607367",
-        "markdown_path": "607786-InternalPerson.md"
-    },
-    {
         "id": "608037",
         "title": "Date annotation",
         "parentId": "607935",
@@ -137,9 +107,33 @@
         "markdown_path": "608038-Physicaladdressannotation.md"
     },
     {
-        "id": "608145",
-        "title": "Submission logs",
+        "id": "607367",
+        "title": "Admin",
+        "parentId": "604825",
+        "markdown_path": "607367-Admin.md"
+    },
+    {
+        "id": "607787",
+        "title": "Physical Address Annotation",
         "parentId": "607367",
-        "markdown_path": "608145-Submissionlogs.md"
+        "markdown_path": "607787-AdminPhysicalAddressAnnotation.md"
+    },
+    {
+        "id": "607785",
+        "title": "Date Annotation",
+        "parentId": "607367",
+        "markdown_path": "607785-AdminDateAnnodation.md"
+    },
+    {
+        "id": "607786",
+        "title": "Person Name Annotation",
+        "parentId": "607367",
+        "markdown_path": "607786-AdminPersonPersonNameAnnotation.md"
+    },
+    {
+        "id": "608145",
+        "title": "Submission Logs",
+        "parentId": "607367",
+        "markdown_path": "608145-SubmissionLogs.md"
     }
 ]
