@@ -11,64 +11,40 @@
         "markdown_path": "604826-Data.md"
     },
     {
-        "id": "604827",
-        "title": "How to Participate",
-        "parentId": "604825",
-        "markdown_path": "604827-HowtoParticipate.md"
-    },
-    {
-        "id": "607367",
-        "title": "Internal Leaderboard",
-        "parentId": "604825",
-        "markdown_path": "607367-InternalLeaderboard.md"
-    },
-    {
-        "id": "604828",
-        "title": "Leaderboards",
-        "parentId": "604825",
-        "markdown_path": "604828-Leaderboards.md"
-    },
-    {
-        "id": "604829",
-        "title": "News & Updates",
-        "parentId": "604825",
-        "markdown_path": "604829-NewsUpdates.md"
-    },
-    {
-        "id": "604830",
-        "title": "Questions",
-        "parentId": "604825",
-        "markdown_path": "604830-Questions.md"
-    },
-    {
-        "id": "604831",
-        "title": "Rules & Resources",
-        "parentId": "604825",
-        "markdown_path": "604831-RulesResources.md"
-    },
-    {
-        "id": "604838",
-        "title": "Submission Dashboard",
-        "parentId": "604825",
-        "markdown_path": "604838-SubmissionDashboard.md"
-    },
-    {
         "id": "607935",
         "title": "Tasks",
         "parentId": "604825",
         "markdown_path": "607935-Tasks.md"
     },
     {
-        "id": "604836",
-        "title": "Participants & Teams",
-        "parentId": "604827",
-        "markdown_path": "604836-ParticipantsTeams.md"
+        "id": "608037",
+        "title": "Date Annotation",
+        "parentId": "607935",
+        "markdown_path": "608037-DateAnnotation.md"
     },
     {
-        "id": "604837",
-        "title": "Participation Overview",
-        "parentId": "604827",
-        "markdown_path": "604837-ParticipationOverview.md"
+        "id": "608036",
+        "title": "Person Name Annotation",
+        "parentId": "607935",
+        "markdown_path": "608036-PersonNameAnnotation.md"
+    },
+    {
+        "id": "608038",
+        "title": "Physical Address Annotation",
+        "parentId": "607935",
+        "markdown_path": "608038-PhysicalAddressAnnotation.md"
+    },
+    {
+        "id": "604836",
+        "title": "Developers & Teams",
+        "parentId": "604825",
+        "markdown_path": "604836-DevelopersTeams.md"
+    },
+    {
+        "id": "604827",
+        "title": "How to Contribute",
+        "parentId": "604825",
+        "markdown_path": "604827-HowtoParticipate.md"
     },
     {
         "id": "604834",
@@ -77,75 +53,105 @@
         "markdown_path": "604834-SubmissionTutorial.md"
     },
     {
+        "id": "604837",
+        "title": "Participation Overview",
+        "parentId": "604827",
+        "markdown_path": "604837-ParticipationOverview.md"
+    },
+    {
+        "id": "604838",
+        "title": "Submission Dashboards",
+        "parentId": "604825",
+        "markdown_path": "604838-SubmissionDashboards.md"
+    },
+    {
+        "id": "608220",
+        "title": "Date Annotation Dashboard",
+        "parentId": "604838",
+        "markdown_path": "608220-DateAnnotationDashboard.md"
+    },
+    {
+        "id": "608221",
+        "title": "Person Name Annotation Dashboard",
+        "parentId": "604838",
+        "markdown_path": "608221-PersonNameAnnotationDashboard.md"
+    },
+    {
+        "id": "608222",
+        "title": "Physical Address Annotation Dashboard",
+        "parentId": "604838",
+        "markdown_path": "608222-PhysicalAddressAnnotationDashboard.md"
+    },
+    {
+        "id": "604828",
+        "title": "Leaderboards",
+        "parentId": "604825",
+        "markdown_path": "604828-Leaderboards.md"
+    },
+    {
         "id": "608039",
-        "title": "Date annotation",
+        "title": "Date Annotation Leaderboard",
         "parentId": "604828",
-        "markdown_path": "608039-Dateannotation.md"
+        "markdown_path": "608039-DateAnnotationLeaderboard.md"
     },
     {
         "id": "608040",
-        "title": "Person name annotation",
+        "title": "Person Name Annotation Leaderboard",
         "parentId": "604828",
-        "markdown_path": "608040-Personnameannotation.md"
+        "markdown_path": "608040-PersonNameAnnotationLeaderboard.md"
     },
     {
         "id": "608041",
-        "title": "Physical address annotation",
+        "title": "Physical Address Annotation Leaderboard",
         "parentId": "604828",
-        "markdown_path": "608041-Physicaladdressannotation.md"
+        "markdown_path": "608041-PhysicalAddressAnnotationLeaderboard.md"
     },
     {
-        "id": "604832",
-        "title": "Docker Debugging Expectations",
-        "parentId": "604831",
-        "markdown_path": "604832-DockerDebuggingExpectations.md"
+        "id": "608219",
+        "title": "Datasets",
+        "parentId": "604825",
+        "markdown_path": "608219-Datasets.md"
     },
     {
-        "id": "604833",
-        "title": "Late Submissions",
-        "parentId": "604831",
-        "markdown_path": "604833-LateSubmissions.md"
+        "id": "608223",
+        "title": "2014 i2b2 NLP De-id Challenge Dataset",
+        "parentId": "608219",
+        "markdown_path": "608223-2014i2b2NLPDeidChallengeDataset.md"
+    },
+    {
+        "id": "604831",
+        "title": "Rules",
+        "parentId": "604825",
+        "markdown_path": "604831-Rules.md"
+    },
+    {
+        "id": "607367",
+        "title": "Admin",
+        "parentId": "604825",
+        "markdown_path": "607367-Admin.md"
     },
     {
         "id": "607787",
-        "title": "Internal Address",
+        "title": "Physical Address Annotation",
         "parentId": "607367",
-        "markdown_path": "607787-InternalAddress.md"
+        "markdown_path": "607787-AdminPhysicalAddressAnnotation.md"
     },
     {
         "id": "607785",
-        "title": "Internal Date",
+        "title": "Date Annotation Admin",
         "parentId": "607367",
-        "markdown_path": "607785-InternalDate.md"
+        "markdown_path": "607785-DateAnnodationAdmin.md"
     },
     {
         "id": "607786",
-        "title": "Internal Person",
+        "title": "Person Name Annotation Admin",
         "parentId": "607367",
-        "markdown_path": "607786-InternalPerson.md"
-    },
-    {
-        "id": "608037",
-        "title": "Date annotation",
-        "parentId": "607935",
-        "markdown_path": "608037-Dateannotation.md"
-    },
-    {
-        "id": "608036",
-        "title": "Person name annotation",
-        "parentId": "607935",
-        "markdown_path": "608036-Personnameannotation.md"
-    },
-    {
-        "id": "608038",
-        "title": "Physical address annotation",
-        "parentId": "607935",
-        "markdown_path": "608038-Physicaladdressannotation.md"
+        "markdown_path": "607786-PersonPersonNameAnnotationAdmin.md"
     },
     {
         "id": "608145",
-        "title": "Submission logs",
+        "title": "Submission Logs",
         "parentId": "607367",
-        "markdown_path": "608145-Submissionlogs.md"
+        "markdown_path": "608145-SubmissionLogs.md"
     }
 ]
