@@ -18,8 +18,8 @@ Hosting Site given an submission ID.
 
     <img src="https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/elk/kibana-discover-timeframe.png" alt="drawing" width="1200"/>
 
-- If you want to look for a particular submission, you can query the logstash
-  by using Keyword Query Language (KQL). It is important to add the backslash
-  at the beginning.  (e.g, looking for submission `9710071`)
+- In the `Search` bar, enter `*submission_id*` where `submission_id` is the
+  Synapse ID of the submission. The asterisk ('*') is required to capture the
+  logs of both the submitted Docker container and the controller.
 
     <img src="https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/elk/kibana-discover-search-by-sub-id.png" alt="drawing" width="1200"/>
