@@ -1,4 +1,4 @@
-# NLP Sandbox Website
+# NLP Sandbox Synapse Website
 
 Pages of the NLP Sandbox website hosted on Synapse
 
@@ -21,66 +21,64 @@ advantages.
 - A new website can be created based on this GitHub Template, making it easier
   to re-use and deploy new websites.
 
-## How this repository works
-
-The default branch of this repository is named `staging`. When a contribution
-is pushed this branch, the webpages are deployed to a Synapse project that we
-refer to as the "staging" website. The staging website is used to visualize
-the changes in Synapse before deciding to deploy them to a second Synapse
-project refered to as the "production" website.
-
-
-
-
 ## How to use this repository
+
+This repository relies on two Synapse projects:
+
+- Production site (e.g. [NLP Sandbox website])
+- Staging site
+
+The default branch of this repository, `staging`, is used to automatically
+deploy changes made to this branch to the staging site on Synapse. We recommend
+configuring repositories created from this template to request that commits
+to the branch `staging` must be submitted using PRs and request one or more
+reviewers to accept the changes before merging them to `staging`, which will
+then trigger the deployment to the staging site.
+
+After reviewing the pages on the staging site, a release of this GitHub
+repository can be created to mirror the content of the staging site to the
+production site.
 
 ### Create a new Synapse website
 
+Login to Synapse.org and create two Synapse projects, for example named
 
+- `{Project name}`
+- `{Project name} - staging`
 
+Navigate to the staging site and create the structure of the pages under the
+tab "Wiki" using the tools `Wiki Tools > Add Wiki Subpage` and
+`Wiki Tools > Edit Wiki Page Order`. Then reproduce the same structure of pages
+in the production site.
 
-1. [Create a repository from this template].
-2. Create the following GitHub Secrets for your repository
+Then,
+
+1. [Create a GitHub repository from this template].
+2. Add the following GitHub Secrets to your repository to specify the
+   credentials that the CI/CD workflow will use to push pages to the staging
+   and production sites.
    - `SYNAPSE_USERNAME`
    - `SYNAPSE_API_KEY`
-2. In the [CI/CD workflow], update the following environment variables with the
-   ID of your staging and production website hosted on Synapse.org.
+3. In the CI/CD workflow (*.github/workflows/ci.yml*), update the environment
+   variables listed below with the ID of your staging and production website
+   hosted on Synapse.org.
    - `staging_synapse_project_id`
    - `production_synapse_project_id`
+4. Go into the `wiki` folder of this repository, remove the existing markdown
+   files, then pull the pages of the staging site previously created using the
+   python client [challengeutils].
 
-###
+        pip install challengeutils
+        challengeutils pull-wiki project_id
 
+That's it! Your repository can now be used to edit and deploy pages to your
+staging and production websites on Synapse.
 
+## Acknowledgments
 
-## Working with website pages
-
-### Fetch pages from Synapse
-
-The commands below were used to grab the pages of the [NLP Sandbox Staging website]
-in markdown format and save them to the directory [wiki].
-
-```
-cd wiki
-challengeutils pull-wiki syn22277124
-```
-
-### Push pages to Synapse
-
-The commands below pushed the pages in [wiki] to [NLP Sandbox Staging website].
-
-```
-cd wiki
-challengeutils push-wiki syn22277124
-```
-
-## Mirroring staging site to production
-
-The command below copies the pages in the staging site to the production site.
-
-```
-challengeutils mirror-wiki syn22277124 syn22277123
-```
-
+This repository uses the Python client [challengeutils] to interact with
+Synapse. The development of this client is led by [Tom Yu] and other members of
+[Sage Bionetworks].
 
 ## Contributing
 
@@ -88,11 +86,10 @@ This project is a community effort and lives off your contributions, be it in
 the form of bug reports, feature requests, discussions, or fixes and other
 code changes.
 
-Before you start to code, we recommend discussing your plans through a
-[GitHub issue], especially for more ambitious contributions. This gives other
+We recommend that you open a [GitHub issue] first. This gives other
 contributors a chance to point you in the right direction, give you feedback
 on your design, and help you find out if someone else is working on a similar
-contribution.
+feature.
 
 ## License
 
@@ -105,5 +102,8 @@ contribution.
 [NLP Sandbox Team]: https://github.com/orgs/nlpsandbox/people
 [GitHub issue]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/issues/new/choose
 [Apache License 2.0]: https://github.com/elixir-cloud-aai/foca/blob/dev/LICENSE
-[Create a repository from this template]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/generate
+[Create a GitHub repository from this template]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/generate
 [CI/CD workflow]: .github/workflows/ci.yml
+[challengeutils]: https://github.com/Sage-Bionetworks/challengeutils
+[Tom Yu]: https://github.com/thomasyu888
+[Sage Bionetworks]: https://sagebionetworks.org/
