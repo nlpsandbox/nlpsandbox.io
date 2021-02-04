@@ -24,8 +24,7 @@ jobs:
         node-version: ${{ env.node_version }}
     - run: npm install
     - name: Lint wiki pages
-      run: |
-        npm run lint
+      run: npm run lint
 
   publish:
     needs: [lint]
