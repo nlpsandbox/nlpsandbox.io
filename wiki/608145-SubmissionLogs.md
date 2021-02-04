@@ -8,18 +8,26 @@ Hosting Site given an submission ID.
   manager under NLP-ELK stack)
 - Click to on the app menu, under `Kibana`, click `Discover`
 
-    <img src="https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/elk/kibana-discover-menu.png" alt="drawing" width="300"/>
+  ![kibana-discover-menu][kibana-discover-menu]
 
 - Click `Open`, then search and click `nlp-submissions`
 
-    <img src="https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/elk/kibana-discover-open.png" alt="drawing" width="1200"/>
+  ![kibana-discover-open][kibana-discover-open]
 
 - Update the time frame if needed
 
-    <img src="https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/elk/kibana-discover-timeframe.png" alt="drawing" width="1200"/>
+  ![kibana-discover-timeframe][kibana-discover-timeframe]
 
 - In the `Search` bar, enter `*submission_id*` where `submission_id` is the
   Synapse ID of the submission. The asterisk ('*') is required to capture the
   logs of both the submitted Docker container and the controller.
 
-    <img src="https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/elk/kibana-discover-search-by-sub-id.png" alt="drawing" width="1200"/>
+  ![kibana-discover-search-by-sub-id][kibana-discover-search-by-sub-id]
+
+
+<!-- Images -->
+
+[kibana-discover-menu]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/elk/kibana-discover-menu.png
+[kibana-discover-open]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/elk/kibana-discover-open.png
+[kibana-discover-timeframe]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/elk/kibana-discover-timeframe.png
+[kibana-discover-search-by-sub-id]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/elk/kibana-discover-search-by-sub-id.png

@@ -11,13 +11,23 @@ on:
 env:
   staging_synapse_project_id: syn22277124
   production_synapse_project_id: syn22277123
+  node_version: 12.x
 
 jobs:
-  # test:
-    # Consider validating the wiki config
-    # challengeutils validate-wiki-config wiki_config.json
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ env.node_version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ env.node_version }}
+    - run: npm install
+    - name: Lint wiki pages
+      run: npm run lint
 
   publish:
+    needs: [lint]
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
