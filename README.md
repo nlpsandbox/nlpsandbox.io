@@ -69,10 +69,23 @@ Then,
    python client [challengeutils].
 
         pip install challengeutils
-        challengeutils pull-wiki project_id
+        challengeutils pull-wiki staging_project_id
 
 That's it! Your repository can now be used to edit and deploy pages to your
 staging and production websites on Synapse.
+
+### Adding, deleting and ordering pages
+
+This repository can not be used to create, delete and order pages on a Synapse
+website, as well as change the title of pages. We are expecting to address
+these limitations in a future release of the Python client [challengeutils].
+
+Meanwhile, the solution consists in performing the above actions in Synapse,
+then update this repository so that it captures the changes made. This can be
+done by running the command below in the *wiki* folder before committing the
+changes. Mardkown files that are no longer needed must be deleted manually.
+
+    challengeutils pull-wiki staging_project_id
 
 ## Acknowledgments
 
