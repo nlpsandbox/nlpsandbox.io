@@ -82,14 +82,8 @@ Synapse. The development of this client is led by [Tom Yu] and other members of
 
 ## Contributing
 
-This project is a community effort and lives off your contributions, be it in
-the form of bug reports, feature requests, discussions, or fixes and other
-code changes.
-
-We recommend that you open a [GitHub issue] first. This gives other
-contributors a chance to point you in the right direction, give you feedback
-on your design, and help you find out if someone else is working on a similar
-feature.
+Thinking about contributing to this project? Get started by reading our
+[Contributor Guide](CONTRIBUTING.md).
 
 ## License
 
