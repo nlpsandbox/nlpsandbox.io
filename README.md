@@ -41,7 +41,7 @@ production site.
 
 ### Create a new Synapse website
 
-Login to Synapse.org and create two Synapse projects, for example named
+Login to synapse.org and create two Synapse projects, for example named
 
 - `{Project name}`
 - `{Project name} - staging`
