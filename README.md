@@ -8,7 +8,7 @@ This repository includes the pages of the [NLP Sandbox website] hosted on
 Synapse.org. This repository is used by the [NLP Sandbox Team] to track changes
 made to the website pages and continuously deploy (CD) them to Synapse.
 
-Using this reposiotry instead of Synapse wiki editor offers the following
+Using this repository instead of Synapse wiki editor offers the following
 advantages.
 
 - More than one user to edit a page at the same time.
@@ -16,7 +16,7 @@ advantages.
 - Robust review process.
 - The source code of the pages (markdown) is automatically scanned by a linter
   as part of the CI/CD process to improve code quality.
-- Faster page edition as it becomes possible to edit multiple pages at once
+- Faster page editing as it becomes possible to edit multiple pages at once
   (e.g. search and replace).
 - A new website can be created based on this GitHub Template, making it easier
   to re-use and deploy new websites.
@@ -28,12 +28,15 @@ This repository relies on two Synapse projects:
 - Production site (e.g. [NLP Sandbox website])
 - Staging site
 
-The default branch of this repository, `staging`, is used to automatically
-deploy changes made to this branch to the staging site on Synapse. We recommend
-configuring repositories created from this template to request that commits
-to the branch `staging` must be submitted using PRs and request one or more
-reviewers to accept the changes before merging them to `staging`, which will
-then trigger the deployment to the staging site.
+We recommend configuring repositories created from this template to stick to the
+following workflow:
+
+- create a fork from the `staging` branch and make all edits/commits in that
+  fork
+- submit a PR from the fork into `staging`
+- request one or more reviewers to accept the changes
+- once approved, merge the changes into `staging` (this will trigger the
+  deployment to the staging site)
 
 After reviewing the pages on the staging site, a release of this GitHub
 repository can be created to mirror the content of the staging site to the
