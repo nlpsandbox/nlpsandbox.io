@@ -117,7 +117,6 @@ Maintainers are required to follow the procedure below when creating a new
 release.
 
 - Always merge all new features into `staging` branch first.
-- Update CHANGELOG.md with release information.
 - Create a release tag (`*.*.*`) and include release notes.
 
 ## Getting Help
