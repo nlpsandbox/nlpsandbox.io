@@ -108,7 +108,7 @@ Thinking about contributing to this project? Get started by reading our
 [NLP Sandbox Staging website]: https://www.synapse.org/#!Synapse:syn22277124
 [NLP Sandbox Team]: https://github.com/orgs/nlpsandbox/people
 [GitHub issue]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/issues/new/choose
-[Apache License 2.0]: https://github.com/elixir-cloud-aai/foca/blob/dev/LICENSE
+[Apache License 2.0]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/blob/staging/LICENSE
 [Create a GitHub repository from this template]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/generate
 [CI/CD workflow]: .github/workflows/ci.yml
 [challengeutils]: https://github.com/Sage-Bionetworks/challengeutils
