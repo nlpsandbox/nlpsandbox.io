@@ -4,7 +4,6 @@ TBA
 
 ## Annotation location
 
-<!-- markdownlint-disable-next-line line-length -->
 ${synapsetable?query=select id as "Submission Id"%2C createdOn as "Created
 On"%2C submitterid as Submitter%2C dataset%5Fversion as "Dataset Version"%2C
 location%5FF1%5Finstance%5Frelax  as "F1 Instance Relax"%2C
