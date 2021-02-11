@@ -15,8 +15,6 @@ include some non-HIPAA identifiers that could potentially leave a footprint for
 re-identification of patients, e.g. the city where the patient locates (see
 **Table 1**).
 
----
-
 **Table 1**. The list of annotation types defined by the 2014 i2b2 challenge
 with specification on whether the annotations belong to HIPAA PhIs and the
 existance of the annotations in 2014 i2b2 datasets.
