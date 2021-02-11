@@ -15,8 +15,6 @@ include some non-HIPAA identifiers that could potentially leave a footprint for
 re-identification of patients, e.g. the city where the patient locates (see
 **Table 1**).
 
----
-
 **Table 1**. The list of annotation types defined by the 2014 i2b2 challenge
 with specification on whether the annotations belong to HIPAA PhIs and the
 existance of the annotations in 2014 i2b2 datasets.
@@ -63,8 +61,6 @@ performance of the de-identification models submitted by participants to the
 challenge (see **Table 2**). All the annotated sensitive information was
 replaced by synthetic surrogates to prevent information leakage. The training
 and evaluation datasets are available from [this page](i2b2-dataset-dl).
-
----
 
 **Table 2**. shows the number of patients, records and the total number of
 annotations in the training and evaluation sets of the challenge. The names of
