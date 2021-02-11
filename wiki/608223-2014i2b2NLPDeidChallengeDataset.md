@@ -69,8 +69,8 @@ the files included in the training and evaluation dataset followed this format:
 
 |Dataset|Number of Patients| Number of Records| Number of Annotations|
 |-|-|-|-|
-|Training|178|790|17405|
-|Evaluation|118|514|11462|
+|Training|178|790|17,405|
+|Evaluation|118|514|11,462|
 
 ## References
 
