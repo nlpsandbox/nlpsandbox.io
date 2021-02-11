@@ -64,10 +64,10 @@ surrogates to prevent information leakage. The training and evaluation datasets
 are available from [https://www.i2b2.org/NLP/](https://www.i2b2.org/NLP/).
 Details of the datasets in table 2
 
-*Table 2. shows the number of patients, records and the total number of
+Table 2. shows the number of patients, records and the total number of
 annotations in the training and evaluation sets of the challenge. The names of
 the files included in the training and evaluation dataset followed this format:
-<patient_id>-<record_id>.xml.*
+<patient_id>-<record_id>.xml
 
 |Dataset|Number of Patients| Number of Records| Number of Annotations|
 |-|-|-|-|
