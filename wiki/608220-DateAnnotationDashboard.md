@@ -6,9 +6,5 @@
 
 ## Submissions
 
-${synapsetable?query=select id as "Submission Id"%2C createdOn as "Created
-On"%2C submitterid as Submitter%2C status as Status%2C
-orgSagebionetworksSynapseWorkflowOrchestratorSubmissionFolder as "Submission
-Logs"%2C submission%5Ferrors as "Submission Errors"%2C dockerrepositoryname as
-Repository%2C dockerdigest as Digest  from  syn23633219 where evaluationid %3D
-9614652 and createdBy %3D CURRENT%5FUSER%28%29&showquery=false}
+<!-- markdownlint-disable-next-line line-length -->
+${synapsetable?query=select id as "Submission Id"%2C createdOn as "Created On"%2C submitterid as Submitter%2C status as Status%2C orgSagebionetworksSynapseWorkflowOrchestratorSubmissionFolder as "SubmissionLogs"%2C submission%5Ferrors as "Submission Errors"%2C dockerrepositoryname asRepository%2C dockerdigest as Digest from syn23633219 where evaluationid %3D 9614652 and createdBy %3D CURRENT%5FUSER%28%29&showquery=false}
