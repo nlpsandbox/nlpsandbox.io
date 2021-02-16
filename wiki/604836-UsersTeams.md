@@ -1,4 +1,4 @@
-## Registered Developers
+## Registered Users
 
 ${members?teamId=3413388}
 
@@ -12,5 +12,5 @@ ${challengeTeams?challengeId=4422}
 
 ## Looking for members?
 
-Here is a list of members that are not part of teams:
+Here is a list of users who are not part of teams:
 ${challengeParticipants?challengeId=4422&isInTeam=false}
