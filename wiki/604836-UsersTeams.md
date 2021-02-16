@@ -10,7 +10,7 @@ ${challengeTeams?challengeId=4422}
 
 ---
 
-## Looking for members?
+## Looking for Team Members?
 
 Here is a list of users who are not part of teams:
 ${challengeParticipants?challengeId=4422&isInTeam=false}

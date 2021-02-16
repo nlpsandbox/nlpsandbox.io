@@ -47,6 +47,12 @@
         "markdown_path": "604827-HowtoParticipate.md"
     },
     {
+        "id": "608450",
+        "title": "Synapse Environment",
+        "parentId": "604827",
+        "markdown_path": "608450-SynapseEnvironment.md"
+    },
+    {
         "id": "604834",
         "title": "Submission Tutorial",
         "parentId": "604827",
