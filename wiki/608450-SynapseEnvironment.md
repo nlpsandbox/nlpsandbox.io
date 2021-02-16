@@ -71,11 +71,14 @@ Settings**.
 
 Click on this button to register yourself:
 
-TODO: Add button
+${jointeam?teamId=3413388&isChallenge=true&isMemberMessage=You have successfully
+registered for the Challenge%2E&text=Click Here to
+Register&isSimpleRequestButton=true&requestOpenText=Your registration is in
+progress%2E&successMessage=Your registration is in progress%2E}
 
 Click on this button to register your team:
 
-TODO: Add button
+${registerChallengeTeam?challengeId=4422&buttonText=Register your Team}
 
 ## Conclusion
 
