@@ -13,7 +13,11 @@
 
 ${teammembercount?teamId=3413388}
 
----
+## Organizations
+
+### The Organizations who contribute to the development of [nlpsandbox.io]
+
+![NLP Sandbox Organizations](../images/nlpsandbox.io-organizations-01.jpg)
 
 ## The NLP Sandbox Team
 
@@ -32,6 +36,10 @@ Anita Walden     |              | Oregon Health & Science University | Adviser
 Bradley Taylor   |              | Medical College of Wisconsin | Adviser
 Justin Guinney   | @Justin.Guinney | Sage Bionetworks | Director
 <!-- markdownlint-enable -->
+
+## Contact
+
+Meet the NLP Sandbox Team and community on the [NLP Sandbox Discord server].
 
 <!-- Images -->
 
@@ -82,3 +90,8 @@ Learn more about [**How to Participate**](#!Synapse:syn22277124/wiki/604827)
 
 - [Medical College of Wisconsin (MCW)](https://www.mcw.edu/)
 - [National Centers for Biomedical Computing (NCBCs)](https://www.ncbcs.org/) -->
+
+<!-- Links -->
+
+[nlpsandbox.io]: nlpsandbox.io
+[NLP Sandbox Discord server]: https://discord.gg/Zb4ymtF
