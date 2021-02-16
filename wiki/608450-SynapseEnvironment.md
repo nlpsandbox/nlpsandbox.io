@@ -57,9 +57,31 @@ Sandbox Users & Teams]. You can also re-use an existing team.
 
 ## Create a Synapse Project
 
-Synapse projects comes with a Docker repository that offer unlimited storage for
-public and private images.
+Synapse projects offer unlimited storage for public and private images, which is
+the submission format required by the NLP Sandbox. Synapse projects offers other
+collaborative tools like a Wiki, file sharing, and a discussion forum. Sharing
+settings can be set individually for each of these features.
 
+![Synapse Project Docker][syn-project-docker-repository]
+
+Finally, give your Team access to this project by clicking on the button **Project
+Settings**.
+
+## Register for the NLP Sandbox
+
+Click on this button to register yourself:
+
+TODO: Add button
+
+Click on this button to register your team:
+
+TODO: Add button
+
+## Conclusion
+
+Your Synapse environment is now ready! Head to the next page of this tutorial to
+learn how to build an NLP tool that can be benchmarked and shared on the NLP
+Sandbox.
 
 <!-- Links -->
 
@@ -68,3 +90,4 @@ public and private images.
 [Synapse Profile]: https://www.synapse.org/#!Profile:v/profile
 [Synapse Teams page]: https://www.synapse.org/#!Profile:v/teams
 [NLP Sandbox Users & Teams]: #!Synapse:syn22277124/wiki/604836
+[syn-project-docker-repository]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/synapse-project-docker-repository.png
