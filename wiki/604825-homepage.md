@@ -34,7 +34,7 @@ ${image?fileName=nlp%2Dsandbox%2Dbanner%2D20200903%2Epng&align=None&scale=100&re
 ---
 
 ---
-## Overview 2
+## Overview
 
 <font size=4>**Value statement**</font>
 
