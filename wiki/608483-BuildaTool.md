@@ -41,10 +41,59 @@ NLP Tools as API services. API services are also inherently cloud-friendly as
 they can wait in the cloud (public or private servers) and are ready to answer
 requests anytime. Similarly to a web service that respond to million of requests
 from different users concurrently, an API service can process multiple requests
-in parallel without overhead for the developer of the service.
+in parallel without overhead for the developer of the service. And if your
+organization has the required resources, it is always possible to deploy
+multiple instances of the same service behind a load balancer that will take
+care of distributing the requests among the different instances based on their
+CPU load, for example.
 
-TODO: Add image API service vs. program
+## OpenAPI specification
+
+Requiring NLP Sandbox Users to develop NLP Tools as API services instead of
+programs is not a decision that we made lightly. The risk would have been that
+users would have been brought to develop outside of their zone of comfort.
+However, besides the benefits of adopting a design based on the use of APIs, the
+development of API services is actually faster than developing a program that
+offer the same features. This achievement is made possible by adopting the
+[OpenAPI specification] and leveraging the tools developed by the [OpenAPI
+community].
+
+## The Gist of developing an nlpsandbox&#46;io Tool
+
+The development of an API service as documented by the NLP Sandbox is outlined
+below:
+
+1. Download the OpenAPI specification of an NLP Tool (JSON or YAML document).
+2. Generate an initial implementation - also called "stub" - of the NLP tool
+   using a single command.
+3. Add your code to existing functions.
+
+By the end of Step 2, you have now an API service that you can start -- just
+don't expect this service to do anything meaningful as it will return the
+message "do some magic!" to all the requests it receives. You can visualize this
+behavior by navigating to this [stub of the NLP Sandbox Date Annotator API]
+obtained after completing Step 2.
+
+It should be noted that the API service stub generated at Step 2 validates the
+data received and returned against the schemas defined in the OpenAPI
+specification of the NLP Tool. The API service stub also comes with a web
+interface as seen above. Not bad for downloading one JSON file and running one
+command!
+
+The complete example implementation of the NLP Sandbox Date Annotator API
+achieved after completing Step 3 is available [here].
 
 ## Identify the type of tools that you want to develop
 
 The NLP Sandbox
+
+
+<!-- Links -->
+
+[OpenAPI specification]: https://swagger.io/specification/
+[OpenAPI community]: https://www.openapis.org/
+<!-- TODO: add link to live dummy API service -->
+[stub of the NLP Sandbox Date Annotator API]: tba
+<!-- TODO: Add link to live Date Annotator API service -->
+[here]: tba
+[nlpsandbox/date-annotator-example]: https://github.com/nlpsandbox/date-annotator-example
