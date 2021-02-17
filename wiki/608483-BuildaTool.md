@@ -58,7 +58,7 @@ offer the same features. This achievement is made possible by adopting the
 [OpenAPI specification] and leveraging the tools developed by the [OpenAPI
 community].
 
-## The Gist of developing an nlpsandbox&#46;io Tool
+## The Gist of developing an NLP Sandbox Tool
 
 The development of an API service as documented by the NLP Sandbox is outlined
 below:
@@ -85,7 +85,28 @@ achieved after completing Step 3 is available [here].
 
 ## Identify the type of tools that you want to develop
 
-The NLP Sandbox
+The NLP Sandbox Team and community identified the OpenAPI specifications of a
+number of NLP Tools. The list of these tool specifications and their example
+implementations are documented on the home page of the GitHub repository
+[nlpsandbox/nlpsandbox-schemas].
+
+The performance of these tools can then be benchmarked on [nlpsandbox.io]. By
+visiting the Leaderboards section of the website and reviewing the performance
+of the different NLP tools, a developer could identify the NLP Tasks that are
+the most challenging and where his/her contribution could have the strongest
+impact.
+
+## Develop your first NLP Sandbox Tool
+
+Follow the instructions given in the README of the GitHub repository
+[nlpsandbox/date-annotator-example] to get started with the development
+environment designed by the NLP Sandbox Project. By the end of this tutorial,
+you will have built a Docker image of our example Date Annotator.
+
+Then head to the Section [Benchmark a Tool] to submit your first NLP tool.
+
+
+
 
 
 <!-- Links -->
@@ -97,3 +118,6 @@ The NLP Sandbox
 <!-- TODO: Add link to live Date Annotator API service -->
 [here]: tba
 [nlpsandbox/date-annotator-example]: https://github.com/nlpsandbox/date-annotator-example
+[nlpsandbox.io]: nlpsandbox.io
+[nlpsandbox/nlpsandbox-schemas]: https://github.com/nlpsandbox/nlpsandbox-schemas
+[Benchmark a Tool]: #!Synapse:syn22277124/wiki/608484
