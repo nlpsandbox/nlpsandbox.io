@@ -65,7 +65,7 @@ settings can be set individually for each of these features.
 ![Synapse Project Docker][syn-project-docker-repository]
 
 Finally, be sure to give your Team access to this project by clicking on the button **Project
-Settings**.
+Settings** and adding them to the project with the right level of permissions.
 
 ## Register for the NLP Sandbox
 
