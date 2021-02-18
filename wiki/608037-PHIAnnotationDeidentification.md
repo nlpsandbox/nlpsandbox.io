@@ -1,7 +1,5 @@
 ## Introduction
 
-
-
 ## Date Annotation
 
 A Date Annotator takes as input a clinical note and outputs a list of predicted
@@ -69,6 +67,71 @@ Target Task opening date: Spring 2020
 
 ## Evaluation
 
+### Definitions
+
+**Instance**: The instance of an annotation. For example, "John Smith",
+"Children's hospital" are annotation instances.
+
+**Token**: The individual component of an instance that are separated by a
+space. From the Person Name annotation instance "John Smith", "John" and "Smith"
+are two tokens. From the Address annotation instance "Children's hospital",
+"Children's" and "hospital" represent one token each.
+
+**Instance-level evaluation**: The evaluation is performed by comparing
+predicted and gold standard annotation instances using two modes:
+
+- **Strict mode**: A point is awarded to the NLP Annotator if the predicted and
+   gold standard annotation match perfectly (location of the starting character
+   and length of the annotation). If the annotator fails to predict that "Smith"
+   is part of the gold standard annotation "John Smith", for example, then no
+   point is awarded.
+- **Relax mode**: While the location of the starting character of the predicted
+   and gold standard annotation must still match, the predicted length of the
+   annotation may fall within +- 2 characters of the length of the gold standard
+   annotation. This is to account for occurences where a human may have
+   annotated a string like "Backer's" while others, sentient NLP Annotator
+   included, may consider that the annotation should be limited to "Backer".
+
+**Token-level evaluation**: The evaluation is performed by comparing the tokens
+that compose the predicted and gold standard annotation instances. Looking back
+at the example where an NLP Annotator captures only "John" from "John Smith",
+then it would be partially awarded. To get the entire point, the annotator must
+predict "John Smith" or "John" and "Smith".
+
+**Precision**: $\frac{\text{Number of correct annotations
+retrieved}}{\text{Total number of annotations retrieved}}$
+
+**Recall**: $\frac{\text{Number of correct annotations retrieved}}{\text{Total
+number of correct annotations  retrieved}}$
+
+**F1 score**:  $\frac{precision * recall*2}{precision + recall}$
+
+### Annotation Location Evaluation
+
+This section describes how the Annotators listed on this page are evaluated
+regarding their ability to annotate - or detect - entities of interest from the
+content (text) of clinical notes. In its simplest form, a `Text Annotation` is
+defined by:
+
+- the location of its starting character in the text
+- the length of the annotation (number of characters)
+
+These two properties are documented as part of the NLP Sandbox [TextAnnotation]
+schema.
+
+The performance of an annotator to accuratly predict the location of entities of
+interest (e.g., dates, person names, etc.) is evaluated by comparing the
+predicted [TextAnnotation] objects returned by the annotator to the gold
+standard annotations identified by humans.
+
+The performance metrics listed below are reported in the Leaderboards for the
+category "Annotation Location":
+
+- `F1 Instance Strict`: F1 score for the instance-level evaluation (strict mode)
+- `F1 Instance Relax`: F1 score for the instance-level evaluation (relax mode)
+- `F1 Token`: F1 score for the token-level evaluation
+
+### Physical Address Annotation Evaluation
 
 
 <!-- Links -->
@@ -83,3 +146,4 @@ Target Task opening date: Spring 2020
 [draft specification of the NLP Sandbox PHI Deidentifier API]: https://github.com/nlpsandbox/nlpsandbox-schemas
 [nlpsandbox/nlpsandbox-schemas]: https://github.com/nlpsandbox/nlpsandbox-schemas
 [NLP Sandbox Discord server]: https://discord.gg/Zb4ymtF
+[TextAnnotation]: https://github.com/nlpsandbox/nlpsandbox-schemas/blob/develop/openapi/commons/components/schemas/TextAnnotation.yaml
