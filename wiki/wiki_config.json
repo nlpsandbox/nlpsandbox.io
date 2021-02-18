@@ -53,6 +53,18 @@
         "markdown_path": "608450-SynapseEnvironment.md"
     },
     {
+        "id": "608483",
+        "title": "Build a Tool",
+        "parentId": "604827",
+        "markdown_path": "608483-BuildaTool.md"
+    },
+    {
+        "id": "608484",
+        "title": "Benchmark a Tool",
+        "parentId": "604827",
+        "markdown_path": "608484-BenchmarkaTool.md"
+    },
+    {
         "id": "604834",
         "title": "Submission Tutorial",
         "parentId": "604827",
