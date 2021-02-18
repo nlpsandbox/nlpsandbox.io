@@ -27,7 +27,7 @@ Please make sure to complete your profile information.
 
 ## Get Certified
 
-You need to certify your Synapse account if you want to perform the following
+You will need to certify your Synapse account to perform the following
 actions:
 
 - Update files to Synapse
