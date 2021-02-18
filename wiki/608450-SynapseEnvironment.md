@@ -58,7 +58,7 @@ Sandbox Users & Teams] page. You can also re-use an existing Synapse Team that y
 ## Create a Synapse Project
 
 Synapse projects offer unlimited storage for public and private Docker images, which is
-the submission format required by the NLP Sandbox. Synapse projects offers other
+the submission format required by the NLP Sandbox. Synapse project also offer other
 collaborative tools such as Wikis, file sharing, and a discussion forum. Sharing
 settings can be set individually for each of these features.
 
