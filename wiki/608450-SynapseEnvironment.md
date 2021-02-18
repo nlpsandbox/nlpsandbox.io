@@ -5,7 +5,7 @@ developed by Sage Bionetworks to offer services that support:
 
 - Organization of digital research assets (e.g., files, SQL tables, Docker
   images)
-- Recording provenance to give researchers credits for their work
+-  Provenance to give researchers credit for their work
 - Collaboration among researchers
 
 The NLP Sandbox walk in the footsteps of previous successful scientific
