@@ -31,7 +31,7 @@ You will need to certify your Synapse account to perform the following
 actions:
 
 - Upload files to Synapse
-- Update Docker images to Synapse
+- Push Docker images to Synapse
 - Benchmark the performance of NLP tools
 
 Follow these steps listed below to certify your Synapse account:
