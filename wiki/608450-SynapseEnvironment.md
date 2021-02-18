@@ -34,7 +34,7 @@ actions:
 - Push Docker images to Synapse
 - Benchmark the performance of NLP tools
 
-Follow these steps listed below to certify your Synapse account:
+Follow these steps to certify your Synapse account:
 
 1. Go to the page [User Types including Certified Users].
 2. Click on the button "Become a Certified User".
