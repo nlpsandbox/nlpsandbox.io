@@ -12,5 +12,5 @@ ${challengeTeams?challengeId=4422}
 
 ## Looking for Team Members?
 
-Here is a list of users who are not part of teams:
+Here is a list of users who are not part of a team yet:
 ${challengeParticipants?challengeId=4422&isInTeam=false}

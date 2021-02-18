@@ -5,13 +5,13 @@ developed by Sage Bionetworks to offer services that support:
 
 - Organization of digital research assets (e.g., files, SQL tables, Docker
   images)
-- Recording provenance to give researchers credits for their work
+-  Provenance to give researchers credit for their work
 - Collaboration among researchers
 
-The NLP Sandbox walk in the footsteps of previous successful scientific
-challenges that been organized using Synapse. The NLP Sandbox relies on the
+The NLP Sandbox builds on the successes of previous scientific
+challenges that have been organized using Synapse. The NLP Sandbox relies on the
 following features of Synapse to enable its users to develop and benchmark new
-NLP Tools.
+NLP Tools:
 
 - Creation and management of Teams
 - Unlimited storage of private Docker images
@@ -59,13 +59,13 @@ Sandbox Users & Teams]. You can also re-use an existing team.
 
 Synapse projects offer unlimited storage for public and private images, which is
 the submission format required by the NLP Sandbox. Synapse projects offers other
-collaborative tools like a Wiki, file sharing, and a discussion forum. Sharing
+collaborative tools such as Wikis, file sharing, and a discussion forum. Sharing
 settings can be set individually for each of these features.
 
 ![Synapse Project Docker][syn-project-docker-repository]
 
-Finally, give your Team access to this project by clicking on the button **Project
-Settings**.
+Finally, be sure to give your Team access to this project by clicking on the button **Project
+Settings** and adding them to the project with the right level of permissions.
 
 ## Register for the NLP Sandbox
 
