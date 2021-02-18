@@ -30,7 +30,7 @@ Please make sure to complete your profile information.
 You will need to certify your Synapse account to perform the following
 actions:
 
-- Update files to Synapse
+- Upload files to Synapse
 - Update Docker images to Synapse
 - Benchmark the performance of NLP tools
 
