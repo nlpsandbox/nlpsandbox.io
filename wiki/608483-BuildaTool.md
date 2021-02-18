@@ -27,14 +27,14 @@ unless you use a container technology like Docker or Singularity, running a
 Python/Java/other program requires that you install a Python/Java/other
 environment beforehand.
 
-An Application Programming Interface (API) service is different from a program
-on the above two points. A service is a process that is continuously running and
-waiting for requests to process. For example, a web service keep listening to
-requests from a *clients* (your browser) and returns the requested HTML pages.
-Another example are API services that enables a client to create and manage data
-remotely using a standard interface (API). Relying on a standard and
-documentated API specification enables a service and its clients to be developed
-using different programming languages and frameworks.
+An [Application Programming Interface (API)][ibm-learn-api] service is different
+from a program on the above two points. A service is a process that is
+continuously running and waiting for requests to process. For example, a web
+service keep listening to requests from a *clients* (your browser) and returns
+the requested HTML pages. Another example are API services that enables a client
+to create and manage data remotely using a standard interface (API). Relying on
+a standard and documentated API specification enables a service and its clients
+to be developed using different programming languages and frameworks.
 
 These two points are among the main reasons why the NLP Sandbox aims to develop
 NLP Tools as API services. API services are also inherently cloud-friendly as
@@ -50,10 +50,10 @@ CPU load, for example.
 ## OpenAPI specification
 
 Requiring NLP Sandbox Users to develop NLP Tools as API services instead of
-programs is not a decision that we made lightly. We ultimately decided that
-the benefits of adopting a design based on the use of APIs outweighed the
-risk that we are taking to ask users to develop outside of their comfort zone.
-By adopting the [OpenAPI specification] and leveraging the tools developed by the [OpenAPI
+programs is not a decision that we made lightly. We ultimately decided that the
+benefits of adopting a design based on the use of APIs outweighed the risk that
+we are taking to ask users to develop outside of their comfort zone. By adopting
+the [OpenAPI specification] and leveraging the tools developed by the [OpenAPI
 community], we actually find development of API services actually faster than
 developing a program that offer the same features.
 
@@ -120,3 +120,4 @@ Then head to the Section [Benchmark a Tool] to submit your first NLP tool.
 [nlpsandbox.io]: nlpsandbox.io
 [nlpsandbox/nlpsandbox-schemas]: https://github.com/nlpsandbox/nlpsandbox-schemas
 [Benchmark a Tool]: #!Synapse:syn22277124/wiki/608484
+[ibm-learn-api]: https://www.ibm.com/cloud/learn/api
