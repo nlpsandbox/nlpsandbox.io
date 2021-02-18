@@ -18,9 +18,9 @@
     },
     {
         "id": "608037",
-        "title": "Date Annotation",
+        "title": "PHI Annotation & De-identification",
         "parentId": "607935",
-        "markdown_path": "608037-DateAnnotation.md"
+        "markdown_path": "608037-PHIAnnotationDeidentification.md"
     },
     {
         "id": "608036",

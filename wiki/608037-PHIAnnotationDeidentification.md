@@ -51,6 +51,22 @@ Benchmarking:
 - Submission queue: `NLP sandbox - Physical Address Annotator`
 - Submission quota: 2 submissions / team / week
 
+## PHI De-identification
+
+The NLP Sandbox Team is working with the community to identify the specification
+of this task.
+
+If you would like to contribute to the development of the specification of this
+NLP Task (input and output schemas, datasets, baseline methods):
+
+1. Review the [draft specification of the NLP Sandbox PHI Deidentifier API].
+2. Open a ticket or a Pull Request in the GitHub repository
+   [nlpsandbox/nlpsandbox-schemas].
+3. Join us on the [NLP Sandbox Discord server] and post your question or
+   suggestion to the channel `#schemas`.
+
+Target Task opening date: Spring 2020
+
 ## Evaluation
 
 
@@ -64,3 +80,6 @@ Benchmarking:
 [nlpsandbox/date-annotator-example-java]: https://github.com/nlpsandbox/date-annotator-example-java
 [nlpsandbox/person-name-annotator-example]: https://github.com/nlpsandbox/person-name-annotator-example
 [nlpsandbox/physical-address-annotator-example]: https://github.com/nlpsandbox/physical-address-annotator-example
+[draft specification of the NLP Sandbox PHI Deidentifier API]: https://github.com/nlpsandbox/nlpsandbox-schemas
+[nlpsandbox/nlpsandbox-schemas]: https://github.com/nlpsandbox/nlpsandbox-schemas
+[NLP Sandbox Discord server]: https://discord.gg/Zb4ymtF
