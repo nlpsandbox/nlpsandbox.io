@@ -8,7 +8,7 @@ developed by Sage Bionetworks to offer services that support:
 -  Provenance to give researchers credit for their work
 - Collaboration among researchers
 
-The NLP Sandbox walk in the footsteps of previous successful scientific
+The NLP Sandbox builds on the successes of previous scientific
 challenges that been organized using Synapse. The NLP Sandbox relies on the
 following features of Synapse to enable its users to develop and benchmark new
 NLP Tools.
