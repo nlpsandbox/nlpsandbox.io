@@ -49,7 +49,7 @@ Playing -- huh -- working together will make your experience developing and
 benchmarking NLP tools more enjoyable. When you submit a tool
 for evaluation, Synapse will ask if the submission is made on behalf of a
 User or a Team. Submitting as a Team offers more flexibility if you decide to
-invite team members to work with you in the future.
+invite team members to collaborate with you in the future.
 
 Head to your [Synapse Teams page] to
 create a new Team. If you are looking for Team members, checkout the page [NLP
