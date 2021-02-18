@@ -17,7 +17,7 @@ NLP Tools:
 - Unlimited storage of private Docker images
 - Benchmarking the performance of NLP Tools on public and private datasets
 
-The sections below describe how to setup your development environment on Synapse
+The sections below describe how to set up your development environment on Synapse
 so you can start developing and benchmarking your next NLP tool.
 
 ## Create a Synapse account
