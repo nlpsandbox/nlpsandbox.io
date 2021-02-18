@@ -40,7 +40,7 @@ Follow these steps to certify your Synapse account:
 2. Click on the button "Become a Certified User".
 3. Complete the certification form.
 
-You can confirm that your account is certified by visiting your [Synapse
+You can verify that your account is certified by visiting your [Synapse
 Profile].
 
 ## Create a Synapse Team
