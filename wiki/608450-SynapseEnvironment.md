@@ -41,7 +41,7 @@ Follow these steps to certify your Synapse account:
 3. Complete the certification form.
 
 You can verify that your account is certified by visiting your [Synapse
-Profile].
+Profile]. You will see a "Certified" badge to the right on your profile page.
 
 ## Create a Synapse Team
 
