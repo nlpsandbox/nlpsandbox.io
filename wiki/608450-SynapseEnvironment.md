@@ -53,7 +53,7 @@ invite team members to collaborate with you in the future.
 
 Head to your [Synapse Teams page] to
 create a new Team. If you are looking for Team members, check out the [NLP
-Sandbox Users & Teams]. You can also re-use an existing team.
+Sandbox Users & Teams] page. You can also re-use an existing Synapse Team that you've used for other projects.
 
 ## Create a Synapse Project
 
