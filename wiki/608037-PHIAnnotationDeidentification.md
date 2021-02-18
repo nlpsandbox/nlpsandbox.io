@@ -131,8 +131,25 @@ category "Annotation Location":
 - `F1 Instance Relax`: F1 score for the instance-level evaluation (relax mode)
 - `F1 Token`: F1 score for the token-level evaluation
 
-### Physical Address Annotation Evaluation
+### Annotation Location and Type Evaluation
 
+In addition for being evaluated in the caterogy "Annotation Location", an NLP
+Annotator is evaluated in the category "Annotation Location and Type" if
+
+- the NLP task defines a type for the annotation AND
+- the NLP Annotator predicts at least one annotation with a type specified AND
+- the dataset used to evaluate the annotator includes at least one gold standard
+  annotation with a type specified.
+
+For example, the schema [TextPhysicalAddressAnnotation] defines the type
+property `addressType`.
+
+The performance metrics listed below are reported in the Leaderboards for the
+category "Annotation Location and Type":
+
+- `F1 Type`:
+- `Recall Type`:
+- `Precision Type`:
 
 <!-- Links -->
 
@@ -147,3 +164,4 @@ category "Annotation Location":
 [nlpsandbox/nlpsandbox-schemas]: https://github.com/nlpsandbox/nlpsandbox-schemas
 [NLP Sandbox Discord server]: https://discord.gg/Zb4ymtF
 [TextAnnotation]: https://github.com/nlpsandbox/nlpsandbox-schemas/blob/develop/openapi/commons/components/schemas/TextAnnotation.yaml
+[TextPhysicalAddressAnnotation]: https://github.com/nlpsandbox/nlpsandbox-schemas/blob/develop/openapi/commons/components/schemas/TextPhysicalAddressAnnotation.yaml
