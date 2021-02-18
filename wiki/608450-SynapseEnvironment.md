@@ -46,7 +46,7 @@ Profile]. You will see a "Certified" badge to the right on your profile page.
 ## Create a Synapse Team
 
 Playing -- huh -- working together will make your experience developing and
-benchmarking NLP tools more enjoyable. Also, at the time of submitting a tool
+benchmarking NLP tools more enjoyable. When you submit a tool
 for evaluation, Synapse will ask you if the submission is made on behalf of a
 User or a Team. Submitting as a Team offers more flexibility if you decide to
 invite team members to work with you in the future.
