@@ -22,7 +22,7 @@ so that you can start developing and benchmarking your NLP tool.
 
 ## Create a Synapse account
 
-If you don't have already an account, visit the home page of [synapse.org] and
+If you don't have a Synapse account, you can create one at [synapse.org].
 register. Make sure to complete your profile information.
 
 ## Get Certified
