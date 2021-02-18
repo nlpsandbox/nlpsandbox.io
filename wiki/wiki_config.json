@@ -36,15 +36,21 @@
     },
     {
         "id": "604836",
-        "title": "Developers & Teams",
+        "title": "Users & Teams",
         "parentId": "604825",
-        "markdown_path": "604836-DevelopersTeams.md"
+        "markdown_path": "604836-UsersTeams.md"
     },
     {
         "id": "604827",
         "title": "How to Participate",
         "parentId": "604825",
         "markdown_path": "604827-HowtoParticipate.md"
+    },
+    {
+        "id": "608450",
+        "title": "Synapse Environment",
+        "parentId": "604827",
+        "markdown_path": "608450-SynapseEnvironment.md"
     },
     {
         "id": "604834",
