@@ -11,7 +11,7 @@ developed by Sage Bionetworks to offer services that support:
 The NLP Sandbox builds on the successes of previous scientific
 challenges that have been organized using Synapse. The NLP Sandbox relies on the
 following features of Synapse to enable its users to develop and benchmark new
-NLP Tools.
+NLP Tools:
 
 - Creation and management of Teams
 - Unlimited storage of private Docker images
