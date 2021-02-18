@@ -1,1 +1,4 @@
+.empty/
+tmp/
+
 node_modules
