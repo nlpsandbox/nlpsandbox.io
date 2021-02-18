@@ -23,12 +23,6 @@
         "markdown_path": "608037-PHIAnnotationDeidentification.md"
     },
     {
-        "id": "608036",
-        "title": "Person Name Annotation",
-        "parentId": "607935",
-        "markdown_path": "608036-PersonNameAnnotation.md"
-    },
-    {
         "id": "608038",
         "title": "Physical Address Annotation",
         "parentId": "607935",
