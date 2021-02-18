@@ -52,7 +52,7 @@ User or a Team. Submitting as a Team offers more flexibility if you decide to
 invite team members to collaborate with you in the future.
 
 Head to your [Synapse Teams page] to
-create a new Team. If you are looking for Team members, checkout the page [NLP
+create a new Team. If you are looking for Team members, check out the [NLP
 Sandbox Users & Teams]. You can also re-use an existing team.
 
 ## Create a Synapse Project
