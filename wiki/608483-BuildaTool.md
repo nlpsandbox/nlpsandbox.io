@@ -50,13 +50,12 @@ CPU load, for example.
 ## OpenAPI specification
 
 Requiring NLP Sandbox Users to develop NLP Tools as API services instead of
-programs is not a decision that we made lightly. The risk would have been that
-users would have been brought to develop outside of their zone of comfort.
-However, besides the benefits of adopting a design based on the use of APIs, the
-development of API services is actually faster than developing a program that
-offer the same features. This achievement is made possible by adopting the
-[OpenAPI specification] and leveraging the tools developed by the [OpenAPI
-community].
+programs is not a decision that we made lightly. We ultimately decided that
+the benefits of adopting a design based on the use of APIs outweighed the
+risk that we are taking to ask users to develop outside of their comfort zone.
+By adopting the [OpenAPI specification] and leveraging the tools developed by the [OpenAPI
+community], we actually find development of API services actually faster than
+developing a program that offer the same features.
 
 ## The Gist of developing an NLP Sandbox Tool
 
