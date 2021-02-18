@@ -59,7 +59,7 @@ Sandbox Users & Teams]. You can also re-use an existing team.
 
 Synapse projects offer unlimited storage for public and private images, which is
 the submission format required by the NLP Sandbox. Synapse projects offers other
-collaborative tools like a Wiki, file sharing, and a discussion forum. Sharing
+collaborative tools such as Wikis, file sharing, and a discussion forum. Sharing
 settings can be set individually for each of these features.
 
 ![Synapse Project Docker][syn-project-docker-repository]
