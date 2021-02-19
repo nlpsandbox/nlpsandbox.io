@@ -113,8 +113,8 @@ regarding their ability to annotate - or detect - entities of interest from the
 content (text) of clinical notes. In its simplest form, a `Text Annotation` is
 defined by:
 
-- the location of its starting character in the text
-- the length of the annotation (number of characters)
+- The location of its starting character in the text.
+- The length of the annotation (number of characters).
 
 These two properties are documented as part of the NLP Sandbox [TextAnnotation]
 schema.
@@ -127,9 +127,9 @@ standard annotations identified by humans.
 The performance metrics listed below are reported in the Leaderboards for the
 category "Annotation Location":
 
-- `F1 Instance Strict`: F1 score for the instance-level evaluation (strict mode)
-- `F1 Instance Relax`: F1 score for the instance-level evaluation (relax mode)
-- `F1 Token`: F1 score for the token-level evaluation
+- `F1 Instance Strict`: F1 score for the instance-level evaluation (strict mode).
+- `F1 Instance Relax`: F1 score for the instance-level evaluation (relax mode).
+- `F1 Token`: F1 score for the token-level evaluation.
 
 ### Annotation Location and Type Evaluation
 
@@ -141,15 +141,23 @@ Annotator is evaluated in the category "Annotation Location and Type" if
 - the dataset used to evaluate the annotator includes at least one gold standard
   annotation with a type specified.
 
-For example, the schema [TextPhysicalAddressAnnotation] defines the type
-property `addressType`.
+List of NLP Tasks that have an annotation type:
+
+- **Physical Address Annotation**: the schema [TextPhysicalAddressAnnotation]
+  defines the type property `addressType`.
+
+In this evaluation category, a predicted annotation is correct if 1) the
+annotator successfully identify the location of the gold standard annotation
+(strict instance-level evaluation) and 2) correctly identify the type of the
+annotation.
 
 The performance metrics listed below are reported in the Leaderboards for the
 category "Annotation Location and Type":
 
-- `F1 Type`:
-- `Recall Type`:
-- `Precision Type`:
+- `F1 Type`: F1 score for successfully identifying the annotation location and
+  type.
+- `Recall Type`: Recall used to compute `F1 Type`.
+- `Precision Type`: Precision used to compute `F1 Type`.
 
 <!-- Links -->
 
