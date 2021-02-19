@@ -1,15 +1,15 @@
 ## Introduction
 
-
-
 ## Date Annotation
 
 A Date Annotator takes as input a clinical note and outputs a list of predicted
 date annotations found in the clinical note.
 
-[![Gitpod](https://img.shields.io/badge/OpenAPI-Open_NLP_Task_Specification-blue?color=0273b3&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][date-annotator-api]
+[![Date Annotator API](https://img.shields.io/badge/OpenAPI-Open_NLP_Task_Specification-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][date-annotator-api]
 
-Examples:
+[![Date Annotator Leaderboard](https://img.shields.io/badge/OpenAPI-Review_Leaderboard-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][date-annotator-leaderboard]
+
+Example Tools:
 
 - [nlpsandbox/date-annotator-example] (Python)
 - [nlpsandbox/date-annotator-example-java]
@@ -18,15 +18,19 @@ Benchmarking:
 
 - Submission queue: `NLP sandbox - Date Annotator`
 - Submission quota: 2 submissions / team / week
+- Datasets:
+    - [2014 i2b2 NLP De-id Challenge Dataset]
 
 ## Person Name Annotation
 
 The Person Name Annotator takes as input a clinical note and outputs a list of
 predicted person name annotations found in the clinical note.
 
-[![Gitpod](https://img.shields.io/badge/OpenAPI-Open_NLP_Task_Specification-blue?color=0273b3&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][person-name-annotator-api]
+[![Person Name Annotator API](https://img.shields.io/badge/OpenAPI-Open_NLP_Task_Specification-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][person-name-annotator-api]
 
-Examples:
+[![Person Name Annotator Leaderboard](https://img.shields.io/badge/OpenAPI-Review_Leaderboard-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][person-name-annotator-leaderboard]
+
+Example Tools:
 
 - [nlpsandbox/person-name-annotator-example] (Python)
 
@@ -34,15 +38,19 @@ Benchmarking:
 
 - Submission queue: `NLP sandbox - Person Name Annotator`
 - Submission quota: 2 submissions / team / week
+- Datasets:
+    - [2014 i2b2 NLP De-id Challenge Dataset]
 
 ## Physical Address Annotation
 
 The Physical Address Annotator takes as input a clinical note and outputs a list
 of predicted physical address annotations found in the clinical note.
 
-[![Gitpod](https://img.shields.io/badge/OpenAPI-Open_NLP_Task_Specification-blue?color=0273b3&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][physical-address-annotator-api]
+[![Gitpod](https://img.shields.io/badge/OpenAPI-Open_NLP_Task_Specification-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][physical-address-annotator-api]
 
-Examples:
+[![Physical Address Annotator Leaderboard](https://img.shields.io/badge/OpenAPI-Review_Leaderboard-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][physical-address-annotator-leaderboard]
+
+Example Tools:
 
 - [nlpsandbox/physical-address-annotator-example] (Python)
 
@@ -50,6 +58,8 @@ Benchmarking:
 
 - Submission queue: `NLP sandbox - Physical Address Annotator`
 - Submission quota: 2 submissions / team / week
+- Datasets:
+    - [2014 i2b2 NLP De-id Challenge Dataset]
 
 ## PHI De-identification
 
@@ -175,3 +185,8 @@ category "Annotation Location and Type":
 [NLP Sandbox Discord server]: https://discord.gg/Zb4ymtF
 [TextAnnotation]: https://github.com/nlpsandbox/nlpsandbox-schemas/blob/develop/openapi/commons/components/schemas/TextAnnotation.yaml
 [TextPhysicalAddressAnnotation]: https://github.com/nlpsandbox/nlpsandbox-schemas/blob/develop/openapi/commons/components/schemas/TextPhysicalAddressAnnotation.yaml
+[2014 i2b2 NLP De-id Challenge Dataset]: https://www.synapse.org/#!Synapse:syn22277124/wiki/608223
+
+[date-annotator-leaderboard]: https://www.synapse.org/#!Synapse:syn22277124/wiki/608039
+[person-name-annotator-leaderboard]: https://www.synapse.org/#!Synapse:syn22277124/wiki/608040
+[physical-address-annotator-leaderboard]: https://www.synapse.org/#!Synapse:syn22277124/wiki/608041
