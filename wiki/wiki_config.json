@@ -18,15 +18,9 @@
     },
     {
         "id": "608037",
-        "title": "Date Annotation",
+        "title": "PHI Annotation & De-Identification",
         "parentId": "607935",
-        "markdown_path": "608037-DateAnnotation.md"
-    },
-    {
-        "id": "608036",
-        "title": "Person Name Annotation",
-        "parentId": "607935",
-        "markdown_path": "608036-PersonNameAnnotation.md"
+        "markdown_path": "608037-PHIAnnotationDeIdentification.md"
     },
     {
         "id": "608038",
@@ -69,12 +63,6 @@
         "title": "Submission Tutorial",
         "parentId": "604827",
         "markdown_path": "604834-SubmissionTutorial.md"
-    },
-    {
-        "id": "604837",
-        "title": "Participation Overview",
-        "parentId": "604827",
-        "markdown_path": "604837-ParticipationOverview.md"
     },
     {
         "id": "604838",
