@@ -1,10 +1,8 @@
+<!-- markdownlint-disable-next-line -->
+![nlpsandbox-banner][nlpsandbox-banner]
 
-${image?fileName=nlp%2Dsandbox%2Dbanner%2D20200903%2Epng&align=None&scale=100&responsive=true&altText=}
----
-
+<!-- markdownlint-disable -->
 {row}
- {column width=2}
- {column}
  {column width=4}
 
 #### ${jointeam?teamId=3413388&isChallenge=true&isMemberMessage=You have successfully registered for the Challenge%2E&text=Click Here to Join the Mailing List&isSimpleRequestButton=true&requestOpenText=Your request is in progress%2E&successMessage=Your request is in progress%2E}
@@ -36,7 +34,40 @@ ${image?fileName=nlp%2Dsandbox%2Dbanner%2D20200903%2Epng&align=None&scale=100&re
 ---
 ## Overview
 
-<font size=4>**Value statement**</font>
+## Organizations
+
+### The Organizations who contribute to the development of [nlpsandbox.io]
+
+![NLP Sandbox Organizations](../images/nlpsandbox.io-organizations-01.jpg)
+
+## The NLP Sandbox Team
+
+<!-- markdownlint-disable -->
+Name             | Synapse ID   | Institution | Role
+-----------------|--------------|---|---
+Thomas Schaffter | @tschaffter  | Sage Bionetworks | Solution Architect<br>Lead Software Engineer<br>Product Manager
+Tom Yu           | @thomas.yu   | Sage Bionetworks | Software Engineer
+Connor Boyle     | @connorboyle | Sage Bionetworks | Software Engineer
+Yao Yan          | @yy6linda    | Sage Bionetworks | Data Analyst
+George Kowalski  | @gkowalski   | Medical College of Wisconsin | NLP Software Adviser
+Sijia Liu        |              | Mayo Clinic      | NLP Software Adviser
+Yooree Chae      | @yooree      | Sage Bionetworks | Project Manager
+Hongfang Liu     |              | Mayo Clinic      | NLP Adviser
+Anita Walden     |              | Oregon Health & Science University | Adviser
+Bradley Taylor   |              | Medical College of Wisconsin | Adviser
+Justin Guinney   | @Justin.Guinney | Sage Bionetworks | Director
+<!-- markdownlint-enable -->
+
+## Contact
+
+Meet the NLP Sandbox Team and community on the [NLP Sandbox Discord server].
+
+<!-- Images -->
+
+[nlpsandbox-banner]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/nlpsandbox-banner.png
+
+<!-- markdownlint-disable -->
+<!-- <font size=4>**Value statement**</font>
 
 The widespread adoption of Electronic Health Records (EHRs) has enabled secondary use of EHR data for clinical research and healthcare delivery. As much of the detailed patient information is recorded in clinical narratives, unlocking information from unstructured notes and integrating such information with structured EHR data has become critical for EHR-based studies. Protected Health Information (PHI) and Personally Identifiable Information (PII) in clinical narratives presents a barrier in conducting EHR-based biomedical research and sharing the data across sites.
 
@@ -79,23 +110,9 @@ Learn more about [**How to Participate**](#!Synapse:syn22277124/wiki/604827)
 ## Data contributors
 
 - [Medical College of Wisconsin (MCW)](https://www.mcw.edu/)
-- [National Centers for Biomedical Computing (NCBCs)](https://www.ncbcs.org/)
+- [National Centers for Biomedical Computing (NCBCs)](https://www.ncbcs.org/) -->
 
----
+<!-- Links -->
 
-## Organizers
-
-**Name** |  **Synapse ID**| **Institution** | **Role**
----|---|---|---
-Thomas Schaffter|@tschaffter | Sage Bionetworks | Lead, Infrastructure Architect, Project Manager
-George Kowalski | @gkowalski | Medical College of Wisconsin | NLP Software Engineer
-Yao Yan | @yy6linda  | University of Washington | Data Analyst
-Tom Yu|@thomas.yu | Sage Bionetworks | Infrastructure Engineer
-Yooree Chae | @yooree  | Sage Bionetworks  | Bioinformatics Analyst
-Hongfang Liu | TBA | Mayo Clinic | NLP Expert
-Sijia Liu | TBA | Mayo Clinic | NLP Software Engineer
-Anita Walden | TBA | Oregon Health & Science University | Project Manager
-Tom Dillon | TBA | Washington University in St. Louis | Project Manager
-James Eddy | @jaeddy | Sage Bionetworks | Director
-Bradley Taylor | TBA | Medical College of Wisconsin | Director
-Justin Guinney | @Justin.Guinney | Sage Bionetworks | Director
+[nlpsandbox.io]: nlpsandbox.io
+[NLP Sandbox Discord server]: https://discord.gg/Zb4ymtF
