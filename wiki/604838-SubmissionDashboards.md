@@ -1,7 +1,22 @@
-You can check the progress of all of your submissions here. If a submission is invalid, please request access to your logs. If you do not see your submission, please refresh the page.
+<!-- markdownlint-disable-next-line first-line-h1 -->
+{row}
+{column width=8}
 
-## [Date](#!Synapse:syn22277124/wiki/608220)
+## Introduction
 
-## [Person](#!Synapse:syn22277124/wiki/608221)
+This section provides dashboards to the person who submit NLP Tools for evaluation. These dashboards provide information such as the ID of a submission, the progress status, among other information.
 
-## [Address](#!Synapse:syn22277124/wiki/608222)
+## Tips
+
+- The dashboard only show the submissions that you have submitted yourself.
+- Please refresh the page if you don't see a submission that you have just submitted.
+- You can cancel a submission tthat has not started yet.
+- Only submissions that have successfully completed are counted toward your (or your team's) submission quota.
+- If you can't figure out why your submission failed, please [open a ticket].
+
+{column}
+{row}
+
+<!-- Links -->
+
+[open a ticket]: https://www.synapse.org/#!Synapse:syn22277123/discussion/threadId=7774
