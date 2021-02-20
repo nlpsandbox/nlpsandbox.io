@@ -1,4 +1,7 @@
 <!-- markdownlint-disable line-length -->
+<!-- markdownlint-disable first-line-h1 -->
+{row}{column width=8}
+
 ## Overview
 
 The 2014 i2b2 NLP De-id Challenge aimed at developing automated methods to detect the location and types of sensitive information in clinical notes<sup>[1][1]</sup>.
@@ -59,6 +62,8 @@ The 2014 i2b2 challenge datasets included clinical notes for 296 diabetic patien
 1. [Stubbs, A., Kotfila, C. & Uzuner, Ö. Automated systems for the de-identification of longitudinal clinical narratives: Overview of 2014 i2b2/UTHealth shared task Track 1. J. Biomed. Inform. 58 Suppl, S11–9 (2015).][1]
 2. [Kumar, V., Stubbs, A., Shaw, S. & Uzuner, Ö. Creation of a new longitudinal corpus of clinical narratives. J. Biomed. Inform. 58 Suppl, S6–S10 (2015).][2]
 3. [Stubbs, A. & Uzuner, Ö. Annotating longitudinal clinical narratives for de-identification: The 2014 i2b2/UTHealth corpus. J. Biomed. Inform. 58 Suppl, S20–9 (2015).][3]
+
+{column}{row}
 
 <!-- Links -->
 
