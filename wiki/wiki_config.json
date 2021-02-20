@@ -18,15 +18,9 @@
     },
     {
         "id": "608037",
-        "title": "Date Annotation",
+        "title": "PHI Annotation & De-Identification",
         "parentId": "607935",
-        "markdown_path": "608037-DateAnnotation.md"
-    },
-    {
-        "id": "608036",
-        "title": "Person Name Annotation",
-        "parentId": "607935",
-        "markdown_path": "608036-PersonNameAnnotation.md"
+        "markdown_path": "608037-PHIAnnotationDeIdentification.md"
     },
     {
         "id": "608038",
@@ -36,9 +30,9 @@
     },
     {
         "id": "604836",
-        "title": "Developers & Teams",
+        "title": "Users & Teams",
         "parentId": "604825",
-        "markdown_path": "604836-DevelopersTeams.md"
+        "markdown_path": "604836-UsersTeams.md"
     },
     {
         "id": "604827",
@@ -47,16 +41,28 @@
         "markdown_path": "604827-HowtoParticipate.md"
     },
     {
+        "id": "608450",
+        "title": "Synapse Environment",
+        "parentId": "604827",
+        "markdown_path": "608450-SynapseEnvironment.md"
+    },
+    {
+        "id": "608483",
+        "title": "Build a Tool",
+        "parentId": "604827",
+        "markdown_path": "608483-BuildaTool.md"
+    },
+    {
+        "id": "608484",
+        "title": "Benchmark a Tool",
+        "parentId": "604827",
+        "markdown_path": "608484-BenchmarkaTool.md"
+    },
+    {
         "id": "604834",
         "title": "Submission Tutorial",
         "parentId": "604827",
         "markdown_path": "604834-SubmissionTutorial.md"
-    },
-    {
-        "id": "604837",
-        "title": "Participation Overview",
-        "parentId": "604827",
-        "markdown_path": "604837-ParticipationOverview.md"
     },
     {
         "id": "604838",

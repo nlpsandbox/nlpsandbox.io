@@ -11,6 +11,12 @@ type%5FF1  as "F1 Type"%2C type%5Frecall as "Recall Type"%2C type%5Fprecision as
 from  syn23747126 where evaluationid %3D 9614658 and status %3D
 %27ACCEPTED%27 and type%5FF1 is not null&showquery=false}
 
+- True Positive: Correct annotation location (Instance Strict) and correct
+  physical address type.
+- False Positive:
+- True Negative:
+- False Negative:
+
 ## Annotation location
 
 ${synapsetable?query=select id as "Submission Id"%2C createdOn as "Created
