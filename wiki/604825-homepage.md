@@ -4,14 +4,35 @@
 <!-- markdownlint-disable -->
 {row}
  {column width=4}
-#### ${jointeam?teamId=3413388&isChallenge=true&isMemberMessage=You have successfully registered for the Challenge%2E&text=Click Here to Register&isSimpleRequestButton=true&requestOpenText=Your registration is in progress%2E&successMessage=Your registration is in progress%2E}
- {column width=4}
+
+#### ${jointeam?teamId=3413388&isChallenge=true&isMemberMessage=You have successfully registered for the Challenge%2E&text=Click Here to Join the Mailing List&isSimpleRequestButton=true&requestOpenText=Your request is in progress%2E&successMessage=Your request is in progress%2E}
+
+{column}
+ {column width=5}
+#### There are ${teammembercount?teamId=3413388} [members in the mailing list](https://www.synapse.org/#!Team:0). <br>**Join them now!**
+ {column}
+ {column width=1}
+ {column}
 {row}
-<!-- markdownlint-enable -->
 
+{row}
+ {column width=2}
+ {column}
+ {column width=4}
+
+#### ${jointeam?teamId=3417089&isChallenge=true&isMemberMessage=You have successfully registered for the Challenge%2E&text=Click Here to Register&isSimpleRequestButton=true&requestOpenText=Your registration is in progress%2E&successMessage=Your registration is in progress%2E}
+
+{column}
+ {column width=5}
+#### There are ${teammembercount?teamId=3413388} [registered participants](https://www.synapse.org/#!Team:0). <br>**Join them now!**
+ {column}
+ {column width=1}
+ {column}
+{row}
+---
+
+---
 ## Overview
-
-${teammembercount?teamId=3413388}
 
 ## Organizations
 
