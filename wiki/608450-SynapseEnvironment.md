@@ -5,67 +5,69 @@ developed by Sage Bionetworks to offer services that support:
 
 - Organization of digital research assets (e.g., files, SQL tables, Docker
   images)
-- Recording provenance to give researchers credits for their work
+-  Provenance to give researchers credit for their work
 - Collaboration among researchers
 
-The NLP Sandbox walk in the footsteps of previous successful scientific
-challenges that been organized using Synapse. The NLP Sandbox relies on the
+The NLP Sandbox builds on the successes of previous scientific
+challenges that have been organized using Synapse. The NLP Sandbox relies on the
 following features of Synapse to enable its users to develop and benchmark new
-NLP Tools.
+NLP Tools:
 
 - Creation and management of Teams
 - Unlimited storage of private Docker images
-- Benchmark the performance of NLP Tools on public and private datasets
+- Benchmarking the performance of NLP Tools on public and private datasets
 
-The sections below describe how to setup your development environment on Synapse
-so you can start developing and benchmarking your next NLP tool.
+The sections below describe how to set up your development environment on
+Synapse so that you can start developing and benchmarking your NLP tool.
 
 ## Create a Synapse account
 
-If you don't have already an account, visit the home page of [synapse.org] and
-register. Make sure to complete your profile information.
+If you don't have a Synapse account, you can create one at [synapse.org].
+Please make sure to complete your profile information.
 
 ## Get Certified
 
-You need to certify your Synapse account if you want to perform the following
+You will need to certify your Synapse account to perform the following
 actions:
 
-- Update files to Synapse
-- Update Docker images to Synapse
+- Upload files to Synapse
+- Push Docker images to Synapse
 - Benchmark the performance of NLP tools
 
-Follow these steps listed below to certify your Synapse account:
+Follow these steps to certify your Synapse account:
 
 1. Go to the page [User Types including Certified Users].
 2. Click on the button "Become a Certified User".
 3. Complete the certification form.
 
-You can confirm that your account is certified by visiting your [Synapse
-Profile].
+You can verify that your account is certified by visiting your [Synapse
+Profile]. You will see a "Certified" badge to the right on your profile page.
 
 ## Create a Synapse Team
 
-Playing -- huh -- working together will make your experience developing and
-benchmarking NLP tools more enjoyable. Also, at the time of submitting a tool
-for evaluation, Synapse will ask you if the submission is made on behalf of a
+~~Playing~~ Working together will make your experience developing and
+benchmarking NLP tools more enjoyable. When you submit a tool
+for evaluation, Synapse will ask if the submission is made on behalf of a
 User or a Team. Submitting as a Team offers more flexibility if you decide to
-invite team members to work with you in the future.
+invite team members to collaborate with you in the future.
 
-Head to your [Synapse Teams page] to
-create a new Team. If you are looking for Team members, checkout the page [NLP
-Sandbox Users & Teams]. You can also re-use an existing team.
+Head to your [Synapse Teams page] to create a new Team. If you are looking for
+Team members, check out the [NLP Sandbox Users & Teams] page. You can also
+re-use an existing Synapse Team that you've used for other projects.
 
 ## Create a Synapse Project
 
-Synapse projects offer unlimited storage for public and private images, which is
-the submission format required by the NLP Sandbox. Synapse projects offers other
-collaborative tools like a Wiki, file sharing, and a discussion forum. Sharing
-settings can be set individually for each of these features.
+[Synapse projects] offer unlimited storage for public and private Docker images,
+which is the submission format required by the NLP Sandbox. Synapse projects
+also offer other collaborative tools such as Wikis, file sharing, and a
+discussion forum. Sharing settings can be set individually for each of these
+features.
 
 ![Synapse Project Docker][syn-project-docker-repository]
 
-Finally, give your Team access to this project by clicking on the button **Project
-Settings**.
+Finally, be sure to give your Team access to this project by clicking on the
+button **Project Settings** and adding them to the project with the right level
+of permissions.
 
 ## Register for the NLP Sandbox
 
@@ -94,3 +96,4 @@ Sandbox.
 [Synapse Teams page]: https://www.synapse.org/#!Profile:v/teams
 [NLP Sandbox Users & Teams]: #!Synapse:syn22277124/wiki/604836
 [syn-project-docker-repository]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/synapse-project-docker-repository.png
+[Synapse projects]: https://docs.synapse.org/articles/getting_started.html
