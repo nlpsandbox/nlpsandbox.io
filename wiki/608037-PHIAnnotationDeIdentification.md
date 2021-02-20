@@ -1,5 +1,35 @@
 ## Introduction
 
+The first series of NLP Tasks targeted by the NLP Sandbox are the annotation and
+de-identification of Protected Health Information (PHI) in clinical notes. This
+first series of tasks have been identified through our collaboration with the
+first NLP Sandbox Driver, the [National Center for Date to Health (CD2H)].
+
+This page lists the NLP Tasks that are open for benchmarking. Each Task provides
+the information required to develop and benchmark an NLP Tool that meet the
+specification of the task.
+
+## NLP Sandbox PHI Deidentifier
+
+An illustration of the modular design of the NLP Sandbox Tools is given by the
+[NLP Sandbox PHI Deidentifier]. This web application relies on four NPL Tools
+(and counting):
+
+- Date Annotator
+- Person Name Annotator
+- Physical Address Annotator
+- PHI Deidentifier
+
+The PHI Deidentifier aggregates the predictions returned by the annotators and
+resolves potential annotation conflicts (e.g. two annotators annotaking the same
+word). When opening the NLP Sandbox PHI Deidentifier, the list of NLP Tools used
+is displayed. Because all Date Annotators, for example, implement the same
+specification, it is possible to deploy the PHI Deidentifier so that it relies
+on another Date Annotator. We update the PHI Deidentifier weekly so that it uses
+the best-performing annotators to date. Hence, the PHI Deidentifier becomes
+more performant as the community submit new Tools that address the tasks listed
+on this page.
+
 ## Date Annotation
 
 A Date Annotator takes as input a clinical note and outputs a list of predicted
@@ -63,8 +93,8 @@ Benchmarking:
 
 ## PHI De-identification
 
-The NLP Sandbox Team is working with the community to identify the specification
-of this task.
+The NLP Sandbox Team is still working with the community to identify the
+specification of this task.
 
 If you would like to contribute to the development of the specification of this
 NLP Task (input and output schemas, datasets, baseline methods):
@@ -173,6 +203,7 @@ category "Annotation Location and Type":
 
 <!-- Links -->
 
+[National Center for Date to Health (CD2H)]: https://cd2h.org/
 [date-annotator-api]: https://nlpsandbox.github.io/nlpsandbox-schemas/date-annotator/latest/docs/
 [person-name-annotator-api]: https://nlpsandbox.github.io/nlpsandbox-schemas/person-name-annotator/latest/docs/
 [physical-address-annotator-api]: https://nlpsandbox.github.io/nlpsandbox-schemas/physical-address-annotator/latest/docs/
@@ -190,3 +221,5 @@ category "Annotation Location and Type":
 [date-annotator-leaderboard]: https://www.synapse.org/#!Synapse:syn22277124/wiki/608039
 [person-name-annotator-leaderboard]: https://www.synapse.org/#!Synapse:syn22277124/wiki/608040
 [physical-address-annotator-leaderboard]: https://www.synapse.org/#!Synapse:syn22277124/wiki/608041
+[NLP Sandbox PHI Deidentifier]: phi-deidentifier.nlpsandbox.io
+[PHI Deidentifier]: phi-deidentifier.nlpsandbox.io
