@@ -5,7 +5,7 @@
 A Date Annotator takes as input a clinical note and outputs a list of predicted
 date annotations found in the clinical note.
 
-[![Date Annotator API](https://img.shields.io/badge/OpenAPI-Open_NLP_Task_Specification-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][date-annotator-api]
+[![Date Annotator API](https://img.shields.io/badge/OpenAPI-Open_NLP_Task_Specification-plop?color=0273b3&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][date-annotator-api]
 
 [![Date Annotator Leaderboard](https://img.shields.io/badge/OpenAPI-Review_Leaderboard-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][date-annotator-leaderboard]
 
@@ -26,7 +26,7 @@ Benchmarking:
 The Person Name Annotator takes as input a clinical note and outputs a list of
 predicted person name annotations found in the clinical note.
 
-[![Person Name Annotator API](https://img.shields.io/badge/OpenAPI-Open_NLP_Task_Specification-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][person-name-annotator-api]
+[![Person Name Annotator API](https://img.shields.io/badge/OpenAPI-Open_NLP_Task_Specification-plop?color=0273b3&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][person-name-annotator-api]
 
 [![Person Name Annotator Leaderboard](https://img.shields.io/badge/OpenAPI-Review_Leaderboard-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][person-name-annotator-leaderboard]
 
@@ -46,7 +46,7 @@ Benchmarking:
 The Physical Address Annotator takes as input a clinical note and outputs a list
 of predicted physical address annotations found in the clinical note.
 
-[![Gitpod](https://img.shields.io/badge/OpenAPI-Open_NLP_Task_Specification-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][physical-address-annotator-api]
+[![Gitpod](https://img.shields.io/badge/OpenAPI-Open_NLP_Task_Specification-plop?color=0273b3&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][physical-address-annotator-api]
 
 [![Physical Address Annotator Leaderboard](https://img.shields.io/badge/OpenAPI-Review_Leaderboard-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][physical-address-annotator-leaderboard]
 
