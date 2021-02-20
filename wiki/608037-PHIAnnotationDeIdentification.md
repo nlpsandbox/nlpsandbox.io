@@ -140,11 +140,11 @@ at the example where an NLP Annotator captures only "John" from "John Smith",
 then it would be partially awarded. To get the entire point, the annotator must
 predict "John Smith" or "John" and "Smith".
 
-**Precision**: $\frac{\text{Number of correct annotations
-retrieved}}{\text{Total number of annotations retrieved}}$
+<!-- markdownlint-disable-next-line -->
+**Precision**: $\frac{\text{Number of correct annotations retrieved}}{\text{Total number of annotations retrieved}}$
 
-**Recall**: $\frac{\text{Number of correct annotations retrieved}}{\text{Total
-number of correct annotations  retrieved}}$
+<!-- markdownlint-disable-next-line -->
+**Recall**: $\frac{\text{Number of correct annotations retrieved}}{\text{Total number of correct annotations  retrieved}}$
 
 **F1 score**:  $\frac{precision * recall*2}{precision + recall}$
 
