@@ -2,7 +2,7 @@
 {row}
 {column width=8}
 
-## Annotation Location
+### Annotation Location
 
 ${synapsetable?query=select id as "Submission Id"%2C createdOn as "Created
 On"%2C submitterid as Submitter%2C dataset%5Fversion as "Dataset Version"%2C

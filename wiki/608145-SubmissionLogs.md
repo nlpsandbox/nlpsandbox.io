@@ -2,7 +2,7 @@
 {row}
 {column width=8}
 
-## Sage Data Hosting Site
+### Sage Data Hosting Site
 
 The SOP below describes how to access the logs of a submission on the Sage Data Hosting Site given an submission ID.
 

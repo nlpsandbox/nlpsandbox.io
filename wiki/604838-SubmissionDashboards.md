@@ -2,11 +2,11 @@
 {row}
 {column width=8}
 
-## Introduction
+### Introduction
 
 This section provides dashboards to the person who submit NLP Tools for evaluation. These dashboards provide information such as the ID of a submission, the progress status, among other information.
 
-## Tips
+### Tips
 
 - The dashboards only show the submissions that you have submitted yourself.
 - Please refresh the page if you don't see a submission that you have just submitted.

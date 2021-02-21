@@ -6,7 +6,7 @@
     "MD033": { "allowed_elements": [
         "sup"
     ] },
-    "MD041": { "level": 2 },
+    "MD041": { "level": 3 },
     "no-hard-tabs": true,
     "whitespace": false
 }
