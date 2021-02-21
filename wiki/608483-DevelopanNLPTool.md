@@ -48,7 +48,7 @@ The NLP Sandbox Team and community already identified the OpenAPI specifications
 
 ### Develop your first NLP Sandbox Tool
 
-Please follow the instructions given in the README of the GitHub repository [nlpsandbox/date-annotator-example] to get started developing your first NLP Sandbox Tool. By the end of the tutorial, you will have built a Docker image of the example Date Annotator. Then head to the Section [Benchmark a Tool] to submit your first NLP tool.
+Please follow the instructions given in the README of the GitHub repository [nlpsandbox/date-annotator-example] to get started developing your first NLP Sandbox Tool. By the end of the tutorial, you will have built a Docker image of the example Date Annotator. Then, head to the Section [Benchmark a Tool] to submit your first NLP tool.
 
 {column}
 {row}
