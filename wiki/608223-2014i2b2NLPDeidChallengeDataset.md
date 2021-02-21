@@ -2,11 +2,11 @@
 {row}
 {column width=8}
 
-## Overview
+### Introduction
 
 The 2014 i2b2 NLP De-id Challenge aimed at developing automated methods to detect the location and types of sensitive information in clinical notes<sup>[1][1]</sup>.
 
-## Annotation Types
+### Annotation Types
 
 The 2014 i2b2 challenge datasets included clinical notes for 296 diabetic patients drawn from the Research Patient Data Repository of Partners Healthcare<sup>[2][2],[3][3]</sup>. The challenge organizers annotated the type and location of the sensitive information. The annotations were mostly compliant to Safe Harbor HIPAA standard with 18 categories but also were expanded to include some non-HIPAA identifiers that could potentially leave a footprint for re-identification of patients, e.g. the city where the patient locates (see **Table 1**).
 
@@ -46,7 +46,7 @@ The 2014 i2b2 challenge datasets included clinical notes for 296 diabetic patien
 | OTHER        | OTHER          | Yes      | No        | No| No |
 | PROFESSION   | PROFESSION     | Yes      | No        | Yes | Yes|
 
-## Dataset Size
+### Dataset Size
 
 60% of the 2014 i2b2 dataset were released to the public as a training dataset. The remaining 40% of clinical notes were used as goldstandard to evaluate the performance of the de-identification models submitted by participants to the challenge (see **Table 2**). All the annotated sensitive information was replaced by synthetic surrogates to prevent information leakage. The training and evaluation datasets are available from [this page](i2b2-dataset-dl).
 
@@ -57,7 +57,7 @@ The 2014 i2b2 challenge datasets included clinical notes for 296 diabetic patien
 |Training|178|790|17,405|
 |Evaluation|118|514|11,462|
 
-## References
+### References
 
 1. [Stubbs, A., Kotfila, C. & Uzuner, Ö. Automated systems for the de-identification of longitudinal clinical narratives: Overview of 2014 i2b2/UTHealth shared task Track 1. J. Biomed. Inform. 58 Suppl, S11–9 (2015).][1]
 2. [Kumar, V., Stubbs, A., Shaw, S. & Uzuner, Ö. Creation of a new longitudinal corpus of clinical narratives. J. Biomed. Inform. 58 Suppl, S6–S10 (2015).][2]

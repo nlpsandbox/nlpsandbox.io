@@ -4,7 +4,7 @@
 
 ### Introduction
 
-Synapse is a collaborative platform for researchers and developers. Synapse is developed by Sage Bionetworks to offer services that support:
+Synapse is a collaborative platform for researchers and developers. Synapse is developed by [Sage Bionetworks] to offer services that support:
 
 - Organization of digital research assets (e.g., files, SQL tables, Docker images)
 -  Provenance to give researchers credit for their work
@@ -73,11 +73,12 @@ Your Synapse environment is now ready! Head to the next page of this tutorial to
 
 <!-- Links -->
 
+[Sage Bionetworks]: https://sagebionetworks.org/
 [synapse.org]: https://www.synapse.org/
 [User Types including Certified Users]: https://docs.synapse.org/articles/accounts_certified_users_and_profile_validation.html
 [Synapse Profile]: https://www.synapse.org/#!Profile:v/profile
 [Synapse Teams page]: https://www.synapse.org/#!Profile:v/teams
 [NLP Sandbox Users & Teams]: #!Synapse:syn22277124/wiki/604836
-[syn-project-docker-repository]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/synapse-project-docker-repository.png
+[syn-project-docker-repository]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/synapse/synapse-project-docker-repository.png
 [Synapse projects]: https://docs.synapse.org/articles/getting_started.html
 [Synapse Certified Account]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/synapse/synapse-certified-account.png
