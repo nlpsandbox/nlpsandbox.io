@@ -1,6 +1,6 @@
 <!-- markdownlint-disable-next-line first-line-h1 -->
 {row}
-{column width=8}
+{column width=12}
 
 ### Annotation Location
 
