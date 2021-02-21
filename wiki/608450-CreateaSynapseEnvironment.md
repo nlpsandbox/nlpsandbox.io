@@ -50,7 +50,7 @@ Head to your [Synapse Teams page] to create a new Team. If you are looking for T
 
 [Synapse projects] offer unlimited storage for public and private Docker images, which is the submission format required by the NLP Sandbox. Synapse projects also offer other collaborative tools such as Wikis, file sharing, and a discussion forum. Sharing settings can be set individually for each of these features.
 
-![Synapse Project Docker][syn-project-docker-repository]
+![Synapse Project Docker]
 
 Finally, be sure to give your Team access to this project by clicking on the button **Project Settings** and adding them to the project with the right level of permissions.
 
@@ -79,6 +79,6 @@ Your Synapse environment is now ready! Head to the next page of this tutorial to
 [Synapse Profile]: https://www.synapse.org/#!Profile:v/profile
 [Synapse Teams page]: https://www.synapse.org/#!Profile:v/teams
 [NLP Sandbox Users & Teams]: #!Synapse:syn22277124/wiki/604836
-[syn-project-docker-repository]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/synapse/synapse-project-docker-repository.png
+[Synapse Project Docker]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/synapse/synapse-project-docker-repository.png
 [Synapse projects]: https://docs.synapse.org/articles/getting_started.html
 [Synapse Certified Account]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/synapse/synapse-certified-account.png
