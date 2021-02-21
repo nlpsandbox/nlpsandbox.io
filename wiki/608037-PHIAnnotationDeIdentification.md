@@ -1,4 +1,4 @@
-## Introduction
+### Introduction
 
 The first series of NLP Tasks targeted by the NLP Sandbox are the annotation and
 de-identification of Protected Health Information (PHI) in clinical notes. This
@@ -9,7 +9,7 @@ This page lists the NLP Tasks that are open for benchmarking. Each Task provides
 the information required to develop and benchmark an NLP Tool that meet the
 specification of the task.
 
-## NLP Sandbox PHI Deidentifier
+### NLP Sandbox PHI Deidentifier
 
 An illustration of the modular design of the NLP Sandbox Tools is given by the
 [NLP Sandbox PHI Deidentifier]. This web application relies on four NPL Tools
@@ -30,7 +30,7 @@ the best-performing annotators to date. Hence, the PHI Deidentifier becomes
 more performant as the community submit new Tools that address the tasks listed
 on this page.
 
-## Date Annotation
+### Date Annotation
 
 A Date Annotator takes as input a clinical note and outputs a list of predicted
 date annotations found in the clinical note.
@@ -51,7 +51,7 @@ Benchmarking:
 - Datasets:
     - [2014 i2b2 NLP De-id Challenge Dataset]
 
-## Person Name Annotation
+### Person Name Annotation
 
 The Person Name Annotator takes as input a clinical note and outputs a list of
 predicted person name annotations found in the clinical note.
@@ -71,7 +71,7 @@ Benchmarking:
 - Datasets:
     - [2014 i2b2 NLP De-id Challenge Dataset]
 
-## Physical Address Annotation
+### Physical Address Annotation
 
 The Physical Address Annotator takes as input a clinical note and outputs a list
 of predicted physical address annotations found in the clinical note.
@@ -91,7 +91,7 @@ Benchmarking:
 - Datasets:
     - [2014 i2b2 NLP De-id Challenge Dataset]
 
-## PHI De-identification
+### PHI De-identification
 
 The NLP Sandbox Team is still working with the community to identify the
 specification of this task.
@@ -107,9 +107,9 @@ NLP Task (input and output schemas, datasets, baseline methods):
 
 Target Task opening date: Spring 2020
 
-## Evaluation
+### Evaluation
 
-### Definitions
+#### Definitions
 
 **Instance**: The instance of an annotation. For example, "John Smith",
 "Children's hospital" are annotation instances.
@@ -148,7 +148,7 @@ predict "John Smith" or "John" and "Smith".
 
 **F1 score**:  $\frac{precision * recall*2}{precision + recall}$
 
-### Annotation Location Evaluation
+#### Annotation Location Evaluation
 
 This section describes how the Annotators listed on this page are evaluated
 regarding their ability to annotate - or detect - entities of interest from the
@@ -173,7 +173,7 @@ category "Annotation Location":
 - `F1 Instance Relax`: F1 score for the instance-level evaluation (relax mode).
 - `F1 Token`: F1 score for the token-level evaluation.
 
-### Annotation Location and Type Evaluation
+#### Annotation Location and Type Evaluation
 
 In addition for being evaluated in the caterogy "Annotation Location", an NLP
 Annotator is evaluated in the category "Annotation Location and Type" if

@@ -1,4 +1,4 @@
-## Overview
+### Overview
 
 The NLP Sandbox aims to streamline the development and benchmarking of NLP Tools
 that are:
@@ -13,7 +13,7 @@ The sections below describe how to build and benchmark your first NLP Tool using
 the NLP Sandbox. But beforehand, let's briefly discuss some of the key aspects
 of the design of the NLP Sandbox.
 
-## API (micro-)services vs programs
+### API (micro-)services vs programs
 
 Most developers are familiar with the development of command-line programs.
 Examples of programs include Bash scripts, Python scripts, Java executables,
@@ -47,7 +47,7 @@ multiple instances of the same service behind a load balancer that will take
 care of distributing the requests among the different instances based on their
 CPU load, for example.
 
-## OpenAPI specification
+### OpenAPI specification
 
 Requiring NLP Sandbox Users to develop NLP Tools as API services instead of
 programs is not a decision that we made lightly. We ultimately decided that the
@@ -57,7 +57,7 @@ the [OpenAPI specification] and leveraging the tools developed by the [OpenAPI
 community], we actually find development of API services actually faster than
 developing a program that offer the same features.
 
-## The Gist of developing an NLP Sandbox Tool
+### The Gist of developing an NLP Sandbox Tool
 
 The development of an API service as documented by the NLP Sandbox is outlined
 below:
@@ -82,7 +82,7 @@ command!
 The complete example implementation of the NLP Sandbox Date Annotator API
 achieved after completing Step 3 is available [here].
 
-## Identify the type of tools that you want to develop
+### Identify the type of tools that you want to develop
 
 The NLP Sandbox Team and community identified the OpenAPI specifications of a
 number of NLP Tools. The list of these tool specifications and their example
@@ -95,7 +95,7 @@ of the different NLP tools, a developer could identify the NLP Tasks that are
 the most challenging and where his/her contribution could have the strongest
 impact.
 
-## Develop your first NLP Sandbox Tool
+### Develop your first NLP Sandbox Tool
 
 Follow the instructions given in the README of the GitHub repository
 [nlpsandbox/date-annotator-example] to get started with the development
@@ -103,10 +103,6 @@ environment designed by the NLP Sandbox Project. By the end of this tutorial,
 you will have built a Docker image of our example Date Annotator.
 
 Then head to the Section [Benchmark a Tool] to submit your first NLP tool.
-
-
-
-
 
 <!-- Links -->
 

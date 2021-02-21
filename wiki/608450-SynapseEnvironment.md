@@ -1,4 +1,4 @@
-## Overview
+### Overview
 
 Synapse is a collaborative platform for researchers and developers. Synapse is
 developed by Sage Bionetworks to offer services that support:
@@ -20,12 +20,12 @@ NLP Tools:
 The sections below describe how to set up your development environment on
 Synapse so that you can start developing and benchmarking your NLP tool.
 
-## Create a Synapse account
+### Create a Synapse account
 
 If you don't have a Synapse account, you can create one at [synapse.org].
 Please make sure to complete your profile information.
 
-## Get Certified
+### Get Certified
 
 You will need to certify your Synapse account to perform the following
 actions:
@@ -43,7 +43,7 @@ Follow these steps to certify your Synapse account:
 You can verify that your account is certified by visiting your [Synapse
 Profile]. You will see a "Certified" badge to the right on your profile page.
 
-## Create a Synapse Team
+### Create a Synapse Team
 
 ~~Playing~~ Working together will make your experience developing and
 benchmarking NLP tools more enjoyable. When you submit a tool
@@ -55,7 +55,7 @@ Head to your [Synapse Teams page] to create a new Team. If you are looking for
 Team members, check out the [NLP Sandbox Users & Teams] page. You can also
 re-use an existing Synapse Team that you've used for other projects.
 
-## Create a Synapse Project
+### Create a Synapse Project
 
 [Synapse projects] offer unlimited storage for public and private Docker images,
 which is the submission format required by the NLP Sandbox. Synapse projects
@@ -69,7 +69,7 @@ Finally, be sure to give your Team access to this project by clicking on the
 button **Project Settings** and adding them to the project with the right level
 of permissions.
 
-## Register for the NLP Sandbox
+### Register for the NLP Sandbox
 
 Click on this button to register yourself:
 
@@ -82,7 +82,7 @@ Click on this button to register your team:
 
 ${registerChallengeTeam?challengeId=4422&buttonText=Register your Team}
 
-## Conclusion
+### Conclusion
 
 Your Synapse environment is now ready! Head to the next page of this tutorial to
 learn how to build an NLP tool that can be benchmarked and shared on the NLP
