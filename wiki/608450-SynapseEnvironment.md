@@ -2,7 +2,7 @@
 {row}
 {column width=8}
 
-### Overview
+### Introduction
 
 Synapse is a collaborative platform for researchers and developers. Synapse is developed by Sage Bionetworks to offer services that support:
 
