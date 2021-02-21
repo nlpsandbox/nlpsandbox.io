@@ -38,6 +38,8 @@ Follow these steps to certify your Synapse account:
 
 You can verify that your account is certified by visiting your [Synapse Profile]. You will see a "Certified" badge to the right on your profile page.
 
+![Synapse Certified Account]
+
 ### Create a Synapse Team
 
 ~~Playing~~ Working together will make your experience developing and benchmarking NLP tools more enjoyable. When you submit a tool for evaluation, Synapse will ask if the submission is made on behalf of a User or a Team. Submitting as a Team offers more flexibility if you decide to invite team members to collaborate with you in the future.
@@ -78,3 +80,4 @@ Your Synapse environment is now ready! Head to the next page of this tutorial to
 [NLP Sandbox Users & Teams]: #!Synapse:syn22277124/wiki/604836
 [syn-project-docker-repository]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/synapse-project-docker-repository.png
 [Synapse projects]: https://docs.synapse.org/articles/getting_started.html
+[Synapse Certified Account]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/synapse/synapse-certified-account.png
