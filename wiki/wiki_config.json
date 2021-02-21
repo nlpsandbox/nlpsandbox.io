@@ -30,15 +30,15 @@
     },
     {
         "id": "608450",
-        "title": "Synapse Environment",
+        "title": "Create a Synapse Environment",
         "parentId": "604827",
-        "markdown_path": "608450-SynapseEnvironment.md"
+        "markdown_path": "608450-CreateaSynapseEnvironment.md"
     },
     {
         "id": "608483",
-        "title": "Build a Tool",
+        "title": "Develop an NLP Tool",
         "parentId": "604827",
-        "markdown_path": "608483-BuildaTool.md"
+        "markdown_path": "608483-DevelopanNLPTool.md"
     },
     {
         "id": "608484",
