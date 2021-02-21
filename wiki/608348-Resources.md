@@ -2,7 +2,7 @@
 {row}
 {column width=8}
 
-### Introduction
+### Overview
 
 This section provides information relevant to the use of the NLP Sandbox.
 

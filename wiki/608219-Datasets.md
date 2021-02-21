@@ -2,7 +2,7 @@
 {row}
 {column width=8}
 
-### Introduction
+### Overview
 
 This section describes the datasets against which The NLP Sandbox benchmark the performance of NLP Tools.
 

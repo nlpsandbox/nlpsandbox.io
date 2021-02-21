@@ -1,11 +1,14 @@
-### [**Participation Overview**](#!Synapse:syn22277124/wiki/604837)
-Follow the step-by-step guide to get started and participate in the challenge.
+<!-- markdownlint-disable-next-line first-line-h1 -->
+{row}
+{column width=8}
 
-### [**Participants & Teams**](#!Synapse:syn22277124/wiki/604836)
-See who else is participating in the challenge or find a team to join.
+### Overview
 
-### [**Submission Tutorial**](#!Synapse:syn22277124/wiki/604834)
-Learn how to develop, containerize, and submit your tool for the challenge.
+This section describes how to:
 
-### [**Submission Dashboard**](#!Synapse:syn22277124/wiki/604838)
-Check on the progress of your submissions here.
+- Setup your Synapse environment.
+- Build an NLP Tool using one of the specification provided by the NLP Sandbox.
+- Benchmark the performance of an NLP Tool in the NLP Sandbox.
+
+{column}
+{row}
