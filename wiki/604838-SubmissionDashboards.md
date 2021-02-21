@@ -8,7 +8,7 @@ This section provides dashboards to the person who submit NLP Tools for evaluati
 
 ## Tips
 
-- The dashboard only show the submissions that you have submitted yourself.
+- The dashboards only show the submissions that you have submitted yourself.
 - Please refresh the page if you don't see a submission that you have just submitted.
 - You can cancel a submission tthat has not started yet.
 - Only submissions that have successfully completed are counted toward your (or your team's) submission quota.
