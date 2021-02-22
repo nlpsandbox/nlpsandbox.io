@@ -29,7 +29,7 @@ When opening the PHI Deidentifier application, the list of NLP Tools used is dis
 
 A Date Annotator takes as input a clinical note and outputs a list of predicted date annotations found in the clinical note.
 
-[![Date Annotator API](https://img.shields.io/badge/OpenAPI-Open_NLP_Task_Specification-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][date-annotator-api]
+[![Date Annotator API](https://img.shields.io/badge/OpenAPI-Open_NLP_Tool_Specification-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][date-annotator-api]
 
 [![Date Annotator Leaderboard](https://img.shields.io/badge/OpenAPI-View_Leaderboard-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][date-annotator-leaderboard]
 
@@ -49,7 +49,7 @@ Benchmarking:
 
 The Person Name Annotator takes as input a clinical note and outputs a list of predicted person name annotations found in the clinical note.
 
-[![Person Name Annotator API](https://img.shields.io/badge/OpenAPI-Open_NLP_Task_Specification-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][person-name-annotator-api]
+[![Person Name Annotator API](https://img.shields.io/badge/OpenAPI-Open_NLP_Tool_Specification-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][person-name-annotator-api]
 
 [![Person Name Annotator Leaderboard](https://img.shields.io/badge/OpenAPI-View_Leaderboard-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][person-name-annotator-leaderboard]
 
@@ -68,7 +68,7 @@ Benchmarking:
 
 The Physical Address Annotator takes as input a clinical note and outputs a list of predicted physical address annotations found in the clinical note.
 
-[![Gitpod](https://img.shields.io/badge/OpenAPI-Open_NLP_Task_Specification-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][physical-address-annotator-api]
+[![Gitpod](https://img.shields.io/badge/OpenAPI-Open_NLP_Tool_Specification-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][physical-address-annotator-api]
 
 [![Physical Address Annotator Leaderboard](https://img.shields.io/badge/OpenAPI-View_Leaderboard-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][physical-address-annotator-leaderboard]
 
@@ -83,17 +83,17 @@ Benchmarking:
 - Datasets:
     - [2014 i2b2 NLP De-id Challenge Dataset]
 
-### PHI De-identification
+### PHI De-Identification
 
-The NLP Sandbox Team is still working with the community to identify the specification of this task.
+The NLP Sandbox Team is still working on identifying the specification of this task.
 
 If you would like to contribute to the development of the specification of this NLP Task (input and output schemas, datasets, baseline methods):
 
 1. Review the [draft specification of the NLP Sandbox PHI Deidentifier API].
-2. Open a ticket or a Pull Request in the GitHub repository [nlpsandbox/nlpsandbox-schemas].
-3. Join us on the [NLP Sandbox Discord server] and post your question or suggestion to the channel `#schemas`.
+2. Open a ticket or a Pull Request in the GitHub repository [nlpsandbox/nlpsandbox-schemas] and describe your suggestion.
+3. Join us on the [NLP Sandbox Discord Server] and post your question or suggestion to the channel `#schemas`.
 
-Target Task opening date: Spring 2020
+Target Task Opening Date: Spring 2020
 
 ### Evaluation
 
