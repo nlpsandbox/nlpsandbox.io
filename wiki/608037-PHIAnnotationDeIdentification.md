@@ -110,13 +110,29 @@ Target Task Opening Date: Spring 2020
 
 **Token-level evaluation**: The evaluation is performed by comparing the tokens that compose the predicted and gold standard annotation instances. Looking back at the example where an NLP Annotator captures only "John" from "John Smith", then it would be partially awarded. To get the entire point, the annotator must predict "John Smith" or "John" and "Smith".
 
-<!-- markdownlint-disable-next-line -->
-**Precision**: $\frac{\text{Number of correct annotations retrieved}}{\text{Total number of annotations retrieved}}$
+**Precision**:
 
-<!-- markdownlint-disable-next-line -->
-**Recall**: $\frac{\text{Number of correct annotations retrieved}}{\text{Total number of correct annotations  retrieved}}$
+$$
+\begin{align}
+\frac{\text{Number of correct annotations retrieved}}{\text{Total number of annotations retrieved}}
+\end{align}
+$$
 
-**F1 score**:  $\frac{precision * recall*2}{precision + recall}$
+**Recall**:
+
+$$
+\begin{align}
+\frac{\text{Number of correct annotations retrieved}}{\text{Total number of correct annotations  retrieved}}
+\end{align}
+$$
+
+**F1 score**:
+
+$$
+\begin{align}
+\frac{precision * recall*2}{precision + recall}
+\end{align}
+$$
 
 #### Annotation Location Evaluation
 
