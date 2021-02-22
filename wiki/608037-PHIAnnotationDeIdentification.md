@@ -122,7 +122,7 @@ $$
 
 $$
 \begin{align}
-\frac{\text{{Number of annotations correctly predicted}}{\text{Number of annotations in the gold standard}}
+\frac{\text{Number of annotations correctly predicted}}{\text{Number of annotations in the gold standard}}
 \end{align}
 $$
 
