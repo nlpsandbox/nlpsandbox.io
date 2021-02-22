@@ -68,7 +68,7 @@ The tag of an image is often used to track the version of the program or service
 
 Tags can be deleted and overwritten by the developer of an image. The digest of an image is the only way to uniquely identify it. The digest of an image submitted for evaluation to the NLP Sandbox can be found in the Leaderboard tables.
 
-### Set the Shring Settings of the Docker Image
+### Set the Sharing Settings of the Docker Image
 
 By default, the Docker images stored on Synapse inherit the Sharing Settings of the project they belong to as shown in the screenshot below. This behavior is consistent for the [Sharing Settings] of all entities stored on Synapse (files, tables, wikis, etc.).
 
@@ -92,7 +92,9 @@ Follow the steps listed below to submit the Docker image of your NLP Tool and be
 
 ### Track the Progress of a Submission
 
+You can track the progress of your submissions in the [Submissions Dashboards].
 
+Once your submission has successfully completed, head to the [Leaderboards] to review its performance.
 
 {column}
 {row}
@@ -104,6 +106,8 @@ Follow the steps listed below to submit the Docker image of your NLP Tool and be
 [nlpsandbox/date-annotation-example]: https://hub.docker.com/repository/docker/nlpsandbox/date-annotator-example/tags?page=1&ordering=last_updated
 [Sharing Settings]: https://docs.synapse.org/articles/managing_teams_for_groups_and_projects.html
 [Tasks section]: https://www.synapse.org/#!Synapse:syn22277124/wiki/607935
+[Submissions Dashboards]: https://www.synapse.org/#!Synapse:syn22277124/wiki/604838
+[Leaderboards]: https://www.synapse.org/#!Synapse:syn22277124/wiki/604828
 
 <!-- Images -->
 
