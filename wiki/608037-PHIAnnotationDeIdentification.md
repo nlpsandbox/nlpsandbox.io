@@ -1,6 +1,6 @@
 <!-- markdownlint-disable-next-line first-line-h1 -->
 {row}
-{column width=12}
+{column width=8}
 
 ### Introduction
 
@@ -10,22 +10,28 @@ This page lists the NLP Tasks that are open for benchmarking. Each Task provides
 
 ### NLP Sandbox PHI Deidentifier
 
-An illustration of the modular design of the NLP Sandbox Tools is given by the [NLP Sandbox PHI Deidentifier]. This web application relies on four NPL Tools (and counting):
+The [NLP Sandbox PHI Deidentifier] illustrates the modular design of the NLP Sandbox Tools. This React web application relies on these four NPL Tools (and counting):
 
 - Date Annotator
 - Person Name Annotator
 - Physical Address Annotator
 - PHI Deidentifier
 
-The PHI Deidentifier aggregates the predictions returned by the annotators and resolves potential annotation conflicts (e.g. two annotators annotaking the same word). When opening the NLP Sandbox PHI Deidentifier, the list of NLP Tools used is displayed. Because all Date Annotators, for example, implement the same specification, it is possible to deploy the PHI Deidentifier so that it relies on another Date Annotator. We update the PHI Deidentifier weekly so that it uses the best-performing annotators to date. Hence, the PHI Deidentifier becomes more performant as the community submit new Tools that address the tasks listed on this page.
+The PHI Deidentifier aggregates the predictions returned by the annotators and resolves potential annotation conflicts (e.g. when more the annotations predicted by more than one annotator overlap).
+
+When opening the PHI Deidentifier application, the list of NLP Tools used is displayed. Because all Date Annotators, for example, implement the same specification, it is possible to deploy the PHI Deidentifier so that it relies on another implementation of the Date Annotator API. This modularity of the NLP Tools allows us to update the PHI Deidentifier weekly to make it use the best-performing annotators to date. Therefore, the PHI Deidentifier becomes more performant as the community submit and benchmark the performance of new NLP Tools.
+
+<!-- Blue: 0273b3 -->
+
+[![Date Annotator API](https://img.shields.io/badge/OpenAPI-Open_NLP_Sandbox_PHI_Deidentifier-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][phi-deidentifier]
 
 ### Date Annotation
 
 A Date Annotator takes as input a clinical note and outputs a list of predicted date annotations found in the clinical note.
 
-[![Date Annotator API](https://img.shields.io/badge/OpenAPI-Open_NLP_Task_Specification-plop?color=0273b3&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][date-annotator-api]
+[![Date Annotator API](https://img.shields.io/badge/OpenAPI-Open_NLP_Task_Specification-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][date-annotator-api]
 
-[![Date Annotator Leaderboard](https://img.shields.io/badge/OpenAPI-Review_Leaderboard-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][date-annotator-leaderboard]
+[![Date Annotator Leaderboard](https://img.shields.io/badge/OpenAPI-View_Leaderboard-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][date-annotator-leaderboard]
 
 Example Tools:
 
@@ -43,9 +49,9 @@ Benchmarking:
 
 The Person Name Annotator takes as input a clinical note and outputs a list of predicted person name annotations found in the clinical note.
 
-[![Person Name Annotator API](https://img.shields.io/badge/OpenAPI-Open_NLP_Task_Specification-plop?color=0273b3&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][person-name-annotator-api]
+[![Person Name Annotator API](https://img.shields.io/badge/OpenAPI-Open_NLP_Task_Specification-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][person-name-annotator-api]
 
-[![Person Name Annotator Leaderboard](https://img.shields.io/badge/OpenAPI-Review_Leaderboard-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][person-name-annotator-leaderboard]
+[![Person Name Annotator Leaderboard](https://img.shields.io/badge/OpenAPI-View_Leaderboard-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][person-name-annotator-leaderboard]
 
 Example Tools:
 
@@ -62,9 +68,9 @@ Benchmarking:
 
 The Physical Address Annotator takes as input a clinical note and outputs a list of predicted physical address annotations found in the clinical note.
 
-[![Gitpod](https://img.shields.io/badge/OpenAPI-Open_NLP_Task_Specification-plop?color=0273b3&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][physical-address-annotator-api]
+[![Gitpod](https://img.shields.io/badge/OpenAPI-Open_NLP_Task_Specification-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][physical-address-annotator-api]
 
-[![Physical Address Annotator Leaderboard](https://img.shields.io/badge/OpenAPI-Review_Leaderboard-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][physical-address-annotator-leaderboard]
+[![Physical Address Annotator Leaderboard](https://img.shields.io/badge/OpenAPI-View_Leaderboard-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][physical-address-annotator-leaderboard]
 
 Example Tools:
 
@@ -171,5 +177,6 @@ The performance metrics listed below are reported in the Leaderboards for the ca
 [date-annotator-leaderboard]: https://www.synapse.org/#!Synapse:syn22277124/wiki/608039
 [person-name-annotator-leaderboard]: https://www.synapse.org/#!Synapse:syn22277124/wiki/608040
 [physical-address-annotator-leaderboard]: https://www.synapse.org/#!Synapse:syn22277124/wiki/608041
-[NLP Sandbox PHI Deidentifier]: phi-deidentifier.nlpsandbox.io
-[PHI Deidentifier]: phi-deidentifier.nlpsandbox.io
+[NLP Sandbox PHI Deidentifier]: https://phi-deidentifier.nlpsandbox.io
+[PHI Deidentifier]: https://phi-deidentifier.nlpsandbox.io
+[phi-deidentifier]: https://phi-deidentifier.nlpsandbox.io
