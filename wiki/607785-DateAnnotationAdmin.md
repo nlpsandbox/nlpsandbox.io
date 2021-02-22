@@ -5,7 +5,8 @@
 ### Annotation Location
 
 ${synapsetable?query=select id as "Submission Id"%2C createdOn as "Created
-On"%2C submitterid as Submitter%2C dataset%5Fversion as "Dataset Version"%2C
+On"%2C submitterid as Submitter%2C dataset%5Fname as "Dataset Name"%2C
+dataset%5Fversion as "Dataset Version"%2C api%5Fversion as "Api Version"%2C
 location%5FF1%5Finstance%5Frelax  as "F1 Instance Relax"%2C
 location%5FF1%5Finstance%5Fstrict as "F1 Instance Strict"%2C
 location%5FF1%5Ftoken%5Fstrict as "F1 Token Strict"%2C dockerrepositoryname as
