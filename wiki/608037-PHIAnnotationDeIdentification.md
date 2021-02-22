@@ -114,7 +114,7 @@ Target Task Opening Date: Spring 2020
 
 $$
 \begin{align}
-\frac{\text{Number of correct annotations retrieved}}{\text{Total number of annotations retrieved}}
+\frac{\text{Number of annotations correctly predicted}}{\text{Number of annotations predicted}}
 \end{align}
 $$
 
@@ -122,7 +122,7 @@ $$
 
 $$
 \begin{align}
-\frac{\text{Number of correct annotations retrieved}}{\text{Total number of correct annotations  retrieved}}
+\frac{\text{{Number of annotations correctly predicted}}{\text{Number of annotations in the gold standard}}
 \end{align}
 $$
 
