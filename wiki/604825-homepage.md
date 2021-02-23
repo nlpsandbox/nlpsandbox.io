@@ -4,7 +4,7 @@
 
 ![NLP Sandbox Banner]
 
-## Benchmarking of NLP Tool
+## Benchmarking NLP Tools
 
 The NLP Sandbox provides a common development model for building NLP Tools and benchmarking their performance on public and private datasets.
 
