@@ -34,32 +34,37 @@
 
 ### Overview
 
+### Contact
+
+Join the [NLP Sandbox Discord Server] to chat and talk with members of the Team and community.
+
+![NLP Sandbox Discord]
+
 ### Organizations
 
 The Organizations who support [nlpsandbox.io]
 
 ![NLP Sandbox Organizations]
 
-## The NLP Sandbox Team
+### The NLP Sandbox Team
 
 <!-- markdownlint-disable -->
-Name             | Synapse ID   | Institution | Role
------------------|--------------|---|---
-Thomas Schaffter | @tschaffter  | Sage Bionetworks | Architect<br>Lead Software Engineer<br>Project Manager
-Tom Yu           | @thomas.yu   | Sage Bionetworks | Software Engineer
-Connor Boyle     | @connorboyle | Sage Bionetworks | Software Engineer
-Yao Yan          | @yy6linda    | Sage Bionetworks | Data Analyst
-George Kowalski  | @gkowalski   | Medical College of Wisconsin | NLP Software Adviser
-Sijia Liu        |              | Mayo Clinic      | NLP Software Adviser
-Yooree Chae      | @yooree      | Sage Bionetworks | Project Manager
-Hongfang Liu     |              | Mayo Clinic      | NLP Adviser
-Bradley Taylor   |              | Medical College of Wisconsin | Data Hosting Site Lead
-Justin Guinney   | @Justin.Guinney | Sage Bionetworks | Director
+Name             | Institution | Role
+-----------------|------------------------------|---
+Thomas Schaffter | Sage Bionetworks             | Architect<br>Lead Software Engineer<br>Project Manager
+Tom Yu           | Sage Bionetworks             | Software Engineer
+Connor Boyle     | Sage Bionetworks             | Software Engineer
+Yao Yan          | Sage Bionetworks             | Data Analyst
+George Kowalski  | Medical College of Wisconsin | NLP Software Adviser
+Sijia Liu        | Mayo Clinic                  | NLP Software Adviser
+Yooree Chae      | Sage Bionetworks             | Project Manager
+Hongfang Liu     | Mayo Clinic                  | NLP Adviser
+Bradley Taylor   | Medical College of Wisconsin | Data Hosting Site Lead
+Justin Guinney   | Sage Bionetworks             | Director
 <!-- markdownlint-enable -->
 
-## Contact
-
-Meet the NLP Sandbox Team and community on the [NLP Sandbox Discord server].
+{column}
+{row}
 
 <!-- markdownlint-disable -->
 <!-- <font size=4>**Value statement**</font>
@@ -114,5 +119,6 @@ Learn more about [**How to Participate**](#!Synapse:syn22277124/wiki/604827)
 
 <!-- Images -->
 
-[NLP Sandbox Banner]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/banner.png
-[NLP Sandbox Organizations]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/tools/organizations.png
+[NLP Sandbox Banner]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/nlpsandbox-banner.png
+[NLP Sandbox Organizations]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/nlpsandbox-organizations.png
+[NLP Sandbox Discord]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/nlpsandbox-discord-2.png
