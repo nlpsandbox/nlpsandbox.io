@@ -6,7 +6,7 @@
 
 ## Benchmarking of NLP Tool
 
-The NLP Sandbox provides a common development model for build NLP Tools and benchmark their performance on public and private datasets.
+The NLP Sandbox provides a common development model for building NLP Tools and benchmarking their performance on public and private datasets.
 
 ## PHI Annotation & De-Identification
 
