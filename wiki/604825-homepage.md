@@ -6,11 +6,6 @@
 
 ### Overview
 
-### NLP Sandbox Discord Server
-
-Join the [NLP Sandbox Discord Server] to chat and talk with members of the Team and community.
-
-![NLP Sandbox Discord]
 
 ### Organizations
 
@@ -35,6 +30,14 @@ Bradley Taylor   | Medical College of Wisconsin | Data Hosting Site Lead
 Justin Guinney   | Sage Bionetworks             | Director
 <!-- markdownlint-enable -->
 
+### NLP Sandbox Discord Server
+
+Join the [NLP Sandbox Discord Server] to chat and talk with members of the Team and community.
+
+![NLP Sandbox Discord]
+
+**Office Hour**: [Every Tuesday @ 10:00-10:30 am PST]
+
 {column}
 {row}
 
@@ -42,6 +45,7 @@ Justin Guinney   | Sage Bionetworks             | Director
 
 [nlpsandbox.io]: https://nlpsandbox.io
 [NLP Sandbox Discord server]: https://discord.gg/Zb4ymtF
+[Every Tuesday @ 10:00-10:30 am PST]: https://www.starts-at.com/event/2806163581
 
 <!-- Images -->
 
