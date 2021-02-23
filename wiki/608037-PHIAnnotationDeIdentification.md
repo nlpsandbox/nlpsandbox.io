@@ -19,11 +19,11 @@ The [NLP Sandbox PHI Deidentifier] illustrates the modular design of the NLP San
 
 The PHI Deidentifier aggregates the predictions returned by the annotators and resolves potential annotation conflicts (e.g. when more the annotations predicted by more than one annotator overlap).
 
-When opening the PHI Deidentifier application, the list of NLP Tools used is displayed. Because all Date Annotators, for example, implement the same specification, it is possible to deploy the PHI Deidentifier so that it relies on another implementation of the Date Annotator API. This modularity of the NLP Tools allows us to update the PHI Deidentifier weekly to make it use the best-performing annotators to date. Therefore, the PHI Deidentifier becomes more performant as the community submit and benchmark the performance of new NLP Tools.
+When opening the [PHI Deidentifier] application, the list of NLP Tools used is displayed. Because all Date Annotators, for example, implement the same specification, it is possible to deploy the PHI Deidentifier so that it relies on another implementation of the Date Annotator API. This modularity of the NLP Tools allows us to update the PHI Deidentifier weekly to make it use the best-performing annotators to date. Therefore, the PHI Deidentifier becomes more performant as the community submit and benchmark the performance of new NLP Tools.
 
 <!-- Blue: 0273b3 -->
 
-[![Date Annotator API](https://img.shields.io/badge/OpenAPI-Open_NLP_Sandbox_PHI_Deidentifier-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][phi-deidentifier]
+<!-- [![Date Annotator API](https://img.shields.io/badge/OpenAPI-Open_NLP_Sandbox_PHI_Deidentifier-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][phi-deidentifier] -->
 
 ### Date Annotation
 

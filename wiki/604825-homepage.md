@@ -1,8 +1,10 @@
-<!-- markdownlint-disable-next-line -->
-![nlpsandbox-banner][nlpsandbox-banner]
-
-<!-- markdownlint-disable -->
+<!-- markdownlint-disable-next-line first-line-h1 -->
 {row}
+{column width=8}
+
+![NLP Sandbox Banner]
+
+<!-- {row}
  {column width=4}
 
 #### ${jointeam?teamId=3413388&isChallenge=true&isMemberMessage=You have successfully registered for the Challenge%2E&text=Click Here to Join the Mailing List&isSimpleRequestButton=true&requestOpenText=Your request is in progress%2E&successMessage=Your request is in progress%2E}
@@ -28,24 +30,22 @@
  {column}
  {column width=1}
  {column}
-{row}
----
+{row} -->
 
----
-## Overview
+### Overview
 
-## Organizations
+### Organizations
 
-### The Organizations who contribute to the development of [nlpsandbox.io]
+The Organizations who support [nlpsandbox.io]
 
-![NLP Sandbox Organizations](../images/nlpsandbox.io-organizations-01.jpg)
+![NLP Sandbox Organizations]
 
 ## The NLP Sandbox Team
 
 <!-- markdownlint-disable -->
 Name             | Synapse ID   | Institution | Role
 -----------------|--------------|---|---
-Thomas Schaffter | @tschaffter  | Sage Bionetworks | Solution Architect<br>Lead Software Engineer<br>Product Manager
+Thomas Schaffter | @tschaffter  | Sage Bionetworks | Architect<br>Lead Software Engineer<br>Project Manager
 Tom Yu           | @thomas.yu   | Sage Bionetworks | Software Engineer
 Connor Boyle     | @connorboyle | Sage Bionetworks | Software Engineer
 Yao Yan          | @yy6linda    | Sage Bionetworks | Data Analyst
@@ -53,18 +53,13 @@ George Kowalski  | @gkowalski   | Medical College of Wisconsin | NLP Software Ad
 Sijia Liu        |              | Mayo Clinic      | NLP Software Adviser
 Yooree Chae      | @yooree      | Sage Bionetworks | Project Manager
 Hongfang Liu     |              | Mayo Clinic      | NLP Adviser
-Anita Walden     |              | Oregon Health & Science University | Adviser
-Bradley Taylor   |              | Medical College of Wisconsin | Adviser
+Bradley Taylor   |              | Medical College of Wisconsin | Data Hosting Site Lead
 Justin Guinney   | @Justin.Guinney | Sage Bionetworks | Director
 <!-- markdownlint-enable -->
 
 ## Contact
 
 Meet the NLP Sandbox Team and community on the [NLP Sandbox Discord server].
-
-<!-- Images -->
-
-[nlpsandbox-banner]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/nlpsandbox-banner.png
 
 <!-- markdownlint-disable -->
 <!-- <font size=4>**Value statement**</font>
@@ -114,5 +109,10 @@ Learn more about [**How to Participate**](#!Synapse:syn22277124/wiki/604827)
 
 <!-- Links -->
 
-[nlpsandbox.io]: nlpsandbox.io
+[nlpsandbox.io]: https://nlpsandbox.io
 [NLP Sandbox Discord server]: https://discord.gg/Zb4ymtF
+
+<!-- Images -->
+
+[NLP Sandbox Banner]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/banner.png
+[NLP Sandbox Organizations]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/tools/organizations.png
