@@ -34,7 +34,7 @@
 
 ### Overview
 
-### Contact
+### NLP Sandbox Discord Server
 
 Join the [NLP Sandbox Discord Server] to chat and talk with members of the Team and community.
 
