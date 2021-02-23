@@ -8,29 +8,29 @@
 
 The NLP Sandbox provides a common development model for building NLP Tools and benchmarking their performance on public and private datasets.
 
-## PHI Annotation & De-Identification
+### PHI Annotation & De-Identification
 
 The first series of NLP Tasks targeted by the NLP Sandbox are the annotation and de-identification of Protected Health Information (PHI) in clinical notes. This first series of tasks have been identified through our collaboration with the first NLP Sandbox Driver, the [National Center for Date to Health (CD2H)].
 
 See the [Tasks section] for more information on the NLP Sandbox tasks and philosophy, and get start with the development of your first NLP Tool!
 
-## Benchmark your Tool on Private Datasets
+### Benchmark your Tool on Private Datasets
 
 The NLP Sandbox adopts the [model-to-data approach] to enable NLP Developers to assess the performance of their tools on private datasets. When developers make a submission, the submitted NLP Tool is automatically pulled by multiple Data Hosting Sites (e.g. hospitals, universities) who evaluate the performance of the tool against their dataset. This operation is performed in a secured environment deployed and fully controlled by the data provider. The Data Hosting Sites then return the performance of the tool, which is then published in [Leaderboards].
 
-## Register a new Data Hosting Site
+### Register a new Data Hosting Site
 
 Is your organization interested in registered a Data Hosting Site for an existing or new NPL Task? Please let us know! In addition to supporting the [nlpsandbox.io] community, the NLP Sandbox will enable your organization to identify the NLP Tools that work best on its own data.
 
-## Roadmap
+### Roadmap
 
-## Organizations
+### Organizations
 
 The Organizations who support [nlpsandbox.io]
 
 ![NLP Sandbox Organizations]
 
-## The NLP Sandbox Team
+### The NLP Sandbox Team
 
 <!-- markdownlint-disable -->
 Name             | Institution | Role
@@ -47,13 +47,13 @@ Bradley Taylor   | Medical College of Wisconsin | Data Hosting Site Lead
 Justin Guinney   | Sage Bionetworks             | Director
 <!-- markdownlint-enable -->
 
-## NLP Sandbox Discord Server
+### NLP Sandbox Discord Server
 
 Join the [NLP Sandbox Discord Server] to chat and talk with members of the Team and community.
 
 ![NLP Sandbox Discord]
 
-**Office Hour**: [Every Tuesday @ 10:00-10:30 am PST]
+**Office Hour**: [Every Tuesday at 10:00-10:30 am PST]
 
 {column}
 {row}
