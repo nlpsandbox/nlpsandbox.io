@@ -36,11 +36,12 @@ nlpsandbox/date-annotator-example                       1.0.0               45c3
 docker.synapse.org/syn24862084/date-annotator-example   1.0.0               45c362e39b3e   16 minutes ago   359MB
 ```
 
-Last step before pushing the image to your Synapse project: you need to logging to the Synapse Docker registry:
+Last step before pushing the image to your Synapse project: you need to logging to the Synapse Docker registry. The preferred and most secure way is to use your username and a personal access token (PAT). You can create multiple personal access token (e.g. one token per device) and revoke them at any time. In order to pull and push Docker images to Synapse Docker registry, please visit your [Synapse Personal Access Token page] and create a token that has the *Permissions* `View`, `Download` and `Modify`. Then,
 
 ```console
 $ docker login docker.synapse.org
-Authenticating with existing credentials...
+Username: <username>
+Password: <personal access token>
 Login Succeeded
 ```
 
@@ -108,6 +109,7 @@ Once your submission has successfully completed, head to the [Leaderboards] to r
 [Tasks section]: https://www.synapse.org/#!Synapse:syn22277124/wiki/607935
 [Submissions Dashboards]: https://www.synapse.org/#!Synapse:syn22277124/wiki/604838
 [Leaderboards]: https://www.synapse.org/#!Synapse:syn22277124/wiki/604828
+[Synapse Personal Access Token page]: https://www.synapse.org/#!PersonalAccessTokens:
 
 <!-- Images -->
 
