@@ -1,4 +1,0 @@
-# Configuration for Lock Threads - https://github.com/dessant/lock-threads-app
-
-# Repository to extend settings from
-_extends: https://github.com/nlpsandbox/nlpsandbox
