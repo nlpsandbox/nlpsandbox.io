@@ -58,7 +58,7 @@ Finally, be sure to give your Team access to this project by clicking on the but
 
 Click on this button to register yourself:
 
-${jointeam?teamId=3413388&isChallenge=true&isMemberMessage=You have successfully registered for the Challenge%2E&text=Click Here to Register&isSimpleRequestButton=true&requestOpenText=Your registration is in progress%2E&successMessage=Your registration is in progress%2E}
+${jointeam?teamId=3413388&isChallenge=false&isMemberMessage=You have successfully registered for the NLP Sandbox%2E&text=Register&isSimpleRequestButton=true&requestOpenText=Your registration is in progress%2E&successMessage=Your registration is in progress%2E}
 
 Click on this button to register your team:
 
