@@ -4,7 +4,7 @@
 
 ### Introduction
 
-The first series of NLP Sandbox tasks targeted by the NLP Sandbox are the annotation and de-identification of Protected Health Information (PHI) in clinical notes. This first series of tasks have been identified through our collaboration with the first NLP Sandbox collaborator, the [National Center for Date to Health (CD2H)].
+The first series of NLP Sandbox tasks targeted by the NLP Sandbox are the annotation and de-identification of Protected Health Information (PHI) in clinical notes. This first series of tasks have been identified through our collaboration with the first NLP Sandbox partner organization, the [National Center for Date to Health (CD2H)].
 
 This page lists the NLP Sandbox tasks that are open for benchmarking. Each task provides the information required to develop and benchmark an NLP Sandbox tool that meet the specification of the task.
 
@@ -89,7 +89,7 @@ The NLP Sandbox Team is still working on identifying the specification of this t
 
 If you would like to contribute to the development of the specification of this NLP Sandbox task (input and output schemas, datasets, baseline methods):
 
-1. Review the [draft specification of the NLP Sandbox PHI Deidentifier API (the PHI Deidentifier schemas can be found under `openapi/phi-deidentifier`)].
+1. Review the [draft specification of the NLP Sandbox PHI Deidentifier API] (the PHI Deidentifier schemas can be found under `openapi/phi-deidentifier`).
 2. Open a ticket or a Pull Request in the GitHub repository [nlpsandbox/nlpsandbox-schemas] and describe your suggestion.
 3. Join us on the [NLP Sandbox Discord Server] and post your question or suggestion to the channel `#schemas`.
 
