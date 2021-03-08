@@ -8,9 +8,11 @@ This page discusses the 2014 i2b2 NLP De-id Challenge, which was created with th
 
 ### Annotation Types
 
-The 2014 i2b2 challenge datasets included clinical notes for 296 diabetic patients drawn from the Research Patient Data Repository of Partners Healthcare<sup>[2][2],[3][3]</sup>. The challenge organizers manually annotated the type and location of the sensitive information. The annotations were mostly compliant to Safe Harbor HIPAA standard with 18 categories but also were expanded to include some non-HIPAA identifiers that could potentially leave a footprint for re-identification of patients, e.g. the city where the patient locates (see **Table 1**).
+The 2014 i2b2 challenge datasets included clinical notes for 296 diabetic patients drawn from the Research Patient Data Repository of Partners Healthcare<sup>[2][2],[3][3]</sup>. The challenge organizers manually annotated the type and location of the sensitive information. The annotations were mostly compliant to Safe Harbor HIPAA standard with 18 categories but also were expanded to include some non-HIPAA identifiers that could potentially leave a footprint for re-identification of patients (see **Table 1**).
 
-**Table 1**. The list of annotation types defined by the 2014 i2b2 challenge with specification on whether the annotations belong to HIPAA PhIs and the existance of the annotations in 2014 i2b2 datasets.
+---
+
+**Table 1**. List of all the annotation types defined by the authors of the 2014 i2b2 NLP De-identification Challenge for their dataset. The column `i2b2-PHI` lists all the identifiers that the organizers of the challenge recommend de-identifying. The column `HIPAA-PHI` only lists the identifiers that are recognized by HIPAA. The columns `i2b2 training set` and `i2b2 evaluation set` show whether the training and/or evaluation set of the 2014 i2b2 NLP De-identification Challenge include a specific `i2b2-PHI` identifiers.
 
 |PHI Category| Type|i2b2-PHI|HIPAA-PHI|i2b2 training set|i2b2 evaluation set|
 |-|-|-|-|-|-|
@@ -57,6 +59,10 @@ The 2014 i2b2 challenge datasets included clinical notes for 296 diabetic patien
 |Training|178|790|17,405|
 |Evaluation|118|514|11,462|
 
+### i2b2 Annotation Names in the NLP Sandbox
+
+In an effort to harmonize the annotation type of multiple dataset, the NLP Sandbox Schemas may use different names for the above annotations. Please refer to the [PHI Annotation & De-Identification] task page for more information about the schemas of the annotations requested by the NLP Sandbox.
+
 ### References
 
 1. [Stubbs, A., Kotfila, C. & Uzuner, Ö. Automated systems for the de-identification of longitudinal clinical narratives: Overview of 2014 i2b2/UTHealth shared task Track 1. J. Biomed. Inform. 58 Suppl, S11–9 (2015).][1]
@@ -72,3 +78,4 @@ The 2014 i2b2 challenge datasets included clinical notes for 296 diabetic patien
 [2]: https://doi.org/10.1016/j.jbi.2015.09.018
 [3]: https://doi.org/10.1016/j.jbi.2015.07.020
 [i2b2-dataset-dl]: https://www.i2b2.org/NLP/
+[PHI Annotation & De-Identification]: https://www.synapse.org/#!Synapse:syn22277124/wiki/607935
