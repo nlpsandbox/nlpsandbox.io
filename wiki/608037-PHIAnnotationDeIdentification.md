@@ -93,7 +93,7 @@ If you would like to contribute to the development of the specification of this 
 2. Open a ticket or a Pull Request in the GitHub repository [nlpsandbox/nlpsandbox-schemas] and describe your suggestion.
 3. Join us on the [NLP Sandbox Discord Server] and post your question or suggestion to the channel `#schemas`.
 
-Target Task Opening Date: Spring 2020
+Target Task Opening Date: March 2021
 
 ### Evaluation
 
