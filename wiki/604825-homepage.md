@@ -20,7 +20,7 @@ The NLP Sandbox adopts the [model-to-data approach] to enable NLP Developers to 
 
 ### Register a new Data Hosting Site
 
-Is your organization interested in registered a Data Hosting Site for an existing or new NPL Task? Please let us know! In addition to supporting the [nlpsandbox.io] community, the NLP Sandbox will enable your organization to identify the NLP Tools that work best on its own data.
+Is your organization interested in registered a Data Hosting Site for an existing or new NLP Task? Please let us know! In addition to supporting the [nlpsandbox.io] community, the NLP Sandbox will enable your organization to identify the NLP Tools that work best on its own data.
 
 ### Roadmap
 
