@@ -4,11 +4,11 @@
 
 ### Introduction
 
-The 2014 i2b2 NLP De-id Challenge aimed at developing automated methods to detect the location and types of sensitive information in clinical notes<sup>[1][1]</sup>.
+This page discusses the 2014 i2b2 NLP De-id Challenge, which was created with the goal of developing automated methods to detect the location and types of sensitive information in clinical notes<sup>[1][1]</sup>.
 
 ### Annotation Types
 
-The 2014 i2b2 challenge datasets included clinical notes for 296 diabetic patients drawn from the Research Patient Data Repository of Partners Healthcare<sup>[2][2],[3][3]</sup>. The challenge organizers annotated the type and location of the sensitive information. The annotations were mostly compliant to Safe Harbor HIPAA standard with 18 categories but also were expanded to include some non-HIPAA identifiers that could potentially leave a footprint for re-identification of patients, e.g. the city where the patient locates (see **Table 1**).
+The 2014 i2b2 challenge datasets included clinical notes for 296 diabetic patients drawn from the Research Patient Data Repository of Partners Healthcare<sup>[2][2],[3][3]</sup>. The challenge organizers manually annotated the type and location of the sensitive information. The annotations were mostly compliant to Safe Harbor HIPAA standard with 18 categories but also were expanded to include some non-HIPAA identifiers that could potentially leave a footprint for re-identification of patients, e.g. the city where the patient locates (see **Table 1**).
 
 **Table 1**. The list of annotation types defined by the 2014 i2b2 challenge with specification on whether the annotations belong to HIPAA PhIs and the existance of the annotations in 2014 i2b2 datasets.
 
@@ -48,7 +48,7 @@ The 2014 i2b2 challenge datasets included clinical notes for 296 diabetic patien
 
 ### Dataset Size
 
-60% of the 2014 i2b2 dataset were released to the public as a training dataset. The remaining 40% of clinical notes were used as goldstandard to evaluate the performance of the de-identification models submitted by participants to the challenge (see **Table 2**). All the annotated sensitive information was replaced by synthetic surrogates to prevent information leakage. The training and evaluation datasets are available from [this page](i2b2-dataset-dl).
+60% of the 2014 i2b2 dataset were released to the public as a training dataset. The remaining 40% of clinical notes were used as a gold standard to evaluate the performance of the de-identification models submitted by participants to the challenge (see **Table 2**). All the annotated sensitive information was replaced by synthetic surrogates to prevent information leakage. The training and evaluation datasets are available from [this page](i2b2-dataset-dl).
 
 **Table 2**. shows the number of patients, records and the total number of annotations in the training and evaluation sets of the challenge. The names of the files included in the training and evaluation dataset followed this format: `<patient_id>-<record_id>.xml`
 
