@@ -24,13 +24,7 @@ These two points are among the main reasons why the NLP Sandbox aims to develop 
 
 ### The OpenAPI Specification
 
-Requiring NLP Sandbox Users to develop NLP Tools as API services instead of
-programs is not a decision that we made lightly. We ultimately decided that the
-benefits of adopting a design based on the use of APIs outweighed the risk that
-we are taking to ask developers to develop outside of their comfort zone. By
-adopting the [OpenAPI specification] and leveraging the tools developed by the
-[OpenAPI community], we actually find it more efficient to develop an API service than
-developing a program that offers the same features.
+Requiring NLP Sandbox Users to develop NLP Tools as API services instead of programs is not a decision that we made lightly. We ultimately decided that the benefits of adopting a design based on the use of APIs outweighed the risk that we are taking to ask developers to develop outside of their comfort zone. By adopting the [OpenAPI specification] and leveraging the tools developed by the [OpenAPI community], we actually find it more efficient to develop an API service than developing a program that offers the same features.
 
 ### The Gist of developing an NLP Sandbox Tool
 
@@ -40,11 +34,7 @@ The development of an NLP tool as an API service as documented by the NLP Sandbo
 2. Generate an initial implementation - also called "stub" - of the NLP tool using a single command.
 3. Add your code to existing functions.
 
-Steps 1 and 2 can be performed in a single command. By the end of Step 2, you
-now have an API service that you can start -- just don't expect this service to
-do anything meaningful as it will return the message `do some magic!` to all the
-requests it receives. You can observe this behavior in this [live example of the
-Python Date Annotator stub], which you obtain after completing Step 2.
+Steps 1 and 2 can be performed in a single command. By the end of Step 2, you now have an API service that you can start -- just don't expect this service to do anything meaningful as it will return the message `do some magic!` to all the requests it receives. You can observe this behavior in this [live example of the Python Date Annotator stub], which you obtain after completing Step 2.
 
 The API service stub generated at Step 2 automatically validates the data received and returned against the schemas defined in the OpenAPI specification of the NLP Tool, which contributes to the overall robustness and reliability of the tool. The API service stub also comes with a web interface. Not bad for downloading one JSON file and running one command!
 
