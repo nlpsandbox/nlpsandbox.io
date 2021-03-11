@@ -18,6 +18,12 @@ See the [Tasks section] for more information on the NLP Sandbox tasks and philos
 
 The NLP Sandbox adopts the [model-to-data approach] to enable NLP Developers to assess the performance of their tools on private datasets. When developers make a submission, the submitted NLP Tool is automatically pulled by multiple Data Hosting Sites (e.g. hospitals, universities) who evaluate the performance of the tool against their dataset. This operation is performed in a secured environment deployed and fully controlled by the data provider. The Data Hosting Sites then return the performance of the tool, which is then published in [Leaderboards].
 
+### Access Production-ready Tools
+
+The NLP Sandbox aims to accelerate the deployment of tools to production environments.  best-coding practices and the adoption of modern technologies.
+
+
+
 ### Register a new Data Hosting Site
 
 Is your organization interested in registered a Data Hosting Site for an existing or new NLP Task? Please let us know! In addition to supporting the [nlpsandbox.io] community, the NLP Sandbox will enable your organization to identify the NLP Tools that work best on its own data.
