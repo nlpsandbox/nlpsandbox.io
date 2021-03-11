@@ -6,14 +6,13 @@
 
 Patient information derived from academic research, health care and clinical trials are off limit for traditional data-to-model benchmarking. Existing barriers include the access to big and sensitive data and the lack of effective framework for assessing the performance and generalizability of NLP tools.
 
-The NLP Sandbox adopts a model-to-data architecture to enable developers to evaluate the performance of their tools on public and private datasets. In this framework, the tools submitted for evaluation are pulled by one or more Data Hosting Sites on-boarded into the NLP Sandbox benchmarking network. A given tool is then evaluated against the private data available at the Data Hosting Sites. This evaluation is performed in a secured environment fully controlled by a Partner Organization. Once the evaluation is complete, only the performance of the tool is returned by the Partner Organization to the NLP Sandbox where it is made available to the community in leaderboards. As we continue to evaluate tools, the best performing tools will move to the top of the leaderboards enabling users (e.g. health systems) to identify the best tools for their sites.
+The NLP Sandbox adopts a model-to-data architecture to enable developers to evaluate the performance of their tools on public and private datasets. In this framework, the tools submitted for evaluation are pulled by one or more Data Hosting Sites on-boarded into the NLP Sandbox benchmarking network. A given tool is then evaluated against the private data available at the Data Hosting Sites. This evaluation is performed in a secured environment fully controlled by a partner organization. Once the evaluation is complete, only the performance of the tool is returned by the partner organization to the NLP Sandbox where it is made available to the community in leaderboards. As we continue to evaluate tools, the best performing tools will move to the top of the leaderboards enabling users (e.g. health systems) to identify the best tools for their sites.
 
-
-TODO: Add multi-site image
+![NLP Sandbox Benchmarking Infrastructure]
 
 ### Benchmarking Infrastructure
 
-The NLP Sandbox Team has developed a portal benchmarking infrastructure that Partner Organizations can deploy to cloud or on-premises resources. The infrastructure is fully controlled by the organization and even the NLP Sandbox Team does not have access to it.
+The NLP Sandbox Team has developed a portal benchmarking infrastructure that partner organizations can deploy to cloud or on-premises resources. The infrastructure is fully controlled by the organization and even the NLP Sandbox Team does not have access to it.
 
 Shortly after starting the onboarding process, the NLP Sandbox Team will provide instruction the the partner organization on how to deploy and run the benchmarking infrastructure and register it as a data hosting site of the NLP Sandbox.
 
@@ -22,8 +21,6 @@ Here are some resources that describes the components of the benchmarking infras
 - [nlpsandbox/nlpsandbox-controller]: The NLP Sandbox Controller is responsible for communicating with nlpsandbox.io to pull submitted tools to evaluate and push back their performance once the evaluation is complete. The controller also takes care of the tool evaluation process.
 - [nlpsandbox/docker-elk]: [ELK] (Elasticsearch, Logstash, Kibana) is used to centralize the logs of the different services deployed by the partner organization. ELK provides a user-friendly web client that the organization maintainers can access to monitor the health and logs of the tools.
 - [nlpsandbox/aws-cloudformation]: The NLP Sandbox Team provides a CloudFormation template to facilitate the deployment of the benchmarking infrastructure to AWS. If your organization prefers using another cloud provider, the NLP Sandbox Team will work with your organization to create a deployment template. It is also possible to deploy the NLP Sandbox infrastructure on on-premises servers owned by your organization.
-
-
 
 ### Onboarding
 
@@ -44,6 +41,8 @@ A preview of the on-boarding process is given below:
 {row}
 
 <!-- Images -->
+
+[NLP Sandbox Benchmarking Infrastructure]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/nlpsandbox-benchmarking-infrastructure.png
 
 <!-- Links -->
 
