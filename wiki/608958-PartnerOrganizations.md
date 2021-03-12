@@ -22,12 +22,16 @@ Here are some resources that describes the components of the benchmarking infras
 - [nlpsandbox/docker-elk]: [ELK] (Elasticsearch, Logstash, Kibana) is used to centralize the logs of the different services deployed by the partner organization. ELK provides a user-friendly web client that the organization maintainers can access to monitor the health and logs of the tools.
 - [nlpsandbox/aws-cloudformation]: The NLP Sandbox Team provides a CloudFormation template to facilitate the deployment of the benchmarking infrastructure to AWS. If your organization prefers using another cloud provider, the NLP Sandbox Team will work with your organization to create a deployment template. It is also possible to deploy the NLP Sandbox infrastructure on on-premises servers owned by your organization.
 
-### Onboarding
+### Incentives
 
 Please contact us if your organization is interested in:
 
 - benchmarking new or existing types of NLP tools and
 - enabling the NLP community to benchmark tools on public or private data.
+
+If your organization is looking to deploy an NLP tool to its production environment, your organization will be able to identify the tools that best perform on its own data.
+
+### Onboarding
 
 A preview of the onboarding process is given below:
 
