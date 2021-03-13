@@ -22,10 +22,47 @@ TODO: Add image
 
 Since all the tools submitted to a specific tasks implement the same specification, it is possible to develop clients in different programming languages (e.g. Python, Java, R) that interact with them. Examples of clients include the [NLP Sandbox Python Client] that can interact with any tools submitted to the NLP Sandbox and the [NLP Sandbox PHI Deidentifier] (React web client) that can interact with PHI deidentifier tools.
 
+### Deploying an NLP Sandbox tool
+
+This section provides the steps to perform to deploy the [NLP Sandbox Date Annotator Example] on your computer. Once deployed, you will be able to use your browser to automatically annotate dates in clinical notes.
+
+Prerequisites:
+
+- [Install Git].
+- Install Docker Engine.
+  - [Docker Desktop for Mac (macOS)]
+  - [Docker Desktop for Windows]
+  - [Docker Server for Linux distributions]
+- [Install Docker Compose].
+
+Deploy the date annotator (tool):
+
+- Clone the GitHub repository [nlpsandbox/date-annotator-example].
+- Open a terminal, navigate to the folder of the repository.
+- Start the date annotator with the command `docker-compose up -d`.
+  - When you no longer need the date annotator, stop it with `docker-compose down`.
+
+Annotate dates in clinical notes using the web client (Swagger UI).
+
+- Get information about the tool: http://localhost/tool
+- Annotate dates in clinical notes: http://localhost/ui
+  - Click on the green endpoint *POST /textDateAnnotations*.
+  - Click on *Try it out*.
+  - Under *Request body*, edit the example clinical note specified in the field `text` or leave it as it is.
+  - Click on *Execute* to run the date annotation tool.
+
+![Date Annotator Example UI]
+
+### Deploying the Best-Performing Date Annotator
+
+
+
 {column}
 {row}
 
 <!-- Images -->
+
+[Date Annotator Example UI]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/tools/date-annotator-example-ui-response.png
 
 <!-- Links -->
 
@@ -33,3 +70,9 @@ Since all the tools submitted to a specific tasks implement the same specificati
 [docker]: https://www.docker.com/
 [NLP Sandbox Python Client]: https://github.com/nlpsandbox/nlpsandbox-client
 [NLP Sandbox PHI Deidentifier]: https://github.com/nlpsandbox/phi-deidentifier-app
+[NLP Sandbox Date Annotator Example]: https://github.com/nlpsandbox/date-annotator-example
+[Install Git]: https://www.atlassian.com/git/tutorials/install-git
+[Docker Desktop for Mac (macOS)]: https://docs.docker.com/docker-for-mac/install/
+[Docker Desktop for Windows]: https://docs.docker.com/docker-for-windows/install/
+[Docker Server for Linux distributions]: https://docs.docker.com/engine/install/#server
+[Install Docker Compose]: https://docs.docker.com/compose/install/

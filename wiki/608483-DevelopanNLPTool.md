@@ -69,4 +69,3 @@ Please follow the instructions given in the README of the GitHub repository [nlp
 <!-- Images -->
 
 [Date Annotator Example UI]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/tools/date-annotator-example-ui-response.png
-
