@@ -28,28 +28,28 @@ This section provides the steps to perform to deploy the [NLP Sandbox Date Annot
 
 Prerequisites:
 
-- [Install Git].
-- Install Docker Engine.
-  - [Docker Desktop for Mac (macOS)]
-  - [Docker Desktop for Windows]
-  - [Docker Server for Linux distributions]
-- [Install Docker Compose].
+1. [Install Git].
+2. Install Docker Engine.
+    - [Docker Desktop for Mac (macOS)]
+    - [Docker Desktop for Windows]
+    - [Docker Server for Linux distributions]
+3. [Install Docker Compose].
 
 Deploy the date annotator (tool):
 
-- Clone the GitHub repository [nlpsandbox/date-annotator-example].
-- Open a terminal, navigate to the folder of the repository.
-- Start the date annotator with the command `docker-compose up -d`.
-  - When you no longer need the date annotator, stop it with `docker-compose down`.
+1. Clone the GitHub repository [nlpsandbox/date-annotator-example].
+2. Open a terminal, navigate to the folder of the repository.
+3. Start the date annotator with the command `docker-compose up -d`.
+    - When you no longer need the date annotator, stop it with `docker-compose down`.
 
 Annotate dates in clinical notes using the web client (Swagger UI).
 
-- Get information about the tool: http://localhost/tool
-- Annotate dates in clinical notes: http://localhost/ui
-  - Click on the green endpoint *POST /textDateAnnotations*.
-  - Click on *Try it out*.
-  - Under *Request body*, edit the example clinical note specified in the field `text` or leave it as it is.
-  - Click on *Execute* to run the date annotation tool.
+- Get information about the tool: [http://localhost/tool]
+- Annotate dates in clinical notes: [http://localhost/ui]
+    1. Click on the green endpoint *POST /textDateAnnotations*.
+    2. Click on *Try it out*.
+    3. Under *Request body*, edit the example clinical note specified in the field `text` or leave it as it is.
+    4. Click on *Execute* to run the date annotation tool.
 
 ![Date Annotator Example UI Try It Out]
 
@@ -71,7 +71,7 @@ After identifying the tool that you want to deploy based on the information disp
 
 In the previous section, you have cloned the GitHub repository of the example date annotator provided by the NLP Sandbox Team. Use your favorite text editor to open the file `docker-compose.yml`:
 
-```
+```yaml
 version: "3.8"
 
 services:
@@ -144,3 +144,5 @@ Note that the team who submits a tool for evaluation can change the the sharing 
 [Install Docker Compose]: https://docs.docker.com/compose/install/
 [Date Annotator Leaderboard]: https://www.synapse.org/#!Synapse:syn22277124/wiki/608039
 [Tasks]: https://www.synapse.org/#!Synapse:syn22277124/wiki/607935
+[http://localhost/tool]: http://localhost/tool
+[http://localhost/ui]: http://localhost/ui
