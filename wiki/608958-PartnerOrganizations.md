@@ -29,7 +29,12 @@ Please contact us if your organization is interested in:
 - benchmarking new or existing types of NLP tools and
 - enabling the NLP community to benchmark tools on public or private data.
 
-If your organization is looking to deploy an NLP tool to its production environment, your organization will be able to identify the tools that best perform on its own data.
+Other incentives include:
+
+- If your organization is looking to deploy an NLP tool to its production environment, your organization will be able to identify the tools that best perform on its own data.
+- The NLP developers who publish the performance of their tools on your organization dataset(s) will cite your publications that describe the content of the datasets.
+- The logo of your organization will be added to the home page of the NLP Sandbox.
+- The contribution of your organization will be mentioned in email communications to the NLP community, press releases, and on the NLP Sandbox social media accounts.
 
 ### Onboarding
 

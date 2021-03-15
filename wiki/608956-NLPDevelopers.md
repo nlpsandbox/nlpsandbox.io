@@ -7,6 +7,8 @@
 
 
 
+![NLP Sandbox Tool Generation]
+
 
 |    | Languages/Frameworks |
 |----|----------------------|
@@ -28,5 +30,7 @@
 
 
 <!-- Images -->
+
+[NLP Sandbox Tool Generation]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/nlpsandbox-server-generation.png
 
 <!-- Links -->
