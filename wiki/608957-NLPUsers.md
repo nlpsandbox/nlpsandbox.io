@@ -18,9 +18,18 @@ One approach taken by this project is the promotion of coding standard that help
 
 The adoption of the OpenAPI standard to describe data schemas and tool input and output specifications is a key element of the design of the NLP Sandbox that contributes to the development of production-ready tools. Relying on the OpenAPI specification enables the development of API services (tools) that are cloud-friendly. The tools benchmarked in the NLP Sandbox can then be deployed to the cloud environment of your organization or on your own computer. You only need to have [Docker] installed to deploy a tool.
 
-TODO: Add image client <-> tool
+![NLP Sandbox Clients]
 
 Since all the tools submitted to a specific tasks implement the same specification, it is possible to develop clients in different programming languages (e.g. Python, Java, R) that interact with them. Examples of clients include the [NLP Sandbox Python Client] that can interact with any tools submitted to the NLP Sandbox and the [NLP Sandbox PHI Deidentifier] (React web client) that can interact with PHI deidentifier tools.
+
+### Incentives
+
+Below is a non-exhaustive list of benefits when using NLP Sandbox:
+
+- Easily identify the best-performing tool from the leaderboards.
+- The tool that you use is the tool that has been benchmarked.
+- Develop your own client (web clients, notebooks, programs) using the programming language/framework of your choice or use a client developed by the community.
+- Because all the tools submitted to a given NLP Sandbox task implements the same OpenAPI specification (for a given specification version), you can easily swap one tool for another.
 
 ### Deploying an NLP Sandbox tool
 
@@ -127,7 +136,7 @@ Note that the team who submits a tool for evaluation can change the the sharing 
 {row}
 
 <!-- Images -->
-
+[NLP Sandbox Clients]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/nlpsandbox-clients.png
 [Date Annotator Example UI Try It Out]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/tools/date-annotator-example-ui-try-it-out.png
 
 <!-- Links -->
