@@ -6,39 +6,48 @@
 
 ## Benchmarking NLP Tools
 
-The NLP Sandbox provides a common development model for building NLP Tools and benchmarking their performance on public and private datasets.
+The NLP Sandbox provides a common development model for building NLP tools and benchmarking their performance on public and private datasets.
 
 ### PHI Annotation & De-Identification
 
-The first series of NLP Tasks targeted by the NLP Sandbox are the annotation and de-identification of Protected Health Information (PHI) in clinical notes. This first series of tasks have been identified through our collaboration with the first NLP Sandbox Driver, the [National Center for Date to Health (CD2H)].
+The first series of NLP Sandbox tasks supported by the NLP Sandbox are the annotation and de-identification of Protected Health Information (PHI) in clinical notes. This first series of tasks have been identified through our collaboration with the [National Center for Date to Health (CD2H)].
 
 [Learn more about the NLP Sandbox tasks]
 
-### Benchmark your Tool on Private Datasets
+### Benchmark NLP Tools on Private Data
 
-The NLP Sandbox adopts the [model-to-data approach] to enable NLP Developers to assess the performance of their tools on private datasets. When developers make a submission, the submitted NLP Tool is automatically pulled by multiple Data Hosting Sites (e.g. hospitals, universities) who evaluate the performance of the tool against their dataset. This operation is performed in a secured environment deployed and fully controlled by the data provider. The Data Hosting Sites then return the performance of the tool, which is then published in [Leaderboards].
+The NLP Sandbox adopts the [model-to-data approach] to enable NLP developers to assess the performance of their tools on public and private datasets. When a developer submits a tool, partner organizations (e.g. hospitals, universities) automatically download the tool and evaluate its performance against their private data in a secure environment. Upon successfully completion, the performance of the tool is returned by the partner organization and automatically published in the [leaderboards].
 
-[Become an NLP Sandbox Developer]
+[Become an NLP Sandbox developer]
 
 ### Access Production-ready Tools
 
-The NLP Sandbox aims to accelerate the deployment of tools to production environments.  best-coding practices and the adoption of modern technologies.
+The NLP Sandbox aims to accelerate the deployment of tools to production environments via the promotion of best-coding practices and the adoption of modern tool development technologies. A core principle of the NLP Sandbox is that the tools deployed in production environments have been benchmarked "as-is". Moreover, the NLP Sandbox [leaderboards] helps users to identify the best-performing tool submitted to a given NLP Sandbox task.
 
-[Become an NLP Sandbox User]
+[Become an NLP Sandbox user]
 
-### Register a new Data Hosting Site
+### Register a Partner Organization
 
-Is your organization interested in registered a Data Hosting Site for an existing or new NLP Task? Please let us know! In addition to supporting the [nlpsandbox.io] community, the NLP Sandbox will enable your organization to identify the NLP Tools that work best on its own data.
+Is your organization interested in evaluating the performance of one or more types of NLP tools on its private data in a secure environment? Please let us know! In addition to supporting the biomedical NLP community, the NLP Sandbox will enable your organization to identify the tools that work best on its own data.
 
 [Become a partner organization]
 
 ### Roadmap
 
-TBA
+- March 2021: Initial release of [NLPSandbox.io]
+- Q2 2021:
+  - Evaluation of PHI annotation tools on private data from the Medical College of Wisconsin.
+- TBA
+
+### Join the NLP Sandbox newsletters
+
+Click on the button below to subscribe to newsletters. You will be among the first persons to learn about the the new features and NLP Sandbox tasks, as well as when tools can be benchmarked on new data made available by partner organizations.
+
+${jointeam?teamId=3417089&isChallenge=false&isSimpleRequestButton=true&isMemberMessage=Already subscribed&successMessage=Successfully subscribed&text=Subscribe to the NLPSandbox%2Eio Newsletters&requestOpenText=Your request to subscribe has been sent%2E}
 
 ### Organizations
 
-The Organizations who support [nlpsandbox.io].
+The Organizations who support [NLPSandbox.io].
 
 ![NLP Sandbox Organizations]
 
@@ -47,7 +56,7 @@ The Organizations who support [nlpsandbox.io].
 <!-- markdownlint-disable -->
 Name             | Institution | Role
 -----------------|------------------------------|---
-Thomas Schaffter | Sage Bionetworks             | Architect<br>Lead Software Engineer<br>Project Manager
+Thomas Schaffter | Sage Bionetworks             | Platform Architect<br>Lead Software Engineer<br>Project Lead
 Thomas Yu        | Sage Bionetworks             | Software Engineer
 Connor Boyle     | Sage Bionetworks             | Software Engineer
 Yao Yan          | Sage Bionetworks             | Data Analyst
@@ -61,9 +70,9 @@ Justin Guinney   | Sage Bionetworks             | Director
 
 ### NLP Sandbox Discord Server
 
-Join the [NLP Sandbox Discord Server] to chat and talk with members of the Team and community.
+Join the [NLP Sandbox Discord Server] to chat and participate to live discussion with members of the NLP Sandbox Team and community.
 
-**Office Hour**: [Every Tuesday at 10:00-10:30 am PST]
+**Office Hour**: Every Tuesday, [click to see the time for your local time zone].
 
 ![NLP Sandbox Discord]
 
@@ -78,10 +87,10 @@ Join the [NLP Sandbox Discord Server] to chat and talk with members of the Team 
 
 <!-- Links -->
 
-[nlpsandbox.io]: https://nlpsandbox.io
+[NLPSandbox.io]: https://nlpsandbox.io
 [National Center for Date to Health (CD2H)]: https://cd2h.org/
 [NLP Sandbox Discord server]: https://nlpsandbox.io/discord
-[Every Tuesday at 10:00-10:30 am PST]: https://www.starts-at.com/event/2806163581
+[click to see the time for your local time zone]: https://www.starts-at.com/event/2806163581
 [model-to-data approach]: https://doi.org/10.1186/s13059-019-1794-0
 [Learn more about the NLP Sandbox tasks]: https://www.synapse.org/#!Synapse:syn22277124/wiki/607935
 [Leaderboards]: https://www.synapse.org/#!Synapse:syn22277124/wiki/604828

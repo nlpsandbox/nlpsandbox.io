@@ -20,6 +20,10 @@
 
 ### Incentives
 
+Below is a non-exhaustive list of benefits when using NLP Sandbox:
+
+- Identify challenging NLP Sandbox tasks that would best benefit from your contribution and time by viewing the leaderboards.
+- Increase the visibiity of your NLP tools.
 
 ### Develop your first NLP Sandbox Tool
 
