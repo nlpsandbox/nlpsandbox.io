@@ -20,7 +20,7 @@ The NLP Sandbox adopts the [model-to-data approach] to enable NLP developers to 
 
 [Become an NLP Sandbox developer]
 
-### Access Production-ready Tools
+### Access Production-Ready Tools
 
 The NLP Sandbox aims to accelerate the deployment of tools to production environments via the promotion of best-coding practices and the adoption of modern tool development technologies. A core principle of the NLP Sandbox is that the tools deployed in production environments have been benchmarked "as-is". Moreover, the NLP Sandbox [leaderboards] helps users to identify the best-performing tool submitted to a given NLP Sandbox task.
 
