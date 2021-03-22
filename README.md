@@ -1,4 +1,4 @@
-# NLP Sandbox Synapse Website
+# NLPSandbox.io
 
 Pages of the NLP Sandbox website hosted on Synapse
 
