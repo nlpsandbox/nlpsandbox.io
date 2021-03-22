@@ -32,14 +32,7 @@ Is your organization interested in evaluating the performance of one or more typ
 
 [Become a partner organization]
 
-### Roadmap
-
-- March 2021: Initial release of [NLPSandbox.io]
-- Q2 2021:
-  - Evaluation of PHI annotation tools on private data from the Medical College of Wisconsin.
-- TBA
-
-### Join the NLP Sandbox newsletters
+### Join the NLP Sandbox Newsletters
 
 Click on the button below to subscribe to newsletters. You will be among the first persons to learn about the the new features and NLP Sandbox tasks, as well as when tools can be benchmarked on new data made available by partner organizations.
 
@@ -67,6 +60,13 @@ Hongfang Liu     | Mayo Clinic                  | NLP Adviser
 Bradley Taylor   | Medical College of Wisconsin | Data Hosting Site Lead
 Justin Guinney   | Sage Bionetworks             | Director
 <!-- markdownlint-enable -->
+
+### Roadmap
+
+- March 2021: Initial release of [NLPSandbox.io]
+- Q2 2021:
+    - Evaluation of PHI annotation tools on private data from the Medical College of Wisconsin.
+- TBA
 
 ### NLP Sandbox Discord Server
 
