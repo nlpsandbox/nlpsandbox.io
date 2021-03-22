@@ -89,7 +89,7 @@ Please head to the section [How to Participate] and follow the tutorial to devel
 [live example of the Python Date Annotator stub]: https://date-annotator-stub.nlpsandbox.io
 [complete example of the Date Annotator]: https://date-annotator-example.nlpsandbox.io
 [nlpsandbox/date-annotator-example]: https://github.com/nlpsandbox/date-annotator-example
-[nlpsandbox.io]: nlpsandbox.io
+[NLPSandbox.io]: https://nlpsandbox.io
 [nlpsandbox/nlpsandbox-schemas]: https://github.com/nlpsandbox/nlpsandbox-schemas
 [Benchmark a Tool]: #!Synapse:syn22277124/wiki/608484
 [ibm-learn-api]: https://www.ibm.com/cloud/learn/api
