@@ -60,15 +60,15 @@
     },
     {
         "id": "608483",
-        "title": "Develop an NLP Tool",
+        "title": "Develop an NLP Sandbox Tool",
         "parentId": "604827",
-        "markdown_path": "608483-DevelopanNLPTool.md"
+        "markdown_path": "608483-DevelopanNLPSandboxTool.md"
     },
     {
         "id": "608484",
-        "title": "Benchmark a Tool",
+        "title": "Benchmark an NLP Sandbox Tool",
         "parentId": "604827",
-        "markdown_path": "608484-BenchmarkaTool.md"
+        "markdown_path": "608484-BenchmarkanNLPSandboxTool.md"
     },
     {
         "id": "604838",
