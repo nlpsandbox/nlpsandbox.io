@@ -45,6 +45,7 @@ jobs:
             PUSH_TO=production
           fi
         fi
+        echo ${PUSH_TO}
         echo "PUSH_TO=${PUSH_TO}" >> $GITHUB_ENV
     - name: Set up Python 3.6
       if: env.PUSH_TO != 'noop'
