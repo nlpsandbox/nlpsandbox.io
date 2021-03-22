@@ -41,9 +41,7 @@ jobs:
           fi
         elif [[ $GITHUB_REF == refs/tags/* ]]; then
           VERSION=${GITHUB_REF#refs/tags/}
-          if [[ $VERSION =~ ^[0-9]{1,3}\-[0-9]{1,3}\-[0-9]{1,3}$ ]]; then
-            PUSH_TO=production
-          fi
+          PUSH_TO=production
         fi
         echo ${PUSH_TO}
         echo "PUSH_TO=${PUSH_TO}" >> $GITHUB_ENV
