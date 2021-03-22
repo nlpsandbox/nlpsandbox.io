@@ -1,6 +1,6 @@
 <!-- markdownlint-disable-next-line first-line-h1 -->
 {row}
-{column width=8}
+{column width=9}
 
 ### Introduction
 
@@ -30,10 +30,10 @@ By adopting the [OpenAPI specification] and leveraging the tools developed by th
 
 ### The Gist of developing an NLP Sandbox Tool
 
-The development of an NLP tool as an API service as documented by the NLP Sandbox is outlined in the steps listed below:
+The development of an NLP Sandbox tool as an API service as documented by the NLP Sandbox is outlined in the steps listed below:
 
 1. Download the OpenAPI specification of an NLP Sandbox tool (JSON or YAML document).
-2. Generate an initial implementation - also called "stub" - of the NLP tool using a single command.
+2. Generate an initial implementation - also called "stub" - of the NLP Sandbox tool using a single command.
 3. Add your code to existing functions.
 
 Steps 1 and 2 can be performed in a single command. For example, a stub for the NLP Sandbox Date Annotator can be generated for different programming languages and frameworks based on the latest OpenAPI specification available for this tool.
@@ -67,8 +67,8 @@ The NLP Sandbox Team started from the Python Date Annotator stub and implemented
 Below is a non-exhaustive list of benefits when using NLP Sandbox:
 
 - Identify challenging NLP Sandbox tasks that would best benefit from your contribution by viewing their leaderboards.
-- Increase the visibiity of your NLP tools.
-- Build portable NLP tools that can be deployed in production environments (cloud and on-premises).
+- Increase the visibiity of your NLP Sandbox tools.
+- Build portable NLP Sandbox tools that can be deployed in production environments (cloud and on-premises).
 - Learn how to craft robuest and reliable using modern software development models and technologies (e.g. using GitHub, CI/CD workflows, Docker).
 
 ### Develop your first NLP Sandbox Tool
