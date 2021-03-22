@@ -4,11 +4,11 @@
 
 ### Introduction
 
-The previous section of this tutorial guided you through the development of an NLP Tools using the development environment provided by the NLP Sandbox. This page describes how to benchmark the performance of this tool in the NLP Sandbox.
+The previous section of this tutorial guided you through the development of an NLP Sandbox tools using the development environment provided by the NLP Sandbox. This page describes how to benchmark the performance of this tool in the NLP Sandbox.
 
-### Push the NLP Tool Docker Image to Synapse
+### Push the NLP Sandbox Tool Docker Image to Synapse
 
-Developers must submit their NLP Tools to the NLP Sandbox as Docker images. The submitted images will then be pulled by the Data Hosting Sites that meet the requirements to evaluate the performance of tools submitted to specific Tasks.
+Developers must submit their NLP Sandbox tools to the NLP Sandbox as Docker images. The submitted images will then be pulled by the Data Hosting Sites that meet the requirements to evaluate the performance of tools submitted to specific Tasks.
 
 The first step is to push the Docker image of your tool to your Synapse project. Projects created in Synapse can store a virtually unlimited number of private and public images. Start by identifying the Synapse ID of your project. This ID is displayed on the top-left corner of Synapse just below the navigation bar.
 
@@ -80,14 +80,14 @@ If you want to enable anyone to pull the images of the tools that you submit for
 1. Go to the page of the Docker image on Synapse.
 2. `Docker Image Tools` > `Docker Repository Sharing Settings`.
 
-### Submit an NLP Tool for Evaluation
+### Submit an NLP Sandbox Tool for Evaluation
 
-Follow the steps listed below to submit the Docker image of your NLP Tool and benchmark its performance.
+Follow the steps listed below to submit the Docker image of your NLP Sandbox tool and benchmark its performance.
 
 1. Go to the page of the Docker image on Synapse.
 2. `Docker Image Tools` > `Submit Docker Repository to Challenge`.
 3. Select the version of the image to submit.
-4. Select the NLP Sandbox submission queue that corresponds to the type of your NLP Tool.
+4. Select the NLP Sandbox submission queue that corresponds to the type of your NLP sandbox tool.
 5. Select on behalf of whom you are making the submission.
 6. Click on Submit to make the submission.
 

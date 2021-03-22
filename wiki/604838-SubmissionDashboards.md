@@ -4,7 +4,7 @@
 
 ### Overview
 
-This section provides dashboards to the person who submit NLP Tools for evaluation. These dashboards provide information such as the ID of a submission, the progress status, among other information.
+This section provides dashboards to the person who submit NLP Sandbox tools for evaluation. These dashboards provide information such as the ID of a submission, the progress status, among other information.
 
 ### Tips
 

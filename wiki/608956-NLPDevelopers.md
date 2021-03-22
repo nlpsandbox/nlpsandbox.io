@@ -4,7 +4,7 @@
 
 ### Introduction
 
-The NLP Sandbox aims to streamline the development and benchmarking of NLP Tools that are:
+The NLP Sandbox aims to streamline the development and benchmarking of NLP Sandbox tools that are:
 
 - Robust and reliable
 - Reproducible
@@ -12,7 +12,7 @@ The NLP Sandbox aims to streamline the development and benchmarking of NLP Tools
 - Portable
 - Cloud-friendly
 
-The sections below describe how to build and benchmark your first NLP Tool using the NLP Sandbox. But beforehand, let's briefly discuss some of the key aspects of the design of the NLP Sandbox.
+The sections below describe how to build and benchmark your first NLP Sandbox tool using the NLP Sandbox. But beforehand, let's briefly discuss some of the key aspects of the design of the NLP Sandbox.
 
 ### API Services vs Programs
 
@@ -20,11 +20,11 @@ Most developers are familiar with the development of command-line programs. Exam
 
 An [Application Programming Interface (API)][ibm-learn-api] service is different from a program on the above two points. A service is a process that is continuously running and waiting for requests to process. For example, a web service keeps listening to the requests from web clients and returns the requested HTML pages. Another example are API services that enables a client to create and manage data remotely using a standard interface (API). Relying on a standard and documentated API specification enables a service and its clients to be developed using different programming languages and frameworks.
 
-These two points are among the main reasons why the NLP Sandbox aims to develop NLP Tools as API services. API services are also inherently cloud-friendly as they can wait in the cloud (public or private servers) and are ready to answer requests anytime. Similarly to a web service that responds to million of requests from different users concurrently, an API service can process multiple requests in parallel without overhead for the developer of the service. And if your organization has the required resources, it is always possible to deploy multiple instances of the same service behind a load balancer that will take care of distributing the requests among the different instances based on their CPU load, for example.
+These two points are among the main reasons why the NLP Sandbox aims to develop NLP Sandbox tools as API services. API services are also inherently cloud-friendly as they can wait in the cloud (public or private servers) and are ready to answer requests anytime. Similarly to a web service that responds to million of requests from different users concurrently, an API service can process multiple requests in parallel without overhead for the developer of the service. And if your organization has the required resources, it is always possible to deploy multiple instances of the same service behind a load balancer that will take care of distributing the requests among the different instances based on their CPU load, for example.
 
 ### The OpenAPI Specification
 
-Requiring NLP Sandbox users to develop NLP Tools as API services instead of programs is not a decision that we made lightly. We ultimately decided that the benefits of adopting a design based on the use of APIs outweighed the risk that we are taking to ask developers to develop outside of their comfort zone.
+Requiring NLP Sandbox users to develop NLP Sandbox tools as API services instead of programs is not a decision that we made lightly. We ultimately decided that the benefits of adopting a design based on the use of APIs outweighed the risk that we are taking to ask developers to develop outside of their comfort zone.
 
 By adopting the [OpenAPI specification] and leveraging the tools developed by the [OpenAPI community], we actually find it more efficient to develop an API service than developing a program (see below).
 
@@ -32,7 +32,7 @@ By adopting the [OpenAPI specification] and leveraging the tools developed by th
 
 The development of an NLP tool as an API service as documented by the NLP Sandbox is outlined in the steps listed below:
 
-1. Download the OpenAPI specification of an NLP Tool (JSON or YAML document).
+1. Download the OpenAPI specification of an NLP Sandbox tool (JSON or YAML document).
 2. Generate an initial implementation - also called "stub" - of the NLP tool using a single command.
 3. Add your code to existing functions.
 
@@ -56,7 +56,7 @@ The list of all the programming languages and frameworks supported by the OpenAP
 
 By the end of Step 2, you now have an API service that you can start -- just don't expect this service to do anything meaningful as it will return the message `do some magic!` to all the requests it receives. You can observe this behavior in this [live example of the Python Date Annotator stub], which you obtain after completing Step 2.
 
-The API service stub generated at Step 2 automatically validates the data received and returned against the schemas defined in the OpenAPI specification of the NLP Tool, which contributes to the overall robustness and reliability of the tool. The API service stub also comes with a web interface. Not bad for downloading one JSON file and running one command!
+The API service stub generated at Step 2 automatically validates the data received and returned against the schemas defined in the OpenAPI specification of the NLP Sandbox tool, which contributes to the overall robustness and reliability of the tool. The API service stub also comes with a web interface. Not bad for downloading one JSON file and running one command!
 
 The NLP Sandbox Team started from the Python Date Annotator stub and implemented Step 3 in order to provide the users of the NLP Sandbox with a [complete example of the Date Annotator] that can be used to annotate dates in clinical notes -- just don't expect a high performance!
 

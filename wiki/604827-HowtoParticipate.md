@@ -7,8 +7,8 @@
 This section describes how to:
 
 - Create your Synapse environment.
-- Build an NLP Tool that can be benchmarked in the NLP Sandbox.
-- Benchmark the performance of your NLP Tool.
+- Build an NLP Sandbox tool that can be benchmarked in the NLP Sandbox.
+- Benchmark the performance of your NLP Sandbox tool.
 
 {column}
 {row}

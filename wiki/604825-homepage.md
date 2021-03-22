@@ -4,7 +4,7 @@
 
 ![NLP Sandbox Banner]
 
-## Benchmarking NLP Tools
+## Benchmarking NLP Sandbox Tools
 
 The NLP Sandbox provides a common development model for building NLP tools and benchmarking their performance on public and private datasets.
 
@@ -28,7 +28,7 @@ The NLP Sandbox aims to accelerate the deployment of tools to production environ
 
 ### Register a Partner Organization
 
-Is your organization interested in evaluating the performance of one or more types of NLP tools on its private data in a secure environment? Please let us know! In addition to supporting the biomedical NLP community, the NLP Sandbox will enable your organization to identify the tools that work best on its own data.
+Is your organization interested in evaluating the performance of one or more types of NLP Sandbox tools on its private data in a secure environment? Please let us know! In addition to supporting the biomedical NLP community, the NLP Sandbox will enable your organization to identify the tools that work best on its own data.
 
 [Become a partner organization]
 

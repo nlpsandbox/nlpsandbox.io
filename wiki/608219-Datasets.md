@@ -4,7 +4,7 @@
 
 ### Overview
 
-This section describes the datasets against which The NLP Sandbox benchmark the performance of NLP Tools.
+This section describes the datasets against which The NLP Sandbox benchmark the performance of NLP Sandbox tools.
 
 {column}
 {row}

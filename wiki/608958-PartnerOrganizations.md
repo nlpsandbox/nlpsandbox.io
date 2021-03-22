@@ -4,7 +4,7 @@
 
 ### Introduction
 
-Patient information derived from academic research, health care and clinical trials are off limit for traditional data-to-model benchmarking. Existing barriers include the access to big and sensitive data and the lack of effective framework for assessing the performance and generalizability of NLP tools.
+Patient information derived from academic research, health care and clinical trials are off limit for traditional data-to-model benchmarking. Existing barriers include the access to big and sensitive data and the lack of effective framework for assessing the performance and generalizability of NLP Sandbox tools.
 
 The NLP Sandbox adopts a model-to-data architecture to enable developers to evaluate the performance of their tools on public and private datasets. In this framework, the tools submitted for evaluation are pulled by one or more data hosting sites onboarded into the NLP Sandbox benchmarking network. A tool is then evaluated against the private data available at different data hosting sites, that are secure environments fully controlled by partner organizations. Once the evaluation is complete, the performance of the tool is returned by the partner organization to the NLP Sandbox where it is made available to the community in leaderboards. As we continue to evaluate tools, the best performing tools will move to the top of the leaderboards enabling users (e.g. health systems) to identify the best tools for their sites.
 
@@ -26,12 +26,12 @@ Here are some resources that describes the components of the benchmarking infras
 
 Please contact us if your organization is interested in:
 
-- benchmarking new or existing types of NLP tools and
+- benchmarking new or existing types of NLP Sandbox tools and
 - enabling the NLP community to benchmark tools on public or private data.
 
 Other incentives include:
 
-- If your organization is looking to deploy an NLP tool to its production environment, your organization will be able to identify the tools that best perform on its own data.
+- If your organization is looking to deploy an NLP Sandbox tool to its production environment, your organization will be able to identify the tools that best perform on its own data.
 - The NLP developers who publish the performance of their tools on your organization dataset(s) will cite your publications that describe the content of the datasets.
 - The logo of your organization will be added to the home page of the NLP Sandbox.
 - The contribution of your organization will be mentioned in email communications to the NLP community, press releases, and on the NLP Sandbox social media accounts.

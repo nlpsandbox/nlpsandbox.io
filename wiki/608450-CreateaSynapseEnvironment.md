@@ -10,13 +10,13 @@ Synapse is a collaborative platform for researchers and developers. Synapse is d
 -  Provenance to give researchers credit for their work
 - Collaboration among researchers
 
-The NLP Sandbox builds on the successes of previous scientific challenges that have been organized using Synapse. The NLP Sandbox relies on the following features of Synapse to enable its users to develop and benchmark new NLP Tools:
+The NLP Sandbox builds on the successes of previous scientific challenges that have been organized using Synapse. The NLP Sandbox relies on the following features of Synapse to enable its users to develop and benchmark new NLP Sandbox Tools:
 
 - Creation and management of Teams
 - Unlimited storage of private Docker images
-- Benchmarking the performance of NLP Tools on public and private datasets
+- Benchmarking the performance of NLP Sandbox tools on public and private datasets
 
-The sections below describe how to set up your development environment on Synapse so that you can start developing and benchmarking your NLP tool.
+The sections below describe how to set up your development environment on Synapse so that you can start developing and benchmarking your NLP Sandbox tool.
 
 ### Create a Synapse account
 
@@ -28,7 +28,7 @@ You will need to certify your Synapse account to perform the following actions:
 
 - Upload files to Synapse
 - Push Docker images to Synapse
-- Benchmark the performance of NLP tools
+- Benchmark the performance of NLP Sandbox tools
 
 Follow these steps to certify your Synapse account:
 
@@ -42,7 +42,7 @@ You can verify that your account is certified by visiting your [Synapse Profile]
 
 ### Create a Synapse Team
 
-Playing - ahem - Working together will make your experience developing and benchmarking NLP tools more enjoyable. When you submit a tool for evaluation, Synapse will ask if the submission is made on behalf of a User or a Team. Submitting as a Team offers more flexibility if you decide to invite team members to collaborate with you in the future.
+Playing - ahem - Working together will make your experience developing and benchmarking NLP Sandbox tools more enjoyable. When you submit a tool for evaluation, Synapse will ask if the submission is made on behalf of a User or a Team. Submitting as a Team offers more flexibility if you decide to invite team members to collaborate with you in the future.
 
 Head to your [Synapse Teams page] to create a new Team. If you are looking for Team members, check out the [NLP Sandbox Users & Teams] page. You can also re-use an existing Synapse Team that you have for other projects.
 
@@ -66,7 +66,7 @@ ${registerChallengeTeam?challengeId=4422&buttonText=Register your Team}
 
 ### Conclusion
 
-Your Synapse environment is now ready! Head to the next page of this tutorial to learn how to build an NLP tool that can be benchmarked and shared in the NLP Sandbox.
+Your Synapse environment is now ready! Head to the next page of this tutorial to learn how to build an NLP Sandbox tool that can be benchmarked and shared in the NLP Sandbox.
 
 {column}
 {row}

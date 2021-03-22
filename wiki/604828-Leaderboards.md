@@ -4,7 +4,7 @@
 
 ### Overview
 
-This section reports the performance of the NLP Tools submitted for evaluation.
+This section reports the performance of the NLP Sandbox tools submitted for evaluation.
 
 {column}
 {row}
