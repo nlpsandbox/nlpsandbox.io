@@ -40,7 +40,7 @@ Other incentives include:
 
 A preview of the onboarding process is given below:
 
-1. Send an email to admin@nlpsandbox.io to request additional information about the onboarding process.
+1. Send an email to team@nlpsandbox.io to request additional information about the onboarding process.
 2. The NLP Sandbox Team will provide support to enable your organization to deploy the benchmarking infrastructure.
 3. The NLP Sandbox Team will provide support on how to prepare the datasets that your organization will use to benchmark the performance of tools.
 4. When the data hosting site is ready, the site will be able to pull submitted tools and evaluate their performance on one or more NLP Sandbox tasks.
