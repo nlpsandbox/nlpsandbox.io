@@ -32,6 +32,12 @@ Is your organization interested in evaluating the performance of one or more typ
 
 [Become a partner organization]
 
+### Featured NLP Sandbox Tool
+
+The [NLP Sandbox PHI Deidentifier] depends on an instance of the NLP Sandbox Date Annotator, NLP Sandbox Person Name Annotator and NLP Sandbox Physical Address Annotator to de-identify protected health information (PHI) from clinical notes. The performance of the PHI Deidentifier improves as more performant annotators are benchmarked on [NLPSandbox.io].
+
+GitHub: [nlpsandbox/phi-deidentifier-app]
+
 ### Join the NLP Sandbox Newsletters
 
 Click on the button below to subscribe to newsletters. You will be among the first persons to learn about the the new features and NLP Sandbox tasks, as well as when tools can be benchmarked on new data made available by partner organizations.
@@ -97,3 +103,5 @@ Join the [NLP Sandbox Discord Server] to chat and participate to live discussion
 [Become an NLP Sandbox Developer]: https://www.synapse.org/#!Synapse:syn22277124/wiki/608956
 [Become an NLP Sandbox User]: https://www.synapse.org/#!Synapse:syn22277124/wiki/608957
 [Become a partner organization]: https://www.synapse.org/#!Synapse:syn22277124/wiki/608958
+[NLP Sandbox PHI Deidentifier]: https://phi-deidentifier.nlpsandbox.io/
+[nlpsandbox/phi-deidentifier-app]: https://github.com/nlpsandbox/phi-deidentifier-app
