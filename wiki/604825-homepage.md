@@ -72,7 +72,7 @@ Justin Guinney   | Sage Bionetworks             | Director
 - March 2021: Initial release of [NLPSandbox.io]
 - Q2 2021:
     - Evaluation of PHI annotation tools on private data from the Medical College of Wisconsin.
-- TBA
+    - To be announced
 
 ### NLP Sandbox Discord Server
 
