@@ -64,7 +64,6 @@ jobs:
       if: env.PUSH_TO == 'staging'
       run: |
         cd wiki
-        ls -al *
         challengeutils push-wiki ${{ env.staging_synapse_project_id }}
     - name: Deploy to production Synapse project
       if: env.PUSH_TO == 'production'
