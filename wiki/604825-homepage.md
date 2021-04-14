@@ -42,7 +42,7 @@ GitHub: [nlpsandbox/phi-deidentifier-app]
 
 Click on the button below to subscribe to newsletters. You will be among the first persons to learn about the the new features and NLP Sandbox tasks, as well as when tools can be benchmarked on new data made available by partner organizations.
 
-${jointeam?teamId=3417089&isChallenge=false&isSimpleRequestButton=true&isMemberMessage=Already subscribed&successMessage=Successfully subscribed&text=Subscribe to the NLPSandbox%2Eio newsletters&requestOpenText=Your request to subscribe has been sent%2E}
+${jointeam?teamId=3417089&isChallenge=false&isSimpleRequestButton=true&isMemberMessage=Already subscribed&successMessage=Successfully subscribed&text=Subscribe to NLPSandbox%2Eio newsletters&requestOpenText=Your request to subscribe has been sent%2E}
 
 ### Organizations
 
