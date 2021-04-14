@@ -137,6 +137,12 @@
         "markdown_path": "609460-MedicalCollegeofWisconsinDeidDataset.md"
     },
     {
+        "id": "609581",
+        "title": "Mayo Clinic De-id Dataset",
+        "parentId": "608219",
+        "markdown_path": "609581-MayoClinicDeidDataset.md"
+    },
+    {
         "id": "608348",
         "title": "Resources",
         "parentId": "604825",
