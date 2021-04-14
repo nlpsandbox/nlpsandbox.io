@@ -55,8 +55,8 @@ jobs:
       run: |
         printf "%s\n" \
           "[authentication]" \
-          'username="${{ secrets.SYNAPSE_USERNAME }}"' \
-          'authtoken="${{ secrets.SYNAPSE_PAT }}"' | tee -a ~/.synapseConfig >/dev/null
+          'username=${{ secrets.SYNAPSE_USERNAME }}' \
+          'authtoken=${{ secrets.SYNAPSE_PAT }}' | tee -a ~/.synapseConfig >/dev/null
     - name: Install requirements
       if: env.PUSH_TO != 'noop'
       run: pip install challengeutils==4.0.1
@@ -64,6 +64,7 @@ jobs:
       if: env.PUSH_TO == 'staging'
       run: |
         cd wiki
+        ls -al *
         challengeutils push-wiki ${{ env.staging_synapse_project_id }}
     - name: Deploy to production Synapse project
       if: env.PUSH_TO == 'production'
