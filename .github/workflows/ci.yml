@@ -45,18 +45,18 @@ jobs:
         fi
         echo ${PUSH_TO}
         echo "PUSH_TO=${PUSH_TO}" >> $GITHUB_ENV
-    - name: Set up Python 3.6
+    - name: Set up Python 3.8
       if: env.PUSH_TO != 'noop'
       uses: actions/setup-python@v2
       with:
-        python-version: 3.6
+        python-version: 3.8
     - name: Set Synapse credentials
       if: env.PUSH_TO != 'noop'
       run: |
         printf "%s\n" \
           "[authentication]" \
           'username="${{ secrets.SYNAPSE_USERNAME }}"' \
-          'authToken="${{ secrets.SYNAPSE_PAT }}"' | tee -a ~/.synapseConfig >/dev/null
+          'authtoken="${{ secrets.SYNAPSE_PAT }}"' | tee -a ~/.synapseConfig >/dev/null
     - name: Install requirements
       if: env.PUSH_TO != 'noop'
       run: pip install challengeutils==4.0.1
