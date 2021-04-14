@@ -56,7 +56,7 @@ jobs:
         printf "%s\n" \
           "[authentication]" \
           'username="${{ secrets.SYNAPSE_USERNAME }}"' \
-          'apikey="${{ secrets.SYNAPSE_API_KEY }}"' | tee -a ~/.synapseConfig >/dev/null
+          'authToken="${{ secrets.SYNAPSE_PAT }}"' | tee -a ~/.synapseConfig >/dev/null
     - name: Install requirements
       if: env.PUSH_TO != 'noop'
       run: pip install challengeutils==4.0.1
