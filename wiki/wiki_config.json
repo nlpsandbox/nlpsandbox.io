@@ -41,6 +41,12 @@
         "markdown_path": "608037-PHIAnnotationDeIdentification.md"
     },
     {
+        "id": "609582",
+        "title": "Symptom Annotation",
+        "parentId": "607935",
+        "markdown_path": "609582-SymptomAnnotation.md"
+    },
+    {
         "id": "604836",
         "title": "Users & Teams",
         "parentId": "604825",
