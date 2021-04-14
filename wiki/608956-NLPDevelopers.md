@@ -60,8 +60,6 @@ The API service stub generated at Step 2 automatically validates the data receiv
 
 The NLP Sandbox Team started from the Python Date Annotator stub and implemented Step 3 in order to provide the users of the NLP Sandbox with a [complete example of the Date Annotator] that can be used to annotate dates in clinical notes -- just don't expect a high performance!
 
-![Date Annotator Example UI]
-
 ### Incentives
 
 Below is a non-exhaustive list of benefits when using NLP Sandbox:
