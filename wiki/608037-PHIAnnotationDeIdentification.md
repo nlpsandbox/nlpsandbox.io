@@ -42,6 +42,11 @@ Benchmarking:
 
 - Submission queue: `NLP sandbox - Date Annotator`
 - Submission quota: 2 submissions / team / week
+- CPU: 1
+- Memory: 4 GB
+- Runtime: 2 hours
+- Disk space: we are not providing any for now, will add when requested (e.g. scratch space)
+- GPU: none
 - Datasets:
     - [2014 i2b2 NLP De-id Challenge Dataset]
 
@@ -61,6 +66,11 @@ Benchmarking:
 
 - Submission queue: `NLP sandbox - Person Name Annotator`
 - Submission quota: 2 submissions / team / week
+- CPU: 1
+- Memory: 4 GB
+- Runtime: 2 hours
+- Disk space: we are not providing any for now, will add when requested (e.g. scratch space)
+- GPU: none
 - Datasets:
     - [2014 i2b2 NLP De-id Challenge Dataset]
 
@@ -80,6 +90,11 @@ Benchmarking:
 
 - Submission queue: `NLP sandbox - Physical Address Annotator`
 - Submission quota: 2 submissions / team / week
+- CPU: 1
+- Memory: 4 GB
+- Runtime: 2 hours
+- Disk space: we are not providing any for now, will add when requested (e.g. scratch space)
+- GPU: none
 - Datasets:
     - [2014 i2b2 NLP De-id Challenge Dataset]
 
