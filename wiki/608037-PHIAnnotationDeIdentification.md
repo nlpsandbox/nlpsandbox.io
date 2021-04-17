@@ -93,7 +93,7 @@ Benchmarking:
 - CPU: 1
 - Memory: 4 GB
 - Runtime: 2 hours
-- Disk space: we are not providing any for now, will add when requested (e.g. scratch space)
+- Disk space: container space (max 10 GB)
 - GPU: none
 - Datasets:
     - [2014 i2b2 NLP De-id Challenge Dataset]
