@@ -42,6 +42,12 @@ Benchmarking:
 
 - Submission queue: `NLP sandbox - Date Annotator`
 - Submission quota: 2 submissions / team / week
+- AWS instance type: t3.xlarge
+- CPU: Container processes spread over 4 cores, max load equivalent to 4 cores at 100% usage
+- Memory: Limited to 4 GB
+- Runtime: 2 hours
+- Disk space: container space (max 10 GB)
+- GPU: none
 - Datasets:
     - [2014 i2b2 NLP De-id Challenge Dataset]
 
@@ -61,6 +67,12 @@ Benchmarking:
 
 - Submission queue: `NLP sandbox - Person Name Annotator`
 - Submission quota: 2 submissions / team / week
+- AWS instance type: t3.xlarge
+- CPU: Container processes spread over 4 cores, max load equivalent to 4 cores at 100% usage
+- Memory: Limited to 4 GB
+- Runtime: 2 hours
+- Disk space: container space (max 10 GB)
+- GPU: none
 - Datasets:
     - [2014 i2b2 NLP De-id Challenge Dataset]
 
@@ -80,6 +92,12 @@ Benchmarking:
 
 - Submission queue: `NLP sandbox - Physical Address Annotator`
 - Submission quota: 2 submissions / team / week
+- AWS instance type: t3.xlarge
+- CPU: Container processes spread over 4 cores, max load equivalent to 4 cores at 100% usage
+- Memory: Limited to 4 GB
+- Runtime: 2 hours
+- Disk space: container space (max 10 GB)
+- GPU: none
 - Datasets:
     - [2014 i2b2 NLP De-id Challenge Dataset]
 
