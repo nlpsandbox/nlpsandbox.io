@@ -42,7 +42,7 @@ Benchmarking:
 
 - Submission queue: `NLP sandbox - Date Annotator`
 - Submission quota: 2 submissions / team / week
-- CPU: 1
+- CPU: Container processes spread over 4 cores, max load equivalent to 4 cores at 100% usage
 - Memory: 4 GB
 - Runtime: 2 hours
 - Disk space: container space (max 10 GB)
@@ -66,7 +66,7 @@ Benchmarking:
 
 - Submission queue: `NLP sandbox - Person Name Annotator`
 - Submission quota: 2 submissions / team / week
-- CPU: 1
+- CPU: Container processes spread over 4 cores, max load equivalent to 4 cores at 100% usage
 - Memory: 4 GB
 - Runtime: 2 hours
 - Disk space: container space (max 10 GB)
@@ -90,7 +90,7 @@ Benchmarking:
 
 - Submission queue: `NLP sandbox - Physical Address Annotator`
 - Submission quota: 2 submissions / team / week
-- CPU: 1
+- CPU: Container processes spread over 4 cores, max load equivalent to 4 cores at 100% usage
 - Memory: 4 GB
 - Runtime: 2 hours
 - Disk space: container space (max 10 GB)
