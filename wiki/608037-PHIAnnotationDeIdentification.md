@@ -91,7 +91,7 @@ Example Tools:
 Benchmarking:
 
 - Submission queue: `NLP sandbox - Physical Address Annotator`
-- Submission quota: 2 submissions / team / week (Resets every Monday at 00:00:00 UTC)
+- Submission quota: 2 submissions / team / week (resets every Monday at 00:00:00 UTC)
 - AWS instance type: t3.xlarge
 - CPU: Container processes spread over 4 cores, max load equivalent to 4 cores at 100% usage
 - Memory: Limited to 4 GB
