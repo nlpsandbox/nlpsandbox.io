@@ -61,7 +61,7 @@ Connor Boyle     | Sage Bionetworks             | Software Engineer
 Yao Yan          | Sage Bionetworks             | Data Analyst
 George Kowalski  | Medical College of Wisconsin | NLP Software Adviser
 Sijia Liu        | Mayo Clinic                  | NLP Software Adviser
-Yooree Chae      | Sage Bionetworks             | Project Manager
+Jiaxin Zheng     | Sage Bionetworks             | Project Manager
 Hongfang Liu     | Mayo Clinic                  | NLP Adviser
 Bradley Taylor   | Medical College of Wisconsin | Data Hosting Site Lead
 Justin Guinney   | Sage Bionetworks             | Director
