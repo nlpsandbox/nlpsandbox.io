@@ -105,5 +105,5 @@ Join the [NLP Sandbox Discord Server] to chat and participate to live discussion
 [Become a partner organization]: https://www.synapse.org/#!Synapse:syn22277124/wiki/608958
 [NLP Sandbox PHI Deidentifier]: https://phi-deidentifier.nlpsandbox.io/
 [nlpsandbox/phi-deidentifier-app]: https://github.com/nlpsandbox/phi-deidentifier-app
-[participate by developing and submitting an NLP Sandbox tool]: https://www.synapse.org/#!Synapse:syn22277123/wiki/609136
+[Participate by developing and submitting an NLP Sandbox tool]: https://www.synapse.org/#!Synapse:syn22277123/wiki/609136
 [browse the available tasks]: https://www.synapse.org/#!Synapse:syn22277123/wiki/609133
