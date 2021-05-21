@@ -6,7 +6,7 @@
 
 ## Benchmarking NLP Sandbox Tools
 
-NLP Sandbox is an open platform for benchmarking modular natural language processing (NLP) tools on both public and private datasets. Academics, students, and industry professionals are invited to [browse available tasks] and [participate by developing and submitting an NLP Sandbox tool].
+NLP Sandbox is an open platform for benchmarking modular natural language processing (NLP) tools on both public and private datasets. Academics, students, and industry professionals are invited to [browse the available tasks] and [participate by developing and submitting an NLP Sandbox tool].
 
 ### PHI Annotation & De-Identification
 
@@ -105,5 +105,5 @@ Join the [NLP Sandbox Discord Server] to chat and participate to live discussion
 [Become a partner organization]: https://www.synapse.org/#!Synapse:syn22277124/wiki/608958
 [NLP Sandbox PHI Deidentifier]: https://phi-deidentifier.nlpsandbox.io/
 [nlpsandbox/phi-deidentifier-app]: https://github.com/nlpsandbox/phi-deidentifier-app
-[Participate by developing and submitting an NLP Sandbox tool]: https://www.synapse.org/#!Synapse:syn22277123/wiki/609136
-[Browse the available tasks]: https://www.synapse.org/#!Synapse:syn22277123/wiki/609133
+[participate by developing and submitting an NLP Sandbox tool]: https://www.synapse.org/#!Synapse:syn22277123/wiki/609136
+[browse the available tasks]: https://www.synapse.org/#!Synapse:syn22277123/wiki/609133
