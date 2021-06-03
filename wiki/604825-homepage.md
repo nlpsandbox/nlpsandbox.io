@@ -2,7 +2,7 @@
 {row}
 {column width=9}
 
-![NLP Sandbox Banner]
+![nlpsandbox-banner]
 
 ## Benchmarking NLP Sandbox Tools
 
@@ -87,7 +87,7 @@ Join the [NLP Sandbox Discord Server] to chat and participate to live discussion
 
 <!-- Images -->
 
-[NLP Sandbox Banner]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/nlpsandbox-banner.png
+[nlpsandbox-banner]: https://nlpsandbox.github.io/nlpsandbox-themes/banner/Banner@3x.png
 [NLP Sandbox Organizations]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/nlpsandbox-organizations.png
 [NLP Sandbox Discord]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/nlpsandbox-discord-2.png
 
