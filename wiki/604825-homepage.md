@@ -38,6 +38,12 @@ The [NLP Sandbox PHI Deidentifier] depends on an instance of the NLP Sandbox Dat
 
 GitHub: [nlpsandbox/phi-deidentifier-app]
 
+### Register to the NLP Sandbox
+
+Click on the button below to register your account.
+
+${jointeam?teamId=3413388&isChallenge=false&isMemberMessage=You have successfully registered for the NLP Sandbox%2E&text=Register&isSimpleRequestButton=true&requestOpenText=Your registration is in progress%2E&successMessage=Your registration is in progress%2E}
+
 ### Join the NLP Sandbox Newsletters
 
 Click on the button below to subscribe to newsletters. You will be among the first persons to learn about the the new features and NLP Sandbox tasks, as well as when tools can be benchmarked on new data made available by partner organizations.
@@ -58,12 +64,13 @@ Name             | Institution | Role
 Thomas Schaffter | Sage Bionetworks             | Platform Architect<br>Lead Software Engineer<br>Project Lead
 Thomas Yu        | Sage Bionetworks             | Software Engineer
 Connor Boyle     | Sage Bionetworks             | Software Engineer
-Yao Yan          | Sage Bionetworks             | Data Analyst
 George Kowalski  | Medical College of Wisconsin | NLP Software Adviser
 Sijia Liu        | Mayo Clinic                  | NLP Software Adviser
+Yao Yan          | Sage Bionetworks             | Data Analyst
 Jiaxin Zheng     | Sage Bionetworks             | Project Manager
-Hongfang Liu     | Mayo Clinic                  | NLP Adviser
+Hongfang Liu     | Mayo Clinic                  | Data Hosting Site Lead
 Bradley Taylor   | Medical College of Wisconsin | Data Hosting Site Lead
+James Eddy       | Sage Bionetworks             | Director
 Justin Guinney   | Sage Bionetworks             | Director
 <!-- markdownlint-enable -->
 
