@@ -64,9 +64,9 @@ Name             | Institution | Role
 Thomas Schaffter | Sage Bionetworks             | Platform Architect<br>Lead Software Engineer<br>Project Lead
 Thomas Yu        | Sage Bionetworks             | Software Engineer
 Connor Boyle     | Sage Bionetworks             | Software Engineer
+Yao Yan          | Sage Bionetworks             | Data Analyst
 George Kowalski  | Medical College of Wisconsin | NLP Software Adviser
 Sijia Liu        | Mayo Clinic                  | NLP Software Adviser
-Yao Yan          | Sage Bionetworks             | Data Analyst
 Jiaxin Zheng     | Sage Bionetworks             | Project Manager
 Hongfang Liu     | Mayo Clinic                  | Data Hosting Site Lead
 Bradley Taylor   | Medical College of Wisconsin | Data Hosting Site Lead
