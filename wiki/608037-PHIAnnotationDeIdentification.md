@@ -10,16 +10,19 @@ This page lists the NLP Sandbox tasks that are open for benchmarking. Each task 
 
 ### NLP Sandbox PHI Deidentifier
 
-The [NLP Sandbox PHI Deidentifier] illustrates the modular design of the NLP Sandbox tools. This React web application relies on these four NPL Sandbox tools:
+This [example NLP Sandbox PHI deidentifier] illustrates the modular design of NLP Sandbox tools. This tool depends on an instance of the following NLP Sandbox tools:
 
-- Date Annotator
-- Person Name Annotator
-- Physical Address Annotator
-- PHI Deidentifier
+- NLP Sandbox Date Annotator
+- NLP Sandbox Person Name Annotator
+- NLP Sandbox Physical Address Annotator
+- NLP Sandbox Contact Annotator
+- NLP Sandbox ID Annotator
 
-The PHI Deidentifier aggregates the predictions returned by the annotators, resolves potential annotation conflicts (e.g. when more the annotations predicted by more than one annotator overlap), and de-identifies the annotated PHI in the note.
+The example NLP Sandbox PHI Deidentifier aggregates the predictions returned by these annotators, resolves potential annotation conflicts (e.g. when more the annotations predicted by more than one annotator overlap), and de-identifies the annotated PHI in the note.
 
-When opening the [PHI Deidentifier] application, the list of NLP Sandbox tools used is displayed. Because all Date Annotators, for example, implement the same specification, it is possible to deploy the PHI Deidentifier so that it relies on another implementation of the Date Annotator API. This modularity of the NLP Sandbox tools allows us to update the PHI Deidentifier weekly to make it use the best-performing annotators to date. Therefore, the PHI Deidentifier becomes more performant as the community submit and benchmark the performance of new NLP Sandbox tools.
+An instance of the example NLP Sandbox PHI deidentifier is available at [here](https://phi-deidentifier.nlpsandbox.io). See NLP Sanbdox tool can easily be deployed using Docker using the instruction available in the GitHub repository [nlpsandbox/phi-deidentifier-example].
+
+The list of NLP Sandbox tools this example PHI deidentifier depends on is listed when navigating to the application. Because all the NLP Sandbox date annotators implement the same specification, for instance, it is possible to update the date annotator used by the deidentifier by another implementation, e.g. the best-performing date annotator submitted to [NLPSandbox.io] identified from the leaderboard. Therefore, this example PHI deidentifier becomes more performant as the community submit and benchmark the performance of new NLP Sandbox tools.
 
 <!-- Blue: 0273b3 -->
 
@@ -50,6 +53,7 @@ Benchmarking:
 - GPU: none
 - Datasets:
     - [2014 i2b2 NLP De-id Challenge Dataset]
+    - Medical College of Wisconsin (MCW) Dataset
 
 ### Person Name Annotation
 
@@ -75,6 +79,7 @@ Benchmarking:
 - GPU: none
 - Datasets:
     - [2014 i2b2 NLP De-id Challenge Dataset]
+    - Medical College of Wisconsin (MCW) Dataset
 
 ### Physical Address Annotation
 
@@ -100,6 +105,55 @@ Benchmarking:
 - GPU: none
 - Datasets:
     - [2014 i2b2 NLP De-id Challenge Dataset]
+    - Medical College of Wisconsin (MCW) Dataset
+
+### Contact Annotation (launch on June 18, 2021)
+
+An NLP Sandbox contact annotator takes as input a clinical note and outputs a list of predicted contact annotations found in the clinical note.
+
+[![Contact Annotator API](https://img.shields.io/badge/OpenAPI-Open_NLP_Tool_Specification-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][contact-annotator-api]
+
+Example Tools:
+
+- [nlpsandbox/contact-annotator-example] (Python)
+
+Benchmarking:
+
+- Submission queue: `NLP sandbox - Contact Annotator`
+- Submission quota: 1 submission / team / day (resets every day at 00:00:00 UTC)
+- AWS instance type: t3.xlarge
+- CPU: Container processes spread over 4 cores, max load equivalent to 4 cores at 100% usage
+- Memory: Limited to 4 GB
+- Runtime: 2 hours
+- Disk space: container space (max 10 GB)
+- GPU: none
+- Datasets:
+    - [2014 i2b2 NLP De-id Challenge Dataset]
+    - Medical College of Wisconsin (MCW) Dataset
+
+### ID Annotation (launch on June 18, 2021)
+
+An NLP Sandbox ID annotator takes as input a clinical note and outputs a list of predicted ID annotations found in the clinical note.
+
+[![ID Annotator API](https://img.shields.io/badge/OpenAPI-Open_NLP_Tool_Specification-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][id-annotator-api]
+
+Example Tools:
+
+- [nlpsandbox/id-annotator-example] (Python)
+
+Benchmarking:
+
+- Submission queue: `NLP sandbox - ID Annotator`
+- Submission quota: 1 submission / team / day (resets every day at 00:00:00 UTC)
+- AWS instance type: t3.xlarge
+- CPU: Container processes spread over 4 cores, max load equivalent to 4 cores at 100% usage
+- Memory: Limited to 4 GB
+- Runtime: 2 hours
+- Disk space: container space (max 10 GB)
+- GPU: none
+- Datasets:
+    - [2014 i2b2 NLP De-id Challenge Dataset]
+    - Medical College of Wisconsin (MCW) Dataset
 
 ### PHI De-Identification
 
@@ -111,7 +165,7 @@ If you would like to contribute to the development of the specification of this 
 2. Open a ticket or a Pull Request in the GitHub repository [nlpsandbox/nlpsandbox-schemas] and describe your suggestion.
 3. Join us on the [NLP Sandbox Discord Server] and post your question or suggestion to the channel `#schemas`.
 
-Target Task Opening Date: March 2021
+Target launch date: July 2021
 
 ### Evaluation
 
@@ -198,6 +252,9 @@ The performance metrics listed below are reported in the leaderboards for the ca
 [date-annotator-api]: https://nlpsandbox.github.io/nlpsandbox-schemas/date-annotator/latest/docs/
 [person-name-annotator-api]: https://nlpsandbox.github.io/nlpsandbox-schemas/person-name-annotator/latest/docs/
 [physical-address-annotator-api]: https://nlpsandbox.github.io/nlpsandbox-schemas/physical-address-annotator/latest/docs/
+[contact-annotator-api]: https://nlpsandbox.github.io/nlpsandbox-schemas/contact-annotator/latest/docs/
+[id-annotator-api]: https://nlpsandbox.github.io/nlpsandbox-schemas/id-annotator/latest/docs/
+
 [nlpsandbox/date-annotator-example]: https://github.com/nlpsandbox/date-annotator-example
 [nlpsandbox/date-annotator-example-java]: https://github.com/nlpsandbox/date-annotator-example-java
 [nlpsandbox/person-name-annotator-example]: https://github.com/nlpsandbox/person-name-annotator-example
@@ -214,3 +271,5 @@ The performance metrics listed below are reported in the leaderboards for the ca
 [NLP Sandbox PHI Deidentifier]: https://phi-deidentifier.nlpsandbox.io
 [PHI Deidentifier]: https://phi-deidentifier.nlpsandbox.io
 [phi-deidentifier]: https://phi-deidentifier.nlpsandbox.io
+[NLPSandbox.io]: https://nlpsandbox.io
+[nlpsandbox/phi-deidentifier-example]: https://github.com/nlpsandbox/phi-deidentifier-example
