@@ -5,14 +5,10 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
-    target-branch: "develop"
-    reviewers:
-      - "nlpsandbox/maintainers"
+    target-branch: "staging"
 
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "monthly"
-    target-branch: "develop"
-    reviewers:
-      - "nlpsandbox/maintainers"
+    target-branch: "staging"
