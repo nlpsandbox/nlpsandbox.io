@@ -18,11 +18,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+
     - name: Use Node.js ${{ env.node_version }}
       uses: actions/setup-node@v1
       with:
         node-version: ${{ env.node_version }}
-    - run: npm install
+
+    - name: Install dependencies
+      run: npm install
+
     - name: Lint wiki pages
       run: npm run lint
 
@@ -31,6 +35,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+
     - name: Prepare environment
       run: |
         PUSH_TO=noop
@@ -45,11 +50,13 @@ jobs:
         fi
         echo ${PUSH_TO}
         echo "PUSH_TO=${PUSH_TO}" >> $GITHUB_ENV
+
     - name: Set up Python 3.8
       if: env.PUSH_TO != 'noop'
       uses: actions/setup-python@v2
       with:
         python-version: 3.8
+
     - name: Set Synapse credentials
       if: env.PUSH_TO != 'noop'
       run: |
@@ -57,14 +64,17 @@ jobs:
           "[authentication]" \
           'username=${{ secrets.SYNAPSE_USERNAME }}' \
           'authtoken=${{ secrets.SYNAPSE_PAT }}' | tee -a ~/.synapseConfig >/dev/null
+
     - name: Install requirements
       if: env.PUSH_TO != 'noop'
       run: pip install challengeutils==4.0.1
+
     - name: Deploy to staging Synapse project
       if: env.PUSH_TO == 'staging'
       run: |
         cd wiki
         challengeutils push-wiki ${{ env.staging_synapse_project_id }}
+
     - name: Deploy to production Synapse project
       if: env.PUSH_TO == 'production'
       run: |
