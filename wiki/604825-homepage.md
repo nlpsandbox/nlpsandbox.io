@@ -34,9 +34,19 @@ Is your organization interested in evaluating the performance of one or more typ
 
 ### Featured NLP Sandbox Tool
 
-The [NLP Sandbox PHI Deidentifier] depends on an instance of the NLP Sandbox Date Annotator, NLP Sandbox Person Name Annotator and NLP Sandbox Physical Address Annotator to de-identify protected health information (PHI) from clinical notes. The performance of the PHI Deidentifier improves as more performant annotators are benchmarked on [NLPSandbox.io].
+This example [NLP Sandbox PHI deidentifier] illustrates the modular design of NLP Sandbox tools. This tool depends on an instance of the following NLP Sandbox tools:
 
-GitHub: [nlpsandbox/phi-deidentifier-app]
+- NLP Sandbox Date Annotator
+- NLP Sandbox Person Name Annotator
+- NLP Sandbox Physical Address Annotator
+- NLP Sandbox Contact Annotator
+- NLP Sandbox ID Annotator
+
+An instance of the example NLP Sandbox PHI deidentifier is available at [here](https://phi-deidentifier.nlpsandbox.io). See the task page [PHI Annotation and Deidentification] for more information about this example NLP Sandbox PHI deidentifier.
+
+### Monument of NLP Heroes
+
+On the first day of each month, the NLP Sandbox Team will add the members of the best-performing team in each NLP Sandbox task to the Monument of NLP Heroes. This monument will remain over time, enabling best-performers to apply their "right to boast" for a given month. Users may also include in their resume that they were the best-performing team for a given task at a given time point or for N consecutive weeks.
 
 ### Register to the NLP Sandbox
 
@@ -79,8 +89,8 @@ Justin Guinney   | Sage Bionetworks             | Director
 Date | Description
 -----|------------
 June 18, 2021 | Launch of the contact information and ID annotator benchmarks.
-June 25, 2021 | Complete onboarding of Mayo Clinic as a data site for PHI annotation benchmarks.
 June 25, 2021 | Launch of the COVID-19 symptom annotation benchmark organized by Mayo Clinic.
+June 25, 2021 | Complete onboarding of Mayo Clinic as a data site for PHI annotation benchmarks.
 July 31, 2021 | Enabling NLP Sandbox tools to train on private data.
 
 ### NLP Sandbox Discord Server
@@ -113,6 +123,7 @@ Join the [NLP Sandbox Discord Server] to chat and participate in live discussion
 [Become an NLP Sandbox User]: https://www.synapse.org/#!Synapse:syn22277124/wiki/608957
 [Become a partner organization]: https://www.synapse.org/#!Synapse:syn22277124/wiki/608958
 [NLP Sandbox PHI Deidentifier]: https://phi-deidentifier.nlpsandbox.io/
-[nlpsandbox/phi-deidentifier-app]: https://github.com/nlpsandbox/phi-deidentifier-app
+[nlpsandbox/phi-deidentifier-example]: https://github.com/nlpsandbox/phi-deidentifier-example
 [participate by developing and submitting an NLP Sandbox tool]: https://www.synapse.org/#!Synapse:syn22277123/wiki/609136
 [browse the available tasks]: https://www.synapse.org/#!Synapse:syn22277123/wiki/609133
+[PHI Annotation and Deidentification]: https://www.synapse.org/#!Synapse:syn22277124/wiki/608037

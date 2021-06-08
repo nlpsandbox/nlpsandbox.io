@@ -10,7 +10,7 @@ This page lists the NLP Sandbox tasks that are open for benchmarking. Each task 
 
 ### NLP Sandbox PHI Deidentifier
 
-This [example NLP Sandbox PHI deidentifier] illustrates the modular design of NLP Sandbox tools. This tool depends on an instance of the following NLP Sandbox tools:
+This example [NLP Sandbox PHI deidentifier] illustrates the modular design of NLP Sandbox tools. This tool depends on an instance of the following NLP Sandbox tools:
 
 - NLP Sandbox Date Annotator
 - NLP Sandbox Person Name Annotator
@@ -20,7 +20,7 @@ This [example NLP Sandbox PHI deidentifier] illustrates the modular design of NL
 
 The example NLP Sandbox PHI Deidentifier aggregates the predictions returned by these annotators, resolves potential annotation conflicts (e.g. when more the annotations predicted by more than one annotator overlap), and de-identifies the annotated PHI in the note.
 
-An instance of the example NLP Sandbox PHI deidentifier is available at [here](https://phi-deidentifier.nlpsandbox.io). See NLP Sanbdox tool can easily be deployed using Docker using the instruction available in the GitHub repository [nlpsandbox/phi-deidentifier-example].
+An instance of the example NLP Sandbox PHI deidentifier is available at [here](https://phi-deidentifier.nlpsandbox.io). This NLP Sanbdox tool can be deployed using Docker using the instruction available in the GitHub repository [nlpsandbox/phi-deidentifier-example].
 
 The list of NLP Sandbox tools this example PHI deidentifier depends on is listed when navigating to the application. Because all the NLP Sandbox date annotators implement the same specification, for instance, it is possible to update the date annotator used by the deidentifier by another implementation, e.g. the best-performing date annotator submitted to [NLPSandbox.io] identified from the leaderboard. Therefore, this example PHI deidentifier becomes more performant as the community submit and benchmark the performance of new NLP Sandbox tools.
 
