@@ -1,8 +1,13 @@
-# NLPSandbox.io
+[![nlpsandbox.io](https://nlpsandbox.github.io/nlpsandbox-themes/banner/Banner@3x.png)](https://nlpsandbox.io)
 
-Pages of the NLP Sandbox website hosted on Synapse
+# NLPSandbox&#46;io website
 
-## Overview
+[![NLPSandbox.io](https://img.shields.io/badge/nlpsandbox\.io-blue.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtMy4yIDcuOS0xLjctMXYxMS40bDkuOSA1LjdWMTIuNkw1LjYgOS4zIDMuMiA3Ljl6bTE3LjEtMS4zIDEuNS0uOUwxMiAwIDIuMiA1LjdsMi42IDEuNS4xLjEgMS43IDEgNS41IDMuMiA1LjEtMyAzLjEtMS45ek0xMiA5LjUgOS4zIDcuOSA3LjQgNi44bC0xLjctMS0uMS0uMWgtLjFMMTIgMS45bDYuNSAzLjhMMTYuMyA3IDEyIDkuNXptOC44LTEuNi0yLjQgMS40LS41LjItNS4zIDMuMVYyNGw5LjktNS43VjYuOWwtMS43IDF6IiBmaWxsPSIjZmZmIi8+PC9zdmc+)](https://nlpsandbox.io "NLPSandbox.io")
+[![Discord](https://img.shields.io/discord/770484164393828373.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=Discord&logo=discord)](https://discord.gg/Zb4ymtF "Realtime support / chat with the community and the team")
+
+[NLPSandbox.io] website hosted on Synapse
+
+## Introduction
 
 This repository includes the pages of the [NLP Sandbox website] hosted on
 Synapse.org. This repository is used by the [NLP Sandbox Team] to track changes
@@ -25,7 +30,7 @@ advantages.
 
 This repository relies on two Synapse projects:
 
-- Production site (e.g. [NLP Sandbox website])
+- Production site (e.g. [NLPSandbox.io])
 - Staging site
 
 We recommend configuring repositories created from this template to stick to the
@@ -99,7 +104,7 @@ Synapse. The development of this client is led by [Tom Yu] and other members of
 ## Contributing
 
 Thinking about contributing to this project? Get started by reading our
-[Contributor Guide](CONTRIBUTING.md).
+[contribution guide].
 
 ## License
 
@@ -107,8 +112,6 @@ Thinking about contributing to this project? Get started by reading our
 
 <!-- Links -->
 
-[NLP Sandbox website]: https://www.synapse.org/#!Synapse:syn22277123
-[NLP Sandbox Staging website]: https://www.synapse.org/#!Synapse:syn22277124
 [NLP Sandbox Team]: https://github.com/orgs/nlpsandbox/people
 [GitHub issue]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/issues/new/choose
 [Apache License 2.0]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/blob/staging/LICENSE
@@ -117,3 +120,5 @@ Thinking about contributing to this project? Get started by reading our
 [challengeutils]: https://github.com/Sage-Bionetworks/challengeutils
 [Tom Yu]: https://github.com/thomasyu888
 [Sage Bionetworks]: https://sagebionetworks.org/
+[NLPSandbox.io]: https://nlpsandbox.io
+[contribution guide]: .github/CONTRIBUTING.md
