@@ -61,7 +61,9 @@ The 2014 i2b2 challenge datasets included clinical notes for 296 diabetic patien
 
 ### i2b2 Annotation Names in the NLP Sandbox
 
-In an effort to harmonize the annotation type of multiple dataset, the NLP Sandbox Schemas may use different names for the above annotations. Please refer to the [PHI Annotation & De-Identification] task page for more information about the schemas of the annotations requested by the NLP Sandbox.
+In an effort to harmonize the annotation type of multiple dataset, the NLP Sandbox schemas use different names for the above annotations. Please refer to the [PHI Annotation & De-Identification] task page for more information about the schemas of the annotations requested by the NLP Sandbox. We also provide the GitHub repository [nlpsandbox/i2b2-phi-dataset] to map the original dataset files (XML format) to the NLP Sandbox schemas, which can then be used to test your NLP Sandbox tool locally before submitting it for evaluation on [NLPSandbox.io].
+
+
 
 ### References
 
@@ -79,3 +81,5 @@ In an effort to harmonize the annotation type of multiple dataset, the NLP Sandb
 [3]: https://doi.org/10.1016/j.jbi.2015.07.020
 [i2b2-dataset-dl]: https://www.i2b2.org/NLP/
 [PHI Annotation & De-Identification]: https://www.synapse.org/#!Synapse:syn22277124/wiki/607935
+[NLPSandbox.io]: https://nlpsandbox.io
+[nlpsandbox/i2b2-phi-dataset]: https://github.com/nlpsandbox/i2b2-phi-dataset
