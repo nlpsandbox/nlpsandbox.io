@@ -63,8 +63,6 @@ The 2014 i2b2 challenge datasets included clinical notes for 296 diabetic patien
 
 In an effort to harmonize the annotation type of multiple dataset, the NLP Sandbox schemas use different names for the above annotations. Please refer to the [PHI Annotation & De-Identification] task page for more information about the schemas of the annotations requested by the NLP Sandbox. We also provide the GitHub repository [nlpsandbox/i2b2-phi-dataset] to map the original dataset files (XML format) to the NLP Sandbox schemas, which can then be used to test your NLP Sandbox tool locally before submitting it for evaluation on [NLPSandbox.io].
 
-
-
 ### References
 
 1. [Stubbs, A., Kotfila, C. & Uzuner, Ö. Automated systems for the de-identification of longitudinal clinical narratives: Overview of 2014 i2b2/UTHealth shared task Track 1. J. Biomed. Inform. 58 Suppl, S11–9 (2015).][1]

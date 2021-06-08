@@ -7,6 +7,7 @@
         "sup"
     ] },
     "MD041": { "level": 3 },
+    "no-bare-urls": false,
     "no-hard-tabs": true,
     "whitespace": false
 }
