@@ -83,11 +83,11 @@ Justin Guinney   | Sage Bionetworks             | Director
 
 ### NLP Sandbox Discord Server
 
-Join the [NLP Sandbox Discord Server] to chat and participate to live discussion with members of the NLP Sandbox Team and community.
+Join the [NLP Sandbox Discord Server] to chat and participate in live discussion with members of the NLP Sandbox Team and community. You can find the channel that best matches the topic of your request and post your question there.
 
 **Office Hour**: Every Tuesday, [click to see the time for your local time zone].
 
-![NLP Sandbox Discord]
+![Discord Server]
 
 {column}
 {row}
@@ -96,7 +96,7 @@ Join the [NLP Sandbox Discord Server] to chat and participate to live discussion
 
 [nlpsandbox-banner]: https://nlpsandbox.github.io/nlpsandbox-themes/banner/Banner@3x.png
 [NLP Sandbox Organizations]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/nlpsandbox-organizations.png
-[NLP Sandbox Discord]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/nlpsandbox-discord-2.png
+[Discord Server]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/nlpsandbox-discord-2.png
 
 <!-- Links -->
 
