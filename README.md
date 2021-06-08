@@ -110,6 +110,7 @@ Thinking about contributing to this project? Get started by reading our
 
 <!-- Links -->
 
+[NLP Sandbox website]: https://nlpsandbox.io
 [NLP Sandbox Team]: https://github.com/orgs/nlpsandbox/people
 [GitHub issue]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/issues/new/choose
 [Apache License 2.0]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/blob/staging/LICENSE
