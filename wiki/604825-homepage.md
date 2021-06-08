@@ -40,7 +40,11 @@ GitHub: [nlpsandbox/phi-deidentifier-example]
 
 ### Monument of NLP Heroes
 
-On the first day of each month, the NLP Sandbox Team will add the members of the best-performing team in each NLP Sandbox task to the Monument of NLP Heroes. This monument will remain over time, enabling best-performers to apply their "right to boast" for a given month. Users may also include in their resume that they were the best-performing team for a given task at a given time point or for N consecutive weeks.
+On the first day of each month, the NLP Sandbox Team will add the members of the best-performing team in each NLP Sandbox task to the "Monument of NLP Heroes". This monument will remain over time, enabling best-performers to apply their "right to boast" for a given month. Users may also include in their resume that they were the best-performing team for a given task at a given time point or for N consecutive weeks.
+
+![Monument of NLP Heroes]
+
+*The Monument of Swordmen in Sword Art Online.*
 
 ### Register to the NLP Sandbox
 
@@ -93,7 +97,7 @@ Join the [NLP Sandbox Discord Server] to chat and participate in live discussion
 
 **Office Hour**: Every Tuesday, [click to see the time for your local time zone].
 
-![Discord Server]
+[![Discord Server]](https://nlpsandbox.io/discord)
 
 {column}
 {row}
@@ -101,6 +105,7 @@ Join the [NLP Sandbox Discord Server] to chat and participate in live discussion
 <!-- Images -->
 
 [nlpsandbox-banner]: https://nlpsandbox.github.io/nlpsandbox-themes/banner/Banner@3x.png
+[Monument of NLP Heroes]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/monument-of-swordmen-banner-2.png
 [NLP Sandbox Organizations]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/nlpsandbox-organizations.png
 [Discord Server]: https://github.com/nlpsandbox/nlpsandbox-website-synapse/raw/staging/images/nlpsandbox-discord-2.png
 
@@ -119,5 +124,5 @@ Join the [NLP Sandbox Discord Server] to chat and participate in live discussion
 [NLP Sandbox PHI Deidentifier]: https://phi-deidentifier.nlpsandbox.io/
 [nlpsandbox/phi-deidentifier-example]: https://github.com/nlpsandbox/phi-deidentifier-example
 [participate by developing and submitting an NLP Sandbox tool]: https://www.synapse.org/#!Synapse:syn22277123/wiki/609136
-[browse the available tasks]: https://www.synapse.org/#!Synapse:syn22277123/wiki/609133
+[browse the available tasks]: https://www.synapse.org/#!Synapse:syn22277124/wiki/607935
 [PHI Annotation and Deidentification]: https://www.synapse.org/#!Synapse:syn22277124/wiki/608037
