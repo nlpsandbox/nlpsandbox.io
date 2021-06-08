@@ -11,7 +11,7 @@ ${synapsetable?query=select id as "Submission Id"%2C createdOn as "CreatedOn"%2C
 - Latest schema version: `1.1.2`
 - Latest version of the i2b2 dataset: `i2b2-phi-20210606`
 - Latest version of the MCW dataset: `mcwdataset-20210525`
-- What the score column is: `F1 instance strict`
+- Score definition: `F1 instance strict`
 
 
 {column}
