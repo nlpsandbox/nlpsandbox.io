@@ -74,12 +74,14 @@ James Eddy       | Sage Bionetworks             | Director
 Justin Guinney   | Sage Bionetworks             | Director
 <!-- markdownlint-enable -->
 
-### Roadmap
+### Important Dates
 
-- March 2021: Initial release of [NLPSandbox.io]
-- Q2 2021:
-    - Evaluation of PHI annotation tools on private data from the Medical College of Wisconsin.
-    - To be announced
+Date | Description
+-----|------------
+June 18, 2021 | Launch of the contact information and ID annotator benchmarks.
+June 25, 2021 | Complete onboarding of Mayo Clinic as a data site for PHI annotation benchmarks.
+June 25, 2021 | Launch of the COVID-19 symptom annotation benchmark organized by Mayo Clinic.
+July 31, 2021 | Enabling NLP Sandbox tools to train on private data.
 
 ### NLP Sandbox Discord Server
 
