@@ -97,7 +97,7 @@ Join the [NLP Sandbox Discord Server] to chat and participate in live discussion
 
 **Office Hour**: Every Tuesday, [click to see the time for your local time zone].
 
-![Discord Server]
+[![Discord Server]](https://nlpsandbox.io/discord)
 
 {column}
 {row}
