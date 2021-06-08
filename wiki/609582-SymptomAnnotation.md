@@ -4,15 +4,15 @@
 
 ### Introduction
 
-The fast spread of the emerging infectious coronavirus disease-2019 (COVID-19), caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), led to a worldwide pandemic with high morbidity and mortality rates 1. This guideline describes the specific types of information that should be annotated for detecting essential concepts in COVID-19 including signs and symptoms. For indication keywords, the corresponding attributes should be also annotated (details are in the Attributes section). This annotation guideline was developed in collaboration with the Coronavirus Infectious Disease Ontology (CIDO) team<sup>[1][1]</sub>.
+The fast spread of the emerging infectious coronavirus disease-2019 (COVID-19), caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), led to a worldwide pandemic with high morbidity and mortality rates<sup>[1][1]</sup>. This guideline describes the specific types of information that should be annotated for detecting essential concepts in COVID-19 including signs and symptoms. For indication keywords, the corresponding attributes should be also annotated (details are in the Attributes section). This annotation guideline was developed in collaboration with the Coronavirus Infectious Disease Ontology (CIDO) team<sup>[2][2]</sup>.
+
+This NLP Sandbox task is organized by Sijia Liu and Hongfang Liu at [Mayo Clinic].
 
 ### Pre-NLP Sandbox resources
 
 The annotation guideline can be found at [N3C NLP Subgroup wiki].
 
-The annotation tool for this project is the Multi-document Annotation Environment (MAE), a Java-based natural language annotation software package. MAE is a non-web-based annotation tool. All annotation tasks will be defined in a document type definition (DTD) file.
-
-The following signs and symptoms were collected from CDC<sup>[3][3]</sup> and Mayo Clinic website <sup>[4][4]</sup> as well as literature review <sup>[4][4],[5][5]</sup>.
+The following signs and symptoms were collected from CDC<sup>[3][3]</sup> and Mayo Clinic website<sup>[4][4]</sup> as well as literature review<sup>[4][4],[5][5]</sup>.
 
 ### COVID Symptom Annotation (launch on June 25, 2021)
 
@@ -60,3 +60,4 @@ Benchmarking:
 [N3C NLP Subgroup wiki]: https://github.com/OHNLP/N3C-NLP-Documentation/wiki
 [nlpsandbox/covid-symptom-annotator-example]: https://github.com/nlpsandbox/covid-symptom-annotator-example
 [covid-symptom-annotator-api]: https://nlpsandbox.github.io/nlpsandbox-schemas/covid-symptom-annotator/latest/docs/
+[Mayo Clinic]: https://www.mayoclinic.org/
