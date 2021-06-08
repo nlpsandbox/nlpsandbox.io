@@ -107,10 +107,22 @@
         "markdown_path": "608041-PhysicalAddressAnnotationLeaderboard.md"
     },
     {
+        "id": "611111",
+        "title": "Contact Annotation Dashboard",
+        "parentId": "604838",
+        "markdown_path": "611111-ContactAnnotationDashboard.md"
+    },
+    {
         "id": "608220",
         "title": "Date Annotation Dashboard",
         "parentId": "604838",
         "markdown_path": "608220-DateAnnotationDashboard.md"
+    },
+    {
+        "id": "611110",
+        "title": "Id Annotation Dashboard",
+        "parentId": "604838",
+        "markdown_path": "611110-IdAnnotationDashboard.md"
     },
     {
         "id": "608221",
