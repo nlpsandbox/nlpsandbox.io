@@ -89,6 +89,7 @@ Date | Description
 June 18, 2021 | Launch of the contact information and ID annotator benchmarks.
 June 25, 2021 | Launch of the COVID-19 symptom annotation benchmark organized by Mayo Clinic.
 June 25, 2021 | Complete onboarding of Mayo Clinic as a data site for PHI annotation benchmarks.
+June 29, 2021 | Webinar: Introduction to the NLP Sandbox ([Zoom], [registration link]).
 July 15, 2021 | Complete onboarding of UW as a data site for PHI annotation benchmarks.
 July 31, 2021 | Enabling NLP Sandbox tools to train on private data.
 
@@ -127,3 +128,5 @@ Join the [NLP Sandbox Discord Server] to chat and participate in live discussion
 [participate by developing and submitting an NLP Sandbox tool]: https://www.synapse.org/#!Synapse:syn22277123/wiki/609136
 [browse the available tasks]: https://www.synapse.org/#!Synapse:syn22277124/wiki/607935
 [PHI Annotation and Deidentification]: https://www.synapse.org/#!Synapse:syn22277124/wiki/608037
+[Zoom]: https://zoom.us/download
+[registration link]: https://us02web.zoom.us/webinar/register/WN_LDnWqgq8T3aUkGVQR0tstg
