@@ -15,6 +15,6 @@ Please follow the instructions given in the README of the GitHub repository [nlp
 
 <!-- Links -->
 
-[nlpsandbox/date-annotator-example]: https://github.com/nlpsandbox/date-annotator-example#development
+[nlpsandbox/date-annotator-example]: https://github.com/nlpsandbox/date-annotator-example
 [Benchmark a Tool]: #!Synapse:syn22277124/wiki/608484
 [Tasks section]: https://www.synapse.org/#!Synapse:syn22277124/wiki/607935
