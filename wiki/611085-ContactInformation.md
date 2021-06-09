@@ -14,6 +14,10 @@ Join the [NLP Sandbox Discord Server] to chat and participate in live discussion
 
 ![Discord Server]
 
+### GitHub Issues
+
+Thinking about contributing a new feature to one of the [NLP Sandbox GitHub repositories] or report a bug? Please start by opening a GitHub ticket to share your idea with the NLP Sandbox Team and community.
+
 ### NLP Sandbox Synapse Discussion Forum
 
 While the Discord server is our preferred way to connect with the NLP Sandbox Team and community, we also provide a [Synapse Discussion Forum] for questions related to submissions and Synapse.
@@ -39,3 +43,4 @@ Additionally, please give the NLP Sandbox Team time to respond. We will do our b
 [NLP Sandbox Discord Server]: https://nlpsandbox.io/discord
 [Synapse Discussion Forum]: https://www.synapse.org/#!Synapse:syn22277124/discussion/default
 [click to see the time for your local time zone]: https://www.starts-at.com/event/2806163581
+[NLP Sandbox GitHub repositories]: https://github.com/nlpsandbox

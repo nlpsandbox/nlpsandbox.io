@@ -10,7 +10,7 @@ NLP Sandbox is an open platform for benchmarking modular natural language proces
 
 ### PHI Annotation & De-Identification
 
-The first series of NLP Sandbox tasks supported by the NLP Sandbox are the annotation and de-identification of Protected Health Information (PHI) in clinical notes. This first series of tasks have been identified through our collaboration with the [National Center for Date to Health (CD2H)].
+The first series of NLP Sandbox tasks supported by the NLP Sandbox are the annotation and de-identification of Protected Health Information (PHI) in clinical notes. This first series of tasks have been identified through our collaboration with the [National Center for Data to Health (CD2H)].
 
 [Learn more about the NLP Sandbox tasks]
 
@@ -112,7 +112,7 @@ Join the [NLP Sandbox Discord Server] to chat and participate in live discussion
 <!-- Links -->
 
 [NLPSandbox.io]: https://nlpsandbox.io
-[National Center for Date to Health (CD2H)]: https://cd2h.org/
+[National Center for Data to Health (CD2H)]: https://cd2h.org/
 [NLP Sandbox Discord server]: https://nlpsandbox.io/discord
 [click to see the time for your local time zone]: https://www.starts-at.com/event/2806163581
 [model-to-data approach]: https://doi.org/10.1186/s13059-019-1794-0
