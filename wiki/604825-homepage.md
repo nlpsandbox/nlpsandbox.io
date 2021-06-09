@@ -10,7 +10,7 @@ NLP Sandbox is an open platform for benchmarking modular natural language proces
 
 ### PHI Annotation & De-Identification
 
-The first series of NLP Sandbox tasks supported by the NLP Sandbox are the annotation and de-identification of Protected Health Information (PHI) in clinical notes. This first series of tasks have been identified through our collaboration with the [National Center for Date to Health (CD2H)].
+The first series of NLP Sandbox tasks supported by the NLP Sandbox are the annotation and de-identification of Protected Health Information (PHI) in clinical notes. This first series of tasks have been identified through our collaboration with the [National Center for Data to Health (CD2H)].
 
 [Learn more about the NLP Sandbox tasks]
 
@@ -89,6 +89,7 @@ Date | Description
 June 18, 2021 | Launch of the contact information and ID annotator benchmarks.
 June 25, 2021 | Launch of the COVID-19 symptom annotation benchmark organized by Mayo Clinic.
 June 25, 2021 | Complete onboarding of Mayo Clinic as a data site for PHI annotation benchmarks.
+July 15, 2021 | Complete onboarding of UW as a data site for PHI annotation benchmarks.
 July 31, 2021 | Enabling NLP Sandbox tools to train on private data.
 
 ### NLP Sandbox Discord Server
@@ -112,7 +113,7 @@ Join the [NLP Sandbox Discord Server] to chat and participate in live discussion
 <!-- Links -->
 
 [NLPSandbox.io]: https://nlpsandbox.io
-[National Center for Date to Health (CD2H)]: https://cd2h.org/
+[National Center for Data to Health (CD2H)]: https://cd2h.org/
 [NLP Sandbox Discord server]: https://nlpsandbox.io/discord
 [click to see the time for your local time zone]: https://www.starts-at.com/event/2806163581
 [model-to-data approach]: https://doi.org/10.1186/s13059-019-1794-0

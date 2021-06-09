@@ -4,7 +4,9 @@
 
 ### Introduction
 
-The first series of NLP Sandbox tasks targeted by the NLP Sandbox are the annotation and de-identification of Protected Health Information (PHI) in clinical notes. This first series of tasks have been identified through our collaboration with the first NLP Sandbox partner organization, the [National Center for Date to Health (CD2H)].
+Natural language processing, or NLP, is a technology used in many ways to help computers understand human language. This is particularly impactful in biomedical research, where hospitals have millions of unstructured notes they need to de-identify before sharing with researchers. Manually de-identifying them would put significant strain on healthcare systems, presenting an excellent use case for the application of NLP.
+
+The first series of NLP Sandbox tasks targeted by the NLP Sandbox are the annotation and de-identification of Protected Health Information (PHI) in clinical notes. This first series of tasks have been identified through our collaboration with the first NLP Sandbox partner organization, the [National Center for Data to Health (CD2H)].
 
 This page lists the NLP Sandbox tasks that are open for benchmarking. Each task provides the information required to develop and benchmark an NLP Sandbox tool that meet the specification of the task.
 
@@ -248,7 +250,7 @@ The performance metrics listed below are reported in the leaderboards for the ca
 
 <!-- Links -->
 
-[National Center for Date to Health (CD2H)]: https://cd2h.org/
+[National Center for Data to Health (CD2H)]: https://cd2h.org/
 [date-annotator-api]: https://nlpsandbox.github.io/nlpsandbox-schemas/date-annotator/latest/docs/
 [person-name-annotator-api]: https://nlpsandbox.github.io/nlpsandbox-schemas/person-name-annotator/latest/docs/
 [physical-address-annotator-api]: https://nlpsandbox.github.io/nlpsandbox-schemas/physical-address-annotator/latest/docs/
