@@ -40,7 +40,7 @@ GitHub: [nlpsandbox/phi-deidentifier-example]
 
 ### Monument of NLP Heroes
 
-On the first day of each month, the NLP Sandbox Team will add the members of the best-performing team in each NLP Sandbox task to the "Monument of NLP Heroes". This monument will remain over time, enabling best-performers to apply their "right to boast" for a given month. Users may also include in their resume that they were the best-performing team for a given task at a given time point or for N consecutive weeks.
+On the first day of each month, the NLP Sandbox Team will add the members of the best-performing team in each NLP Sandbox task to the "Monument of NLP Heroes". This monument will remain over time, enabling best-performers to apply their "right to boast" for a month. Users may also include in their resume that they were the best-performing team for a given task at a given time point or for N consecutive weeks.
 
 ![Monument of NLP Heroes]
 
