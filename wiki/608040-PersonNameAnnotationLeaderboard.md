@@ -8,10 +8,10 @@ ${synapsetable?query=select id as "Submission Id"%2C createdOn as "CreatedOn"%2C
 
 ### Additional Information
 
-- Latest schema version: `1.1.2`
+- Latest NLP Sandbox schema version: `1.1.2`
 - Latest version of the i2b2 dataset: `i2b2-phi-20210606`
-- Latest version of the MCW dataset: `mcwdataset-20210525`
-- Score definition: `F1 instance strict`
+- Latest version of the MCW dataset: `mcw-phi-20210608`
+- Score definition: `F1 Score (instance, strict)`
 
 {column}
 {row}
