@@ -13,7 +13,7 @@ ${synapsetable?query=select id as "Submission Id"%2C createdOn as "CreatedOn"%2C
 - Latest NLP Sandbox schema version: `1.1.2`
 - Latest i2b2 dataset: `i2b2-phi-20210606`
 - Latest MCW dataset: `mcw-phi-20210608`
-- Score definition: `F1 Score (instance level, strict)`
+- Score definition: `F1 Score (token level)`
 
 {column}
 {row}
