@@ -14,6 +14,42 @@ This section provides dashboards to the person who submit NLP Sandbox tools for 
 - Only submissions that have successfully completed are counted toward your (or your team's) submission quota.
 - If you can't figure out why your submission failed, please [open a ticket].
 
+
+### Submission Status Definitions
+
+We use a the i2b2 dataset to validate the format of the models submitted.
+
+`status` column
+
+{row}
+ {column width=9}
+
+- RECEIVED: Your submission has been received
+- EVALUATION_IN_PROGRESS: Determining internal queue to submit to and validating docker image
+- ACCEPTED: Submitted to internal queues for submissions
+- INVALID: Model either failed to run on synthetic data, or prediction file is invalid
+- REJECTED: Model either failed to run on all internal site's data, or prediction file(s) is invalid
+
+ {column}
+{row}
+
+
+## Evaluation on other sites
+
+`{site} Status` column
+
+{row}
+ {column width=9}
+
+- [blank]:   Waiting to start evaluation
+- EVALUATION_IN_PROGRESS: Evaluating on site's submission
+- ACCEPTED:  Model created valid prediction file
+- SCORED:  Scored model
+- INVALID: Model either failed to run on site's data, or prediction file is invalid
+
+ {column}
+{row}
+
 {column}
 {row}
 
