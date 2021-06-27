@@ -41,10 +41,10 @@ We use a the i2b2 dataset to validate the format of the models submitted.
 {row}
  {column width=9}
 
-- [blank]:   Waiting to start evaluation
+- [blank]: Waiting to start evaluation
 - EVALUATION_IN_PROGRESS: Evaluating on site's submission
-- ACCEPTED:  Model created valid prediction file
-- SCORED:  Scored model
+- ACCEPTED: Model created valid prediction file
+- SCORED: Scored model
 - INVALID: Model either failed to run on site's data, or prediction file is invalid
 
  {column}
