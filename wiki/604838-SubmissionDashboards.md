@@ -21,37 +21,25 @@ We use a the i2b2 dataset to validate the format of the models submitted.
 
 The column `Status` of the dashboard takes the following values: 
 
-{row}
- {column width=9}
-
-- RECEIVED: Your submission has been received
-- EVALUATION_IN_PROGRESS: Determining internal queue to submit to and validating docker image
-- ACCEPTED: Submitted to internal queues for submissions
-- INVALID: Model either failed to run on synthetic data, or prediction file is invalid
-- REJECTED: Model either failed to run on all internal site's data, or prediction file(s) is invalid
-
- {column}
-{row}
-
+Status | Description
+---|---
+RECEIVED | Your submission has been received
+EVALUATION_IN_PROGRESS | Determining internal queue to submit to and validating docker image
+ACCEPTED | Submitted to internal queues for submissions
+INVALID | Model either failed to run on synthetic data, or prediction file is invalid
+REJECTED | Model either failed to run on all internal site's data, or prediction file(s) is invalid
 
 ## Evaluation on other sites
 
 `{site} Status` column
 
-{row}
- {column width=9}
-
-- [blank]: Waiting to start evaluation
-- EVALUATION_IN_PROGRESS: Evaluating on site's submission
-- ACCEPTED: Model created valid prediction file
-- SCORED: Scored model
-- INVALID: Model either failed to run on site's data, or prediction file is invalid
-
- {column}
-{row}
-
-{column}
-{row}
+Status | Description
+---|---
+[blank] | Waiting to start evaluation
+EVALUATION_IN_PROGRESS | Evaluating on site's submission
+ACCEPTED | Model created valid prediction file
+SCORED | Scored model
+INVALID | Model either failed to run on site's data, or prediction file is invalid
 
 <!-- Links -->
 
