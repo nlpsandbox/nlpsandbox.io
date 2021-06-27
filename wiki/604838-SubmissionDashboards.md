@@ -19,7 +19,7 @@ This section provides dashboards to the person who submit NLP Sandbox tools for 
 
 We use a the i2b2 dataset to validate the format of the models submitted.
 
-`status` column
+The column `Status` of the dashboard takes the following values: 
 
 {row}
  {column width=9}
