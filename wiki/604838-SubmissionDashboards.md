@@ -13,9 +13,31 @@ This section provides dashboards to the person who submit NLP Sandbox tools for 
 - You can cancel a submission tthat has not started yet.
 - Only submissions that have successfully completed are counted toward your (or your team's) submission quota.
 - If you can't figure out why your submission failed, please [open a ticket].
+- If your submission has failed, please send a request for your logs.
 
-{column}
-{row}
+### Submission Status Definitions
+
+The column `Status` of the dashboard takes the following values: 
+
+Status | Description
+---|---
+RECEIVED | Your submission has been received
+EVALUATION_IN_PROGRESS | Determining internal queue to submit to and evaluation submission on Sage dataset
+ACCEPTED | Submitted to different sites for submissions
+INVALID | Model either failed to run on Sage data, or prediction file is invalid
+REJECTED | Model either failed to run on all internal site's data, or prediction file(s) is invalid
+
+### Evaluation on Other Sites
+
+`{site} Status` column
+
+Status | Description
+---|---
+[blank] | Waiting to start evaluation
+EVALUATION_IN_PROGRESS | Evaluating on site's submission
+ACCEPTED | Model created valid prediction file
+SCORED | The model successfully scored on the site
+INVALID | Model either failed to run on site's data, or prediction file is invalid
 
 <!-- Links -->
 
