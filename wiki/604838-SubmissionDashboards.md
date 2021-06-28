@@ -27,7 +27,7 @@ ACCEPTED | Submitted to different sites for submissions
 INVALID | Model either failed to run on Sage data, or prediction file is invalid
 REJECTED | Model either failed to run on all internal site's data, or prediction file(s) is invalid
 
-## Evaluation on other sites
+### Evaluation on Other Sites
 
 `{site} Status` column
 
