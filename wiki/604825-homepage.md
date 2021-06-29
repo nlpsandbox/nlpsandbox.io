@@ -6,7 +6,7 @@
 
 > Thanks to all the participants who joined us today for the Launch Webinar of
 > the NLP Sandbox!
-
+<!-- markdownlint-disable-next-line blanks-around-lists -->
 > - [See the slides](https://docs.google.com/presentation/d/1EVP1lKGHdSsODcnzQFszEcyXclK9BVg1ZMY7Vgnp904/edit?usp=sharing)
 > - See the webinar recording (TBA)
 
