@@ -4,6 +4,11 @@
 
 ![nlpsandbox-banner]
 
+> Thanks to all the participants who joined us today for the Launch Webinar of
+> the NLP Sandbox!
+> - [See the slides](https://docs.google.com/presentation/d/1EVP1lKGHdSsODcnzQFszEcyXclK9BVg1ZMY7Vgnp904/edit?usp=sharing)
+> - See the webinar recording (TBA)
+
 ## Benchmarking NLP Sandbox Tools
 
 NLP Sandbox is an open platform for benchmarking modular natural language processing (NLP) tools on both public and private datasets. Academics, students, and industry professionals are invited to [browse the available tasks] and [participate by developing and submitting an NLP Sandbox tool].
