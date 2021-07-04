@@ -96,9 +96,9 @@
     },
     {
         "id": "608222",
-        "title": "Physical Address Annotation Dashboard",
+        "title": "Location Annotation Dashboard",
         "parentId": "604838",
-        "markdown_path": "608222-PhysicalAddressAnnotationDashboard.md"
+        "markdown_path": "6608222-LocationAnnotationDashboard.md"
     },
     {
         "id": "611111",
@@ -111,6 +111,12 @@
         "title": "Id Annotation Dashboard",
         "parentId": "604838",
         "markdown_path": "611110-IdAnnotationDashboard.md"
+    },
+    {
+        "id": "611533",
+        "title": "Covid Symptom Annotation Dashboard",
+        "parentId": "604838",
+        "markdown_path": "611533-CovidSymptomAnnotationDashboard.md"
     },
     {
         "id": "604828",
@@ -132,15 +138,21 @@
     },
     {
         "id": "608041",
-        "title": "Physical Address Annotation Leaderboard",
+        "title": "Location Annotation Leaderboard",
         "parentId": "604828",
-        "markdown_path": "608041-PhysicalAddressAnnotationLeaderboard.md"
+        "markdown_path": "608041-LocationAnnotationLeaderboard.md"
     },
     {
         "id": "611108",
         "title": "Contact Annotation Leaderboard",
         "parentId": "604828",
         "markdown_path": "611108-ContactAnnotationLeaderboard.md"
+    },
+    {
+        "id": "611532",
+        "title": "Covid Symptom Annotation Leaderboard",
+        "parentId": "604828",
+        "markdown_path": "611532-CovidSymptomAnnotationLeaderboard.md"
     },
     {
         "id": "611107",
@@ -186,9 +198,9 @@
     },
     {
         "id": "607787",
-        "title": "Physical Address Annotation Admin",
+        "title": "Location Annotation Admin",
         "parentId": "607367",
-        "markdown_path": "607787-PhysicalAddressAnnotationAdmin.md"
+        "markdown_path": "607787-LocationAnnotationAdmin.md"
     },
     {
         "id": "607785",
