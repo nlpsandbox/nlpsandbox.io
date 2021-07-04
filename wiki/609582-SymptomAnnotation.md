@@ -14,7 +14,7 @@ The annotation guideline can be found at [N3C NLP Subgroup wiki].
 
 The following signs and symptoms were collected from CDC<sup>[3][3]</sup> and Mayo Clinic website<sup>[4][4]</sup> as well as literature review<sup>[4][4],[5][5]</sup>.
 
-### COVID Symptom Annotation (launch on June 25, 2021)
+### COVID Symptom Annotation (launch on July 15, 2021)
 
 An NLP Sandbox COVID symptom annotator takes as input a clinical note and outputs a list of predicted COVID symptom annotations found in the clinical note.
 

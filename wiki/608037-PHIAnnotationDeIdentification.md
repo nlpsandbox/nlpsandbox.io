@@ -16,7 +16,7 @@ This example [NLP Sandbox PHI deidentifier] illustrates the modular design of NL
 
 - NLP Sandbox Date Annotator
 - NLP Sandbox Person Name Annotator
-- NLP Sandbox Physical Address Annotator
+- NLP Sandbox Location Annotator
 - NLP Sandbox Contact Annotator
 - NLP Sandbox ID Annotator
 
@@ -83,13 +83,13 @@ Benchmarking:
     - [2014 i2b2 NLP De-id Challenge Dataset]
     - Medical College of Wisconsin (MCW) Dataset
 
-### Physical Address Annotation
+### Location Annotation
 
-The Physical Address Annotator takes as input a clinical note and outputs a list of predicted physical address annotations found in the clinical note.
+The Location Annotator takes as input a clinical note and outputs a list of predicted location annotations found in the clinical note.
 
 [![Gitpod](https://img.shields.io/badge/OpenAPI-Open_NLP_Tool_Specification-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][physical-address-annotator-api]
 
-[![Physical Address Annotator Leaderboard](https://img.shields.io/badge/OpenAPI-View_Leaderboard-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][physical-address-annotator-leaderboard]
+[![Location Annotator Leaderboard](https://img.shields.io/badge/OpenAPI-View_Leaderboard-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][physical-address-annotator-leaderboard]
 
 Example Tools:
 
@@ -97,7 +97,7 @@ Example Tools:
 
 Benchmarking:
 
-- Submission queue: `NLP sandbox - Physical Address Annotator`
+- Submission queue: `NLP sandbox - Location Annotator`
 - Submission quota: 1 submission / team / day (resets every day at 00:00:00 UTC)
 - AWS instance type: t3.xlarge
 - CPU: Container processes spread over 4 cores, max load equivalent to 4 cores at 100% usage
@@ -109,7 +109,7 @@ Benchmarking:
     - [2014 i2b2 NLP De-id Challenge Dataset]
     - Medical College of Wisconsin (MCW) Dataset
 
-### Contact Annotation (launch on June 18, 2021)
+### Contact Annotation
 
 An NLP Sandbox contact annotator takes as input a clinical note and outputs a list of predicted contact annotations found in the clinical note.
 
@@ -133,7 +133,7 @@ Benchmarking:
     - [2014 i2b2 NLP De-id Challenge Dataset]
     - Medical College of Wisconsin (MCW) Dataset
 
-### ID Annotation (launch on June 18, 2021)
+### ID Annotation
 
 An NLP Sandbox ID annotator takes as input a clinical note and outputs a list of predicted ID annotations found in the clinical note.
 
@@ -235,7 +235,7 @@ In addition to being evaluated in the category "Annotation Location", an NLP Ann
 
 List of NLP Sandbox tasks that have an annotation type:
 
-- **Physical Address Annotation**: the schema [TextPhysicalAddressAnnotation] defines the type property `addressType`.
+- **Location Annotation**: the schema [TextPhysicalAddressAnnotation] defines the type property `addressType`.
 
 In this evaluation category, a predicted annotation is correct if 1) the annotator successfully identifies the location of the gold standard annotation (strict instance-level evaluation) and 2) correctly identifies the type of the annotation.
 
