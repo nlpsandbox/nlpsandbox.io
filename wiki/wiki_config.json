@@ -197,12 +197,6 @@
         "markdown_path": "607367-Admin.md"
     },
     {
-        "id": "607787",
-        "title": "Location Annotation Admin",
-        "parentId": "607367",
-        "markdown_path": "607787-LocationAnnotationAdmin.md"
-    },
-    {
         "id": "607785",
         "title": "Date Annotation Admin",
         "parentId": "607367",
@@ -213,6 +207,30 @@
         "title": "Person Name Annotation Admin",
         "parentId": "607367",
         "markdown_path": "607786-PersonNameAnnotationAdmin.md"
+    },
+    {
+        "id": "607787",
+        "title": "Location Annotation Admin",
+        "parentId": "607367",
+        "markdown_path": "607787-LocationAnnotationAdmin.md"
+    },
+    {
+        "id": "611535",
+        "title": "Contact Annotation Admin",
+        "parentId": "607367",
+        "markdown_path": "611535-ContactAnnotationAdmin.md"
+    },
+    {
+        "id": "611534",
+        "title": "Id Annotation Admin",
+        "parentId": "607367",
+        "markdown_path": "611534-IdAnnotationAdmin.md"
+    },
+    {
+        "id": "611536",
+        "title": "Covid Annotation Admin",
+        "parentId": "607367",
+        "markdown_path": "611536-CovidAnnotationAdmin.md"
     },
     {
         "id": "608145",
