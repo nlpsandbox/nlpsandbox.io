@@ -39,7 +39,7 @@ Is your organization interested in evaluating the performance of one or more typ
 
 ### Featured NLP Sandbox Tool
 
-The [NLP Sandbox PHI Deidentifier] depends on an instance of the NLP Sandbox Date Annotator, NLP Sandbox Person Name Annotator and NLP Sandbox Physical Address Annotator to de-identify protected health information (PHI) from clinical notes. The performance of the PHI Deidentifier improves as more performant annotators are benchmarked on [NLPSandbox.io].
+The [NLP Sandbox PHI Deidentifier] depends on an instance of the NLP Sandbox Date Annotator, NLP Sandbox Person Name Annotator and NLP Sandbox Location Annotator to de-identify protected health information (PHI) from clinical notes. The performance of the PHI Deidentifier improves as more performant annotators are benchmarked on [NLPSandbox.io].
 
 GitHub: [nlpsandbox/phi-deidentifier-example]
 
