@@ -16,7 +16,7 @@ This example [NLP Sandbox PHI deidentifier] illustrates the modular design of NL
 
 - NLP Sandbox Date Annotator
 - NLP Sandbox Person Name Annotator
-- NLP Sandbox Physical Address Annotator
+- NLP Sandbox Location Annotator
 - NLP Sandbox Contact Annotator
 - NLP Sandbox ID Annotator
 
@@ -83,21 +83,21 @@ Benchmarking:
     - [2014 i2b2 NLP De-id Challenge Dataset]
     - Medical College of Wisconsin (MCW) Dataset
 
-### Physical Address Annotation
+### Location Annotation
 
-The Physical Address Annotator takes as input a clinical note and outputs a list of predicted physical address annotations found in the clinical note.
+The Location Annotator takes as input a clinical note and outputs a list of predicted location annotations found in the clinical note.
 
-[![Gitpod](https://img.shields.io/badge/OpenAPI-Open_NLP_Tool_Specification-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][physical-address-annotator-api]
+[![Gitpod](https://img.shields.io/badge/OpenAPI-Open_NLP_Tool_Specification-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][location-annotator-api]
 
-[![Physical Address Annotator Leaderboard](https://img.shields.io/badge/OpenAPI-View_Leaderboard-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][physical-address-annotator-leaderboard]
+[![Location Annotator Leaderboard](https://img.shields.io/badge/OpenAPI-View_Leaderboard-plop?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=openapi-initiative&label=)][location-annotator-leaderboard]
 
 Example Tools:
 
-- [nlpsandbox/physical-address-annotator-example] (Python)
+- [nlpsandbox/location-annotator-example] (Python)
 
 Benchmarking:
 
-- Submission queue: `NLP sandbox - Physical Address Annotator`
+- Submission queue: `NLP sandbox - Location Annotator`
 - Submission quota: 1 submission / team / day (resets every day at 00:00:00 UTC)
 - AWS instance type: t3.xlarge
 - CPU: Container processes spread over 4 cores, max load equivalent to 4 cores at 100% usage
@@ -109,7 +109,7 @@ Benchmarking:
     - [2014 i2b2 NLP De-id Challenge Dataset]
     - Medical College of Wisconsin (MCW) Dataset
 
-### Contact Annotation (launch on June 18, 2021)
+### Contact Annotation
 
 An NLP Sandbox contact annotator takes as input a clinical note and outputs a list of predicted contact annotations found in the clinical note.
 
@@ -133,7 +133,7 @@ Benchmarking:
     - [2014 i2b2 NLP De-id Challenge Dataset]
     - Medical College of Wisconsin (MCW) Dataset
 
-### ID Annotation (launch on June 18, 2021)
+### ID Annotation
 
 An NLP Sandbox ID annotator takes as input a clinical note and outputs a list of predicted ID annotations found in the clinical note.
 
@@ -175,7 +175,7 @@ Target launch date: July 2021
 
 **Instance**: The instance of an annotation. For example, "John Smith", "Children's hospital" are annotation instances.
 
-**Token**: The individual component of an instance that are separated by a space. From the Person Name annotation instance "John Smith", "John" and "Smith" are two tokens. From the Address annotation instance "Children's hospital", "Children's" and "hospital" represent one token each.
+**Token**: The individual component of an instance that are separated by a space. From the Person Name annotation instance "John Smith", "John" and "Smith" are two tokens. From the Location annotation instance "Children's hospital", "Children's" and "hospital" represent one token each.
 
 **Instance-level evaluation**: The evaluation is performed by comparing predicted and gold standard annotation instances using two modes:
 
@@ -235,7 +235,7 @@ In addition to being evaluated in the category "Annotation Location", an NLP Ann
 
 List of NLP Sandbox tasks that have an annotation type:
 
-- **Physical Address Annotation**: the schema [TextPhysicalAddressAnnotation] defines the type property `addressType`.
+- **Location Annotation**: the schema [TextLocationAnnotation] defines the type property `locationType`.
 
 In this evaluation category, a predicted annotation is correct if 1) the annotator successfully identifies the location of the gold standard annotation (strict instance-level evaluation) and 2) correctly identifies the type of the annotation.
 
@@ -253,23 +253,23 @@ The performance metrics listed below are reported in the leaderboards for the ca
 [National Center for Data to Health (CD2H)]: https://cd2h.org/
 [date-annotator-api]: https://nlpsandbox.github.io/nlpsandbox-schemas/date-annotator/latest/docs/
 [person-name-annotator-api]: https://nlpsandbox.github.io/nlpsandbox-schemas/person-name-annotator/latest/docs/
-[physical-address-annotator-api]: https://nlpsandbox.github.io/nlpsandbox-schemas/physical-address-annotator/latest/docs/
+[location-annotator-api]: https://nlpsandbox.github.io/nlpsandbox-schemas/location-annotator/latest/docs/
 [contact-annotator-api]: https://nlpsandbox.github.io/nlpsandbox-schemas/contact-annotator/latest/docs/
 [id-annotator-api]: https://nlpsandbox.github.io/nlpsandbox-schemas/id-annotator/latest/docs/
 
 [nlpsandbox/date-annotator-example]: https://github.com/nlpsandbox/date-annotator-example
 [nlpsandbox/date-annotator-example-java]: https://github.com/nlpsandbox/date-annotator-example-java
 [nlpsandbox/person-name-annotator-example]: https://github.com/nlpsandbox/person-name-annotator-example
-[nlpsandbox/physical-address-annotator-example]: https://github.com/nlpsandbox/physical-address-annotator-example
+[nlpsandbox/location-annotator-example]: https://github.com/nlpsandbox/location-annotator-example
 [draft specification of the NLP Sandbox PHI Deidentifier API]: https://github.com/nlpsandbox/nlpsandbox-schemas
 [nlpsandbox/nlpsandbox-schemas]: https://github.com/nlpsandbox/nlpsandbox-schemas
 [NLP Sandbox Discord server]: https://discord.gg/Zb4ymtF
-[TextAnnotation]: https://github.com/nlpsandbox/nlpsandbox-schemas/blob/develop/openapi/commons/components/schemas/TextAnnotation.yaml
-[TextPhysicalAddressAnnotation]: https://github.com/nlpsandbox/nlpsandbox-schemas/blob/develop/openapi/commons/components/schemas/TextPhysicalAddressAnnotation.yaml
+[TextAnnotation]: https://github.com/nlpsandbox/nlpsandbox-schemas/blob/main/openapi/commons/components/schemas/TextAnnotation.yaml
+[TextLocationAnnotation]: https://github.com/nlpsandbox/nlpsandbox-schemas/blob/main/openapi/commons/components/schemas/TextLocationAnnotation.yaml
 [2014 i2b2 NLP De-id Challenge Dataset]: https://www.synapse.org/#!Synapse:syn22277124/wiki/608223
 [date-annotator-leaderboard]: https://www.synapse.org/#!Synapse:syn22277124/wiki/608039
 [person-name-annotator-leaderboard]: https://www.synapse.org/#!Synapse:syn22277124/wiki/608040
-[physical-address-annotator-leaderboard]: https://www.synapse.org/#!Synapse:syn22277124/wiki/608041
+[location-annotator-leaderboard]: https://www.synapse.org/#!Synapse:syn22277124/wiki/608041
 [NLP Sandbox PHI Deidentifier]: https://phi-deidentifier.nlpsandbox.io
 [PHI Deidentifier]: https://phi-deidentifier.nlpsandbox.io
 [phi-deidentifier]: https://phi-deidentifier.nlpsandbox.io

@@ -11,7 +11,7 @@ on:
 env:
   staging_synapse_project_id: syn22277124
   production_synapse_project_id: syn22277123
-  node_version: 12.x
+  node_version: 14.x
 
 jobs:
   lint:
