@@ -1,3 +1,4 @@
+<!-- markdownlint-disable no-inline-html -->
 <!-- markdownlint-disable-next-line first-line-h1 -->
 {row}
 {column width=9}
