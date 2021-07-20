@@ -12,7 +12,7 @@
 Data Site               | Status
 ------------------------|--------
 Sage Bionetworks        | Running
-MCW                     | Down
+MCW                     | Running
 
 ### Status History
 
