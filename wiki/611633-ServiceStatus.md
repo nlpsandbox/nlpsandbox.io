@@ -3,22 +3,30 @@
 {row}
 {column width=9}
 
-<!-- <div class="alert alert-success">
+<div class="alert alert-success">
 <h4>All Systems Operational</h4>
-</div> -->
+</div>
 
 ### Status
 
 Data Site               | Status
 ------------------------|--------
 Sage Bionetworks        | Running
-MCW                     | Down
+MCW                     | Running
 
 ### Status History
 
+#### July 20, 2021 7:00PM PDT
+
+##### MCW Data Site is Running
+
+<div class="alert alert-success">
+<h4>NLP Sandbox tools can be benchmarked again on MCW datasets</h4>
+</div>
+
 #### July 13, 2021 7:00PM PDT
 
-##### MCW Data Site is down for maintenance
+##### MCW Data Site is Down for maintenance
 
 <div class="alert alert-warning">
 <h4>Unable to process submissions on MCW datasets</h4>
