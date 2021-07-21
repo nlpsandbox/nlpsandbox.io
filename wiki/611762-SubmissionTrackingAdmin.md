@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-next-line first-line-h1 -->
 # Submission Tracking
 
 This page provides submission views that assist administrators to track submissions.
