@@ -10,7 +10,7 @@ ${synapsetable?query=select id as "Submission Id"%2C createdOn as "CreatedOn"%2C
 
 ### Additional Information
 
-- Latest schema version: `1.1.2`
+- Latest schema version: `1.2.0`
 - Latest version of the i2b2 dataset: `i2b2-phi-20210606`
 - Latest version of the MCW dataset: `mcwdataset-20210525`
 - Score definition: `F1 Score (token level)`
