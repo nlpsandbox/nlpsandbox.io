@@ -1,9 +1,11 @@
 {
   "devDependencies": {
-    "markdownlint-cli": "0.27.1"
+    "markdownlint-cli": "0.27.1",
+    "release-it": "^14.10.0"
   },
   "scripts": {
     "lint": "markdownlint --config .markdownlint.json --ignore-path wiki/.markdownlintignore wiki/*.md",
-    "test": "npm run lint"
+    "test": "npm run lint",
+    "release": "release-it"
   }
 }
