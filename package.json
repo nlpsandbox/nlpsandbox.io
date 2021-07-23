@@ -7,5 +7,6 @@
     "lint": "markdownlint --config .markdownlint.json --ignore-path wiki/.markdownlintignore wiki/*.md",
     "test": "npm run lint",
     "release": "release-it"
-  }
+  },
+  "version": "2.2.2"
 }
