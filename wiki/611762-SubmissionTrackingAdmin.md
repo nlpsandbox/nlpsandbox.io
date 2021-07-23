@@ -2,7 +2,7 @@
 {row}
 {column width=12}
 
-# Submission Tracking
+### Submission Tracking
 
 This page provides submission views that assist administrators to track submissions.
 
