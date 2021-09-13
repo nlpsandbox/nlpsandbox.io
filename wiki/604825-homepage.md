@@ -43,7 +43,7 @@ The [NLP Sandbox PHI Deidentifier] depends on an instance of the NLP Sandbox Dat
 
 GitHub: [nlpsandbox/phi-deidentifier-example]
 
-### Participation Dashboard
+### Overall Participation
 
 ${preview?entityId=syn26165073}
 
